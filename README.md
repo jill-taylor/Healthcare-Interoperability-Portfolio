@@ -1,13 +1,12 @@
-# Healthcare Interoperability Portfolio
+
+# Heartland Integrated Health System (HIHS)
+
+## Enterprise Interoperability Modernization Program
 
 
+This repository documents a fictional enterprise healthcare modernization initiative developed as a professional portfolio in healthcare interoperability and technical project management. While Heartland Integrated Health System (HIHS) and its modernization program are fictional, the methodologies, standards, project artifacts, and technical approaches are based on real-world healthcare industry best practices.
 
-Welcome to my Healthcare Interoperability Portfolio.
-
-
-
-This repository showcases consulting-style healthcare technology projects focused on interoperability, technical project management, digital transformation, and healthcare systems modernization.
-
+**Guiding principle: "Interoperability is not an IT problem—it's an organizational challenge."**
 
 
 ## Portfolio Areas
