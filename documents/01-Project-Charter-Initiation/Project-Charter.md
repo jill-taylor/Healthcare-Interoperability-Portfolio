@@ -1,34 +1,20 @@
-\# Heartland Regional Medical Center
+# Heartland Regional Medical Center
 
-\## Enterprise Interoperability Modernization Program
+## Enterprise Interoperability Modernization Program
 
+### Project Charter
 
+**Prepared for:** Executive Leadership Team
 
-\*\*Project Charter\*\*
+**Prepared by:** Jill Taylor, Technical Project Manager
 
+**Version:** 0.1 (Draft)
 
+**Status:** Discovery Phase
 
-\*\*Prepared for:\*\* Heartland Regional Medical Center Executive Leadership
+---
 
-
-
-\*\*Prepared by:\*\* Jill Taylor, Technical Project Manager
-
-
-
-\*\*Version:\*\* 0.1 (Draft)
-
-
-
-\*\*Status:\*\* Discovery Phase
-
-
-
-\---
-
-
-
-\# Executive Summary
+# Executive Summary
 
 
 
@@ -48,11 +34,11 @@ The outcome of this engagement will be a comprehensive modernization strategy th
 
 
 
-\---
+---
 
 
 
-\# 1. Organization Background
+# 1. Organization Background
 
 
 
@@ -68,31 +54,29 @@ Today, HRMC consists of:
 
 
 
-\- Two acute care hospitals
+- Two acute care hospitals
 
-\- Eight primary care clinics
+- Eight primary care clinics
 
-\- Three specialty clinics
+- Three specialty clinics
 
-\- Two urgent care centers
+- Two urgent care centers
 
-\- One regional reference laboratory
+- One regional reference laboratory
 
-\- Two outpatient imaging centers
+- Two outpatient imaging centers
 
-\- A growing telehealth program
+- A growing telehealth program
 
 
 
 This expansion has allowed patients to receive care closer to home while creating a regional network capable of delivering comprehensive healthcare services.
 
-
-
-\---
+---
 
 
 
-\# 2. Business Problem
+# 2. Business Problem
 
 
 
@@ -112,17 +96,17 @@ As a result, HRMC faces several strategic and operational challenges:
 
 
 
-\- Fragmented clinical data across multiple systems
+- Fragmented clinical data across multiple systems
 
-\- Complex and costly integration maintenance
+- Complex and costly integration maintenance
 
-\- Inconsistent data exchange between facilities
+- Inconsistent data exchange between facilities
 
-\- Limited support for modern API-based interoperability
+- Limited support for modern API-based interoperability
 
-\- Difficulty onboarding new digital health technologies
+- Difficulty onboarding new digital health technologies
 
-\- Increased operational risk associated with aging infrastructure
+- Increased operational risk associated with aging infrastructure
 
 
 
@@ -130,7 +114,7 @@ Without a coordinated modernization strategy, these challenges will continue to 
 
 
 
-\---
+---
 
 
 
