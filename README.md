@@ -9,7 +9,7 @@ While Heartland Integrated Health System (HIHS) and its modernization program ar
 
 ---
 
-## Guiding Principle
+## Guiding Principles
 
 **Interoperability is not an IT problem—it is an organizational challenge.**
 
