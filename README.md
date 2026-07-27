@@ -1,4 +1,4 @@
-\# Healthcare Interoperability Portfolio
+# Healthcare Interoperability Portfolio
 
 
 
@@ -10,21 +10,21 @@ This repository showcases consulting-style healthcare technology projects focuse
 
 
 
-\## Portfolio Areas
+## Portfolio Areas
 
 
 
-\- Healthcare interoperability
+- Healthcare interoperability
 
-\- Technical project management
+- Technical project management
 
-\- Discovery and assessment
+- Discovery and assessment
 
-\- Solution architecture
+- Solution architecture
 
-\- Implementation planning
+- Implementation planning
 
-\- Healthcare technology modernization
+- Healthcare technology modernization
 
 
 
