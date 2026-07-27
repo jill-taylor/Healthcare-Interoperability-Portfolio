@@ -69,15 +69,12 @@ Today, HRMC consists of:
 - A growing telehealth program
 
 
-
 This expansion has allowed patients to receive care closer to home while creating a regional network capable of delivering comprehensive healthcare services.
 
 ---
 
 
-
 # 2. Business Problem
-
 
 
 Although HRMC now operates as a unified healthcare system, its technology environment reflects years of independent growth.
@@ -116,6 +113,17 @@ Without a coordinated modernization strategy, these challenges will continue to 
 
 ---
 
+
+# 3. Project Vision
+
+
+Heartland Regional Medical Center envisions a connected healthcare ecosystem where patient information is securely available across all hospitals, clinics, and outpatient facilities, enabling clinicians to make informed decisions regardless of where care is delivered.
+
+Through the Enterprise Interoperability Modernization Program, HRMC will establish a scalable interoperability framework that supports standards-based data exchange while reducing reliance on legacy point-to-point integrations. The future-state environment will enable the organization to adopt new digital health technologies more efficiently, improve operational agility, and provide a consistent patient experience across the enterprise.
+
+The modernization initiative will serve as the foundation for future innovation by supporting secure information sharing, improving care coordination, and positioning HRMC to meet evolving regulatory, operational, and patient care requirements.
+
+Ultimately, the success of this initiative will be measured not only by improved interoperability, but by HRMC's ability to deliver safer, more coordinated, and more accessible healthcare to the communities it serves.
 
 
 \*End of Draft Version 0.1\*
