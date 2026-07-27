@@ -1,10 +1,11 @@
 # Development Lab Setup
 
+
 ## Purpose
 
-The Healthcare Development Lab provides a local environment for developing, documenting, and demonstrating healthcare interoperability, technical project management, enterprise architecture, and geospatial analysis concepts used throughout the Heartland Integrated Health System (HIHS) portfolio.
+This Healthcare Development Lab supports the design, documentation, and demonstration of the **Heartland Integrated Health System (HIHS) Enterprise Interoperability Modernization Program**, a fictional healthcare consulting case study.
 
-The lab is designed to support consulting deliverables, architecture documentation, API testing, database development, GIS analysis, and healthcare interoperability demonstrations.
+While the Heartland Integrated Health System (HIHS) and its modernization initiative are fictional, the project methodologies, healthcare interoperability standards, technical architecture, project management practices, and supporting artifacts are based on real-world industry best practices. The lab provides a structured environment for developing consulting deliverables, architecture documentation, API demonstrations, database models, GIS analyses, and other portfolio artifacts that reflect enterprise healthcare technology initiatives.
 
 ---
 
