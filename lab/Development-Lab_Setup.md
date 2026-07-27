@@ -12,9 +12,9 @@ The lab is designed to support consulting deliverables, architecture documentati
 
 | Component | Specification |
 |------------|---------------|
-| Computer | |Dell Precision 3680
-| Processor |
-| Memory | |
+| Computer | Dell Precision 3680 Tower |
+| Processor | Intel Core i7 |
+| Memory | 64 GB |
 | Storage | |
 | Operating System | Windows 11 Pro |
 
