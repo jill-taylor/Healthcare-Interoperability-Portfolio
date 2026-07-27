@@ -6,7 +6,7 @@
 
 **Prepared for:** Executive Leadership Team
 
-**Prepared by:** Jill Taylor, Technical Project Manager
+**Prepared by:** Jill Taylor, Technical Project Manager (Consulting)
 
 **Version:** 0.1 (Draft)
 
