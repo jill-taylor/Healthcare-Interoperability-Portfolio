@@ -77,5 +77,10 @@ The modernization strategy will be built upon nationally recognized interoperabi
 Ultimately, the success of this initiative will be measured not only by improved interoperability, but by HIHS's ability to deliver safer, more coordinated, and more accessible healthcare to the communities it serves. By creating a connected healthcare ecosystem where information follows the patient, HIHS will establish the technological foundation necessary to support future innovation, strengthen partnerships across the region, and fulfill its mission of improving the health and well-being of every community it serves.
 
 
+# 4. Project Objectives
+
+---
+
+
 End of Draft Version 0.1 
 
