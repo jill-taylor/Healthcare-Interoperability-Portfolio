@@ -19,23 +19,16 @@ The Heartland Integrated Health System case study demonstrates how enterprise in
 
 ---
 
-## Portfolio Areas
-
+## Portfolio Focus
 
 
 - Healthcare interoperability
-
 - Technical project management
-
+- Enterprise architecture
 - Discovery and assessment
-
-- Solution architecture
-
+- Interoperability strategy
 - Implementation planning
-
 - Healthcare technology modernization
 
-
-
-This portfolio is under active development and demonstrates the methods, deliverables, and documentation used throughout a healthcare transformation initiative.
+This portfolio is under active development and showcases the methodologies, deliverables, and documentation commonly produced during an enterprise healthcare interoperability and digital transformation initiative.
 
