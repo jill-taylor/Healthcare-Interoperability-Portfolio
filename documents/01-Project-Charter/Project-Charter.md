@@ -178,9 +178,47 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 
 # 8. Assumptions and Constraints
 
-# 9. Risks
+## Assumptions
+- Executive sponsorship remains active.
+- Subject matter experts are available.
+- Existing documentation is reasonably accurate.
+- Business units participate in discovery.
 
-# 10. Deliverables
+## Constraints
+- Limited project duration.
+- Ongoing clinical operations cannot be disrupted.
+- Budget considerations.
+- Existing legacy technologies.
+- Regulatory compliance requirements.
+
+# 9. Project Risks and Mitigation Strategies
+
+| Risk | Potential Impact | Mitigation Strategy |
+|------|------------------|---------------------|
+| Incomplete system documentation | Delays discovery activities and limits understanding of the current environment. | Conduct stakeholder interviews and validate findings through workshops and technical reviews. |
+| Legacy system limitations | Older applications may not support modern interoperability standards or integration methods. | Recommend phased modernization and continued support for legacy systems during transition. |
+| Resistance to organizational change | Delays adoption of new processes and interoperability initiatives. | Engage stakeholders early, maintain executive sponsorship, and implement a structured change management plan. |
+| Data quality and consistency issues | Inaccurate or inconsistent data may affect interoperability and reporting. | Perform data assessments and establish enterprise data governance recommendations. |
+| Resource availability | Limited availability of subject matter experts may delay discovery and validation activities. | Develop a collaborative project schedule and prioritize critical stakeholder engagement. |
+| Regulatory and compliance changes | New healthcare regulations may affect project priorities and implementation plans. | Monitor regulatory requirements and incorporate flexibility into the modernization roadmap. |
+| Project scope expansion | Additional requests may impact schedule, budget, and project deliverables. | Utilize formal change management procedures and maintain clear project scope documentation. |
+| Operational disruption | Modernization activities may affect clinical operations if not carefully planned. | Recommend phased implementation with comprehensive testing and minimal disruption to patient care. |
+
+
+# 10. Project Deliverables
+
+| Deliverable | Description |
+|--------------|-------------|
+| **Project Charter** | Defines the project vision, objectives, scope, governance, and success criteria for the Enterprise Interoperability Modernization Program. |
+| **Current-State Assessment** | Documents the existing interoperability environment, enterprise applications, integration architecture, and operational challenges. |
+| **Stakeholder Analysis** | Identifies key stakeholders, governance structure, roles, responsibilities, and communication strategies. |
+| **Discovery Assessment** | Summarizes findings, risks, challenges, opportunities, and recommendations identified during project discovery activities. |
+| **Application Inventory** | Catalogs enterprise applications, system owners, business functions, and interoperability capabilities. |
+| **Interface Inventory** | Documents existing interfaces, data exchange methods, integration technologies, and information flows across the enterprise. |
+| **Gap Analysis** | Identifies gaps between the current and future interoperability environments and recommends modernization priorities. |
+| **Future-State Architecture** | Defines the target interoperability architecture, enterprise integration strategy, and guiding design principles. |
+| **Implementation Roadmap** | Provides a phased modernization strategy, project priorities, and organizational change recommendations. |
+| **Executive Presentation** | Summarizes project findings, strategic recommendations, and the modernization roadmap for executive leadership. |
 
 # 11. Governance
 
