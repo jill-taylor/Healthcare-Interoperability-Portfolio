@@ -162,18 +162,19 @@ The Enterprise Interoperability Modernization Program will be considered success
 
 The success of the Enterprise Interoperability Modernization Program depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and external consulting resources. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the initiative.
 
-Stakeholder	                        Role and Responsibilities
-Executive Leadership Team	          Provides executive sponsorship, strategic direction, and approval of major project decisions.
-Chief Executive Officer (CEO)	Executive sponsor responsible for organizational alignment and overall business outcomes.
-Chief Information Officer (CIO)	Provides technology leadership and oversees enterprise IT strategy and modernization initiatives.
-Chief Medical Information Officer (CMIO)	Represents physician leadership and ensures interoperability initiatives support clinical workflows and patient care.
-Chief Nursing Officer (CNO)	Represents nursing leadership and advocates for clinical workflow improvements across care settings.
-Clinical Operations Leadership	Provides operational requirements and validates workflow improvements.
-Health Information Management (HIM)	Advises on health information governance, documentation, and regulatory compliance.
-Information Technology Services	Supports technical assessments, system architecture, infrastructure, and enterprise integration activities.
-Compliance and Privacy Office	Ensures adherence to HIPAA, regulatory requirements, and organizational policies.
-Department Managers and Subject Matter Experts	Participate in discovery sessions, validate current-state processes, and provide operational expertise.
-Technical Project Manager (Consulting)	Leads project planning, stakeholder coordination, discovery activities, documentation, risk management, and executive communications throughout the engagement.
+| Stakeholder | Role | Primary Responsibility |
+|-------------|------|------------------------|
+| Executive Leadership Team | Executive Sponsor | Provides strategic direction, funding approval, and executive oversight. |
+| Chief Executive Officer (CEO) | Executive Sponsor | Ensures the modernization initiative aligns with organizational strategy and patient care objectives. |
+| Chief Information Officer (CIO) | Technology Sponsor | Leads enterprise technology strategy and interoperability modernization efforts. |
+| Chief Medical Information Officer (CMIO) | Clinical Sponsor | Represents physician leadership and ensures interoperability supports clinical workflows. |
+| Chief Nursing Officer (CNO) | Clinical Sponsor | Represents nursing operations and supports care coordination improvements. |
+| Clinical Operations Leadership | Business Stakeholder | Defines operational requirements and validates workflow improvements. |
+| Health Information Management (HIM) | Business Stakeholder | Supports data governance, documentation, and regulatory compliance. |
+| Information Technology Services | Technical Stakeholder | Provides technical expertise, system architecture, and integration support. |
+| Compliance and Privacy Office | Regulatory Stakeholder | Ensures compliance with HIPAA and applicable healthcare regulations. |
+| Department Managers & SMEs | Subject Matter Experts | Participate in discovery, validate current processes, and identify improvement opportunities. |
+| Technical Project Manager (Consulting) | Project Lead | Coordinates the engagement, manages project activities, facilitates communication, and delivers project documentation. |
 
 # 8. Assumptions and Constraints
 
