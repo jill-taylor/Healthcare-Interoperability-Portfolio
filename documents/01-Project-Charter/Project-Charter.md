@@ -160,6 +160,21 @@ The Enterprise Interoperability Modernization Program will be considered success
 
 # 7. Key Stakeholders
 
+The success of the Enterprise Interoperability Modernization Program depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and external consulting resources. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the initiative.
+
+Stakeholder	                        Role and Responsibilities
+Executive Leadership Team	          Provides executive sponsorship, strategic direction, and approval of major project decisions.
+Chief Executive Officer (CEO)	Executive sponsor responsible for organizational alignment and overall business outcomes.
+Chief Information Officer (CIO)	Provides technology leadership and oversees enterprise IT strategy and modernization initiatives.
+Chief Medical Information Officer (CMIO)	Represents physician leadership and ensures interoperability initiatives support clinical workflows and patient care.
+Chief Nursing Officer (CNO)	Represents nursing leadership and advocates for clinical workflow improvements across care settings.
+Clinical Operations Leadership	Provides operational requirements and validates workflow improvements.
+Health Information Management (HIM)	Advises on health information governance, documentation, and regulatory compliance.
+Information Technology Services	Supports technical assessments, system architecture, infrastructure, and enterprise integration activities.
+Compliance and Privacy Office	Ensures adherence to HIPAA, regulatory requirements, and organizational policies.
+Department Managers and Subject Matter Experts	Participate in discovery sessions, validate current-state processes, and provide operational expertise.
+Technical Project Manager (Consulting)	Leads project planning, stakeholder coordination, discovery activities, documentation, risk management, and executive communications throughout the engagement.
+
 # 8. Assumptions and Constraints
 
 # 9. Risks
