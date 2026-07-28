@@ -113,6 +113,28 @@ Produce a phased implementation roadmap that prioritizes modernization initiativ
 
 Create a flexible interoperability foundation capable of supporting future acquisitions, emerging healthcare technologies, evolving regulatory requirements, and continued digital transformation across the health system.
 
+# 5. Project Scope
+
+## In Scope
+- Assess the current interoperability environment across HIHS.
+- Inventory enterprise applications, interfaces, and data exchange methods.
+- Evaluate interoperability standards, integration technologies, and governance practices.
+- Identify interoperability gaps, risks, and opportunities.
+- Develop a future-state interoperability architecture.
+- Recommend enterprise interoperability standards and integration principles.
+- Produce a phased modernization roadmap.
+- Identify organizational change management considerations.
+- Develop executive-level recommendations supporting long-term digital transformation.
+
+## Out of Scope
+- Implementation of production software.
+- Selection or procurement of specific commercial products.
+- Replacement of Electronic Health Record (EHR) systems.
+- Detailed software development or interface coding.
+- Infrastructure deployment or production system configuration.
+- Operational support after implementation.
+
+
 
 ---
 
