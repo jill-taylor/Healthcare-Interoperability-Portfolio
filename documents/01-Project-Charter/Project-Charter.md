@@ -248,5 +248,5 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 
 
 
-End of Draft Version 0.1 
+Version 1.0 – Initial Release
 
