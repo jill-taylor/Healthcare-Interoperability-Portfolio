@@ -237,10 +237,10 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 |--------------|-------------|
 | Project Initiation | Charter approval, kickoff, governance established |
 | Discovery | Interviews, workshops, inventories, current-state documentation |
-| Current-State Assessment | Analyze systems, interfaces, and interoperability maturity |
-| Future-State Design | Develop target architecture and modernization strategy |
-| Roadmap Development | Prioritize initiatives and create the implementation roadmap |
-| Executive Review & Closeout | Present findings and deliver final recommendations |
+| Current-State Assessment |Analyze applications, interfaces, workflows, and interoperability maturity. |
+| Future-State Design | Develop the target interoperability architecture and modernization strategy. |
+| Roadmap Development | Prioritize initiatives and create the implementation roadmap. |
+| Executive Review & Closeout | Present findings and deliver final recommendations. |
 
 
 ---
