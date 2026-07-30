@@ -160,7 +160,7 @@ The Enterprise Interoperability Modernization Program will be considered success
 
 # 7. Key Stakeholders
 
-The success of the Enterprise Interoperability Modernization Program depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and external consulting resources. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the initiative.
+The success of the Enterprise Interoperability Modernization Program depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the project.
 
 | Stakeholder | Role | Primary Responsibility |
 |-------------|------|------------------------|
