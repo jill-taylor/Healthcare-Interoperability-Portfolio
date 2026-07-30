@@ -183,6 +183,7 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 - Subject matter experts are available.
 - Existing documentation is reasonably accurate.
 - Business units participate in discovery.
+- The consulting team will be granted appropriate access to relevant systems, documentation, and stakeholders.
 
 ## Constraints
 - Limited project duration.
