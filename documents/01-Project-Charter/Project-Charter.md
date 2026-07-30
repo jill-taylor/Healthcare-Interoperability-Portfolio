@@ -186,9 +186,9 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 - The consulting team will be granted appropriate access to relevant systems, documentation, and stakeholders.
 
 ## Constraints
-- Limited project duration.
+- Fixed project timeline.
 - Ongoing clinical operations cannot be disrupted.
-- Budget considerations.
+- Budget limitations.
 - Existing legacy technologies.
 - Regulatory compliance requirements.
 
