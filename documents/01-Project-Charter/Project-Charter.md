@@ -210,15 +210,15 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 
 | Deliverable | Description |
 |--------------|-------------|
-| **Project Charter** | Defines the project vision, objectives, scope, governance, and success criteria for the Enterprise Interoperability Modernization Program. |
-| **Current-State Assessment** | Documents the existing interoperability environment, enterprise applications, integration architecture, and operational challenges. |
+| **Project Charter** | Defines the project vision, objectives, scope, governance, assumptions, constraints, risks, and success criteria for the Enterprise Interoperability Modernization Program. |
+| **Current-State Assessment** | Documents the existing interoperability environment, enterprise applications, integration architecture, current interfaces, and operational challenges. |
 | **Stakeholder Analysis** | Identifies key stakeholders, governance structure, roles, responsibilities, and communication strategies. |
-| **Discovery Assessment** | Summarizes findings, risks, challenges, opportunities, and recommendations identified during project discovery activities. |
+| **Discovery Assessment** | Summarizes findings, risks, opportunities, and recommendations identified during discovery activities. |
 | **Application Inventory** | Catalogs enterprise applications, system owners, business functions, and interoperability capabilities. |
 | **Interface Inventory** | Documents existing interfaces, data exchange methods, integration technologies, and information flows across the enterprise. |
 | **Gap Analysis** | Identifies gaps between the current and future interoperability environments and recommends modernization priorities. |
 | **Future-State Architecture** | Defines the target interoperability architecture, enterprise integration strategy, and guiding design principles. |
-| **Implementation Roadmap** | Provides a phased modernization strategy, project priorities, and organizational change recommendations. |
+| **Implementation Roadmap** | Provides a phased modernization roadmap, implementation priorities, and organizational change recommendations. |
 | **Executive Presentation** | Summarizes project findings, strategic recommendations, and the modernization roadmap for executive leadership. |
 
 # 11. Governance
