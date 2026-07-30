@@ -222,6 +222,15 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 
 # 11. Governance
 
+| Governance Role | Responsibilities |
+|--------------|-------------|
+| Executive Steering Committee | Provides strategic oversight, approves major scope changes, and reviews project milestones. |
+| Executive Sponsor (CIO | Champions the initiative, secures organizational support, and resolves executive issues. |
+| Technical Project Manager | Leads day-to-day project execution, manages schedule, risks, issues, and communications. |
+| Consulting Team | Conducts discovery, develops recommendations, and prepares project deliverables. |
+| Clinical & Business Stakeholders | Validate requirements, participate in workshops, and review recommendations. |
+
+
 # 12. High-Level Timeline
 ---
 
