@@ -39,7 +39,36 @@ Identify the requirements and constraints that will later be used to evaluate po
 ### 2.8 Establish Inputs for a Phased Strategy
 Identify the dependencies, priorities, resource considerations, and implementation constraints needed to develop a practical modernization roadmap.
 
+---
 
+# 3. Key Discovery Questions
+## Objective 1 - Establish a Reliable Device Baseline
+Discovery questions: 
+
+- How many infusion pumps are currently in service?
+- Which manufacturers and models are represented?
+- Where is each device located?
+- Which devices are network-connected?
+- Who owns and maintains the inventory?
+- How do we reconcile Clinical Engineering records with network records?
+- Which devices are vendor-supported?
+
+---
+
+# 4. Stakeholders & Subject Matter Experts
+Who we need to talk to and why.
+
+---
+
+# 5. Discovery Activities
+Interviews, workshops, technical reviews, inventory reconciliation, workflow observation, etc.
+
+---
+
+# 6. Evidence & Data Sources
+What we're actually going to examine—device inventories, network records, vendor documentation, architecture diagrams, policies, and so forth.
+
+---
 
 
 
