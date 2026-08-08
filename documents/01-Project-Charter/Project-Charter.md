@@ -220,7 +220,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 | Executive Leadership  | Executive Sponsor | Strategic direction, funding, major decisions |
 | Chief Information Officer (CIO) | Technology Sponsor | Technology strategy and executive support |
 | Chief Medical Information Officer (CMIO) | Clinical Sponsor | Physician and clinical workflow considerations |
-| Chief Nursing Officer (CNO) | Clinical Sponsor | Nursing workflow and patient-care considerations |
+| Chief Nursing Officer (CNO) | Clinical Sponsor | Nursing workflow and patient-safety considerations |
 | Clinical Engineering/Biomedical | Technical SME | Device inventory, maintenance, lifecycle, vendor support |
 | Cybersecurity | Technical SME | Assesses device vulnerabilities, security controls, network exposure, authentication/access requirements, segmentation options, monitoring needs, and cybersecurity risks; recommends appropriate risk-mitigation controls. |
 | Network Engineering | Technical SME | Connectivity, network architecture, segmentation |
@@ -260,7 +260,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 |------|------------------|---------------------|
 | Incomplete device inventory | High-risk devices may be missed | Validate inventory with Clinical Engineering/Biomedical, IT, and clinical teams |
 | Unsupported devices | Increased operational and cybersecurity risk | Prioritize lifecycle assessment and remediation |
-| Clinical workflow disruption | Patient-care impact | Include clinical stakeholders throughout discovery and planning |
+| Clinical workflow disruption | Patient-safety impact | Include clinical stakeholders throughout discovery and planning |
 | Legacy integration limitations | Modernization options may be constrained | Document interfaces and vendor capabilities early |
 | Cybersecurity vulnerabilities | Potential patient-safety and operational risk | Conduct security assessment and evaluate compensating controls |
 | Vendor dependency | Delays or limited modernization options | Engage vendors during discovery |
