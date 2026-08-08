@@ -11,7 +11,7 @@ Heartland Integrated Health System (HIHS) and the project scenario are fictional
 
 ## Project Focus
 
-Heartland has identified a population of legacy, network-connected infusion pumps that may present operational, cybersecurity, lifecycle, and interoperability challenges.
+Heartland Integrated Health System (HIHS) has identified a population of legacy, network-connected infusion pumps that may present operational, cybersecurity, lifecycle, and interoperability challenges.
 
 The project uses a structured discovery and assessment process to understand the current environment, identify risks and dependencies, evaluate potential modernization approaches, and develop a practical phased strategy.
 
