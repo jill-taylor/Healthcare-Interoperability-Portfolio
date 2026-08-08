@@ -1,3 +1,3 @@
 # Current-State Assessment
 
-This section will document the current technology environment, interoperability challenges, and baseline assessment for HIHS.
+This section documents the current technology environment, clinical workflows, device connectivity, cybersecurity considerations, and integration dependencies associated with Heartland's legacy connected infusion-pump environment.
