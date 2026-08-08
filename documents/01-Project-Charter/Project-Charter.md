@@ -182,7 +182,7 @@ Recommend a practical sequence for addressing the highest-priority devices and e
 
 # 6. Success Criteria
 
-The Enterprise Interoperability Modernization Program will be considered successful when the following outcomes have been achieved:
+The Legacy Medical Device Modernization & Secure Integration Project will be considered successful when the following outcomes have been achieved:
 
 The project will be considered successful when:
 
@@ -212,7 +212,7 @@ The project will be considered successful when:
 
 # 7. Key Stakeholders
 
-The success of the Enterprise Interoperability Modernization Program depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the project.
+The success of the Legacy Medical Device Modernization & Secure Integration Project depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the project.
 
 | Stakeholder | Role | Primary Responsibility |
 |-------------|------|------------------------|
@@ -254,12 +254,12 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 
 | Risk | Potential Impact | Mitigation Strategy |
 |------|------------------|---------------------|
-| Incomplete device inventory | High-risk devices may be missed | Validate inventory with Biomedical, IT, and clinical teams |
-| Unsupported devices| Increased operational and cybersecurity risk| Prioritize lifecycle assessment and remediation |
+| Incomplete device inventory | High-risk devices may be missed | Validate inventory with Clinical Engineering/Biomedical, IT, and clinical teams |
+| Unsupported devices | Increased operational and cybersecurity risk | Prioritize lifecycle assessment and remediation |
 | Clinical workflow disruption | Patient-care impact | Include clinical stakeholders throughout discovery and planning |
-| Legacy integration limitations |Modernization options may be constrained | Document interfaces and vendor capabilities early |
+| Legacy integration limitations | Modernization options may be constrained | Document interfaces and vendor capabilities early |
 | Cybersecurity vulnerabilities | Potential patient-safety and operational risk | Conduct security assessment and evaluate compensating controls |
-| Vendor dependency | Delays or limited modernization options |Engage vendors during discovery |
+| Vendor dependency | Delays or limited modernization options | Engage vendors during discovery |
 | Resource availability | Delayed discovery and validation | Prioritize critical stakeholders and facilities |
 | Scope expansion | Schedule and complexity increase | Maintain focused device population and formal change control |
 | Inaccurate assumptions | Poor recommendations | Validate findings through multiple stakeholder groups |
@@ -275,14 +275,12 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 | **Stakeholder Analysis** | Identifies stakeholders, responsibilities, influence, and engagement needs. |
 | **Clinical Workflow Map** | Illustrates how infusion pumps are used within selected clinical workflows. |
 | **Current-State Architecture** | Shows device connectivity, systems, interfaces, and relevant network boundaries. |
-| **Stakeholder Analysis** | Identifies key stakeholders, governance structure, roles, responsibilities, and communication strategies. |
 | **Cybersecurity Assessment** | Summarizes identified security concerns and risk considerations. |
 | **Risk Assessment** | Prioritizes devices/facilities based on defined criteria. |
 | **QGIS Visualizations** | Maps facility and device distribution to support prioritization and implementation planning. |
 | **Gap Analysis** | Identifies gaps between the current environment and desired future state. |
 | **Solution Options Analysis** | Compares potential modernization approaches. |
 | **Interface Inventory** | Documents existing interfaces, data exchange methods, integration technologies, and information flows across the enterprise. |
-| **Gap Analysis** | Identifies gaps between the current and future interoperability environments and recommends modernization priorities. |
 | **Future-State Concept Architecture** | Illustrates the recommended target environment at an appropriate level of detail. |
 | **Modernization Roadmap** | Defines phased implementation priorities and dependencies. |
 | **Executive Presentation** | Summarizes findings, recommended approach, risks, and next steps. |
@@ -309,7 +307,7 @@ The Technical Project Manager will coordinate the project but will not act as th
 | Project Initiation | Charter approval, kickoff, governance, scope confirmation |
 | Discovery Planning | Define discovery questions, stakeholders, evidence, and activities |
 | Discovery | Device inventory, interviews, workflows, connectivity, cybersecurity, vendor assessment |
-| Current-State Assessment |Consolidate findings and document the current environment |
+| Current-State Assessment | Consolidate findings and document the current environment |
 | Risk & Gap Analysis | Identify and prioritize risks and modernization gaps |
 | Options Evaluation | Evaluate replacement, upgrade, segmentation, controlled-access, and other approaches |
 | Future-State Recommendation | Develop recommended approach and concept architecture |
