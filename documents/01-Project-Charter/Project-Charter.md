@@ -184,7 +184,6 @@ Recommend a practical sequence for addressing the highest-priority devices and e
 
 The Legacy Medical Device Modernization & Secure Integration Project will be considered successful when the following outcomes have been achieved:
 
-The project will be considered successful when:
 
 ## Discovery
 - A representative population of legacy infusion pumps has been inventoried.
@@ -280,7 +279,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 | **QGIS Visualizations** | Maps facility and device distribution to support prioritization and implementation planning. |
 | **Gap Analysis** | Identifies gaps between the current environment and desired future state. |
 | **Solution Options Analysis** | Compares potential modernization approaches. |
-| **Interface Inventory** | Documents existing interfaces, data exchange methods, integration technologies, and information flows across the enterprise. |
+| **Interface Inventory** | Documents existing interfaces, data exchange methods, integration technologies, and information flows associated with the selected infusion-pump environment. |
 | **Future-State Concept Architecture** | Illustrates the recommended target environment at an appropriate level of detail. |
 | **Modernization Roadmap** | Defines phased implementation priorities and dependencies. |
 | **Executive Presentation** | Summarizes findings, recommended approach, risks, and next steps. |
