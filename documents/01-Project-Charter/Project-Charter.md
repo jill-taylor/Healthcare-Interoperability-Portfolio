@@ -209,6 +209,8 @@ The Legacy Medical Device Modernization & Secure Integration Project will be con
 ## Executive Outcome
 - Executive leadership has an evidence-based recommendation for managing and modernizing the legacy infusion-pump environment.
 
+---
+
 # 7. Key Stakeholders
 
 The success of the Legacy Medical Device Modernization & Secure Integration Project depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team. The following stakeholders will provide strategic direction, subject matter expertise, governance, and decision-making throughout the project.
@@ -230,6 +232,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 | Medical Device Vendors | External Stakeholder | Device capabilities, support, upgrades, technical constraints |
 | Technical Project Manager | Project Lead | Planning, discovery, coordination, risks, decisions, documentation |
 
+---
 
 # 8. Assumptions and Constraints
 
@@ -249,6 +252,8 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 - Some device information may be incomplete.
 - Modernization must occur while existing clinical services continue.
 
+---
+
 # 9. Project Risks and Mitigation Strategies
 
 | Risk | Potential Impact | Mitigation Strategy |
@@ -263,6 +268,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 | Scope expansion | Schedule and complexity increase | Maintain focused device population and formal change control |
 | Inaccurate assumptions | Poor recommendations | Validate findings through multiple stakeholder groups |
 
+---
 
 # 10. Project Deliverables
 
@@ -284,6 +290,8 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 | **Modernization Roadmap** | Defines phased implementation priorities and dependencies. |
 | **Executive Presentation** | Summarizes findings, recommended approach, risks, and next steps. |
 
+---
+
 # 11. Governance
 
 | Governance Role | Responsibilities |
@@ -298,6 +306,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 
 The Technical Project Manager will coordinate the project but will not act as the technical authority for clinical engineering, cybersecurity, networking, or medical-device engineering decisions.
 
+---
 
 # 12. High-Level Timeline
 
@@ -313,6 +322,7 @@ The Technical Project Manager will coordinate the project but will not act as th
 | Roadmap Development | Define phases, priorities, dependencies, risks, and implementation considerations |
 | Executive Review & Closeout | Present findings, recommendation, and roadmap |
 
+---
 
 # 13. Project Guiding Principle
 
