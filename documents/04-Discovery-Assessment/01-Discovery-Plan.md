@@ -83,8 +83,91 @@ Discovery questions:
 - What dependencies would need to be considered if a pump, interface, network connection, or connected system were changed?
 
 
+## Objective 4 — Cybersecurity Considerations
+Discovery questions:
+- What security controls currently protect the infusion pumps and their supporting systems?
+- Which infusion pumps are connected to the network, and what level of network access do they require?
+- Are the pumps located within appropriate network segments or security zones?
+- What network traffic is required for normal pump operation and system integration?
+- How are users, devices, and administrative access authenticated and authorized?
+- What remote-access capabilities exist for the pumps or supporting systems?
+- How are security updates, patches, firmware, and configuration changes managed?
+- Which devices or models have known vulnerabilities or unsupported security characteristics?
+- How are vulnerabilities identified, tracked, prioritized, and communicated?
+- What monitoring or logging exists for device and network activity?
+- What happens when a device cannot support a required security control because of its age or technical limitations?
+- Are compensating controls currently being used for legacy devices?
+- What cybersecurity requirements could affect potential modernization options?
+- What security controls could reduce risk without disrupting clinical operations?
+- What cybersecurity dependencies or constraints should be considered before recommending a modernization approach?
 
 
+## Objective 5 — Assess Lifecycle and Vendor Support
+Discovery questions:
+- What is the age and expected service life of each infusion-pump model?
+- Which manufacturers and models are currently supported by the vendor?
+- Which devices are approaching or past their expected service life?
+- Which devices are approaching or past vendor end-of-support or end-of-life dates?
+- What maintenance and technical support is currently available for each device or model?
+- Are replacement parts, firmware updates, security patches, and other vendor services still available?
+- What limitations exist for devices that are no longer fully supported?
+- Are there differences in lifecycle or support status between facilities?
+- What vendor dependencies could affect the timing or feasibility of modernization?
+- Are there contractual, licensing, or maintenance considerations that need to be understood?
+- Which devices may require near-term remediation because of lifecycle or support concerns?
+- Which devices could reasonably remain in service with appropriate controls or monitoring?
+- What information is needed from vendors to evaluate upgrade, replacement, or other modernization options?
+
+
+## Objective 6 — Identify and Prioritize Risks
+Discovery questions:
+ What characteristics make one infusion pump or device population higher risk than another?
+- Which clinical, operational, cybersecurity, interoperability, and lifecycle factors should be considered when evaluating risk?
+- Which devices or facilities have the greatest combination of risk factors?
+- Are there devices with known vulnerabilities, unsupported software, or limited security capabilities?
+- Which devices have the greatest dependency on network connectivity or system integration?
+- Which devices or workflows would create the greatest operational impact if connectivity or device functionality were disrupted?
+- Are there differences in risk between facilities, departments, device models, or device configurations?
+- How should risk factors be weighted or prioritized for this project?
+- Which risks require immediate attention, and which can be addressed through longer-term planning?
+- What existing controls or mitigations reduce the identified risks?
+- Where are residual risks present after existing controls are considered?
+- Which risks could materially affect potential modernization options or implementation sequencing?
+- Who is responsible for validating and accepting the identified risks?
+
+
+## Objective 7 — Establish Decision Criteria for Modernization Options
+Discovery questions:
+- What clinical requirements must any modernization approach satisfy?
+- What cybersecurity requirements must be addressed?
+- What interoperability and integration requirements must be maintained or improved?
+- What device capabilities or limitations could affect the available options?
+- What operational constraints could affect implementation?
+- What lifecycle and vendor-support considerations should influence the evaluation?
+- What level of disruption to clinical workflows is acceptable?
+- What financial or resource constraints should be considered?
+- What dependencies could affect the feasibility or timing of each option?
+- Which requirements are mandatory, and which are desirable?
+- What criteria should be used to compare replacement, upgrade, segmentation, controlled access, integration modernization, and other potential approaches?
+- Who should participate in defining and validating the evaluation criteria?
+- How will the criteria be documented and approved before options are evaluated?
+
+
+## Objective 8 — Establish Inputs for a Phased Strategy
+Discovery questions:
+- Which devices, facilities, or environments should be considered highest priority based on the findings?
+- What dependencies could affect the sequence of modernization activities?
+- Are there clinical, technical, operational, cybersecurity, or vendor dependencies that must be addressed before changes can occur?
+- Which devices or facilities could be addressed together because they share similar characteristics or requirements?
+- Are there opportunities to phase modernization by facility, device model, clinical area, risk level, or another logical grouping?
+- What resources and subject matter expertise would be required for each phase?
+- What vendor participation or support would be required?
+- What implementation constraints could affect the timing or sequence of activities?
+- What clinical continuity requirements must be addressed before implementation begins?
+- Which activities could occur independently, and which activities have prerequisites?
+- What risks could increase if modernization activities are delayed?
+- What information is still unknown and would need to be resolved before implementation planning?
+- What dependencies and decision points should be carried forward into the modernization roadmap?
 
 
 
