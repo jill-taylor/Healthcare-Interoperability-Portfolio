@@ -1,3 +1,3 @@
 # Documents
 
-This folder contains the consulting-style project deliverables, reports, and supporting documentation for the Healthcare Interoperability Portfolio.
+This section documents the discovery activities, questions, evidence, and findings used to assess Heartland's legacy connected infusion-pump environment and identify risks, requirements, and potential modernization options.
