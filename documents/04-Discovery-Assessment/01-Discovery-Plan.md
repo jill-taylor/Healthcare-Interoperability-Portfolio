@@ -83,7 +83,7 @@ Discovery questions:
 - What dependencies would need to be considered if a pump, interface, network connection, or connected system were changed?
 
 
-## Objective 4 — Cybersecurity Considerations
+## Objective 4 — Assess Cybersecurity Considerations
 Discovery questions:
 - What security controls currently protect the infusion pumps and their supporting systems?
 - Which infusion pumps are connected to the network, and what level of network access do they require?
@@ -121,7 +121,7 @@ Discovery questions:
 
 ## Objective 6 — Identify and Prioritize Risks
 Discovery questions:
- What characteristics make one infusion pump or device population higher risk than another?
+- What characteristics make one infusion pump or device population higher risk than another?
 - Which clinical, operational, cybersecurity, interoperability, and lifecycle factors should be considered when evaluating risk?
 - Which devices or facilities have the greatest combination of risk factors?
 - Are there devices with known vulnerabilities, unsupported software, or limited security capabilities?
@@ -174,7 +174,26 @@ Discovery questions:
 ---
 
 # 4. Stakeholders & Subject Matter Experts
-Who we need to talk to and why.
+
+Discovery will require input from clinical, technical, operational, cybersecurity, and vendor stakeholders. Each stakeholder group provides a different perspective on the current infusion-pump environment. The Technical Project Manager will coordinate discovery activities, document findings, and ensure that information is validated by the appropriate subject matter experts.
+
+| Stakeholder / SME | Discovery Role | Information Needed |
+|---|---|---|
+| Executive Sponsor | Provides strategic direction and resolves organizational issues | Project priorities, constraints, decision authority |
+| Clinical Engineering / Biomedical | Primary device SME | Device inventory, models, maintenance, lifecycle, connectivity, vendor support |
+| Nursing Leadership | Clinical workflow SME | Clinical workflows, operational dependencies, workflow risks, staff impact |
+| Clinical Staff | End-user perspective | Actual pump usage, workflow challenges, downtime procedures, operational concerns |
+| Cybersecurity | Security SME | Vulnerabilities, security controls, network exposure, access, monitoring, compensating controls |
+| Network Engineering | Network SME | Network connectivity, segmentation, traffic, network architecture, device dependencies |
+| Integration / Interface Team | Integration SME | Interfaces, protocols, data exchanges, integration dependencies, failure handling |
+| IT Operations | Infrastructure SME | Infrastructure support, monitoring, operational procedures, incident response |
+| Pharmacy | Clinical stakeholder | Medication-management dependencies and workflow considerations |
+| Compliance / Privacy | Regulatory stakeholder | Applicable organizational, regulatory, and privacy requirements |
+| Medical Device Vendors | External technical SME | Device capabilities, support status, upgrades, limitations, lifecycle information |
+| Technical Project Manager | Discovery lead | Coordinates interviews, evidence collection, findings, risks, decisions, and documentation |
+
+
+
 
 ---
 
