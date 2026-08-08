@@ -1,6 +1,6 @@
 # Heartland Integrated Health System (HIHS)
 
-## Enterprise Interoperability Modernization Program
+## Legacy Medical Device Modernization & Secure Integration Project
 
 ### Project Charter
 
@@ -8,7 +8,7 @@
 
 **Prepared by:** Jill Taylor, Technical Project Manager (Consulting)
 
-**Version:** 1.0 – Initial Release
+**Version:** 2.0 – Focused Project Revision
 
 **Status:** Discovery Phase
 
@@ -16,14 +16,20 @@
 
 # Executive Summary
 
+Heartland Integrated Health System (HIHS) has identified a need to assess and modernize a population of legacy, network-connected infusion pumps within its healthcare environment.
 
-Heartland Integrated Health System (HIHS) has initiated the Enterprise Interoperability Modernization Program to establish a unified, standards-based approach to healthcare information exchange across its growing network of hospitals, primary care clinics, specialty practices, outpatient facilities, and community healthcare services.
+Heartland's continued growth through hospital and healthcare-service acquisitions has resulted in a diverse technology environment that includes medical devices of varying ages, manufacturers, connectivity capabilities, security controls, and vendor support levels. Some legacy devices may not align with current enterprise cybersecurity, interoperability, or infrastructure requirements.
 
-Over the past 10 to 15 years, HIHS has experienced significant growth through the strategic acquisition of hospitals, physician practices, urgent care centers, specialty clinics, and diagnostic facilities. While these acquisitions expanded access to healthcare throughout the region, they also resulted in a fragmented technology landscape consisting of multiple electronic health record (EHR) systems, departmental applications, legacy interfaces, and independently managed clinical workflows.
+Immediate replacement of the entire legacy device population is not considered practical because of cost, clinical dependencies, operational disruption, and device availability. At the same time, continued operation of aging connected devices may introduce cybersecurity, interoperability, support, and patient-safety risks that require structured evaluation.
 
-To support its mission of delivering coordinated, patient-centered care, HIHS has engaged a consulting team to assess its current interoperability landscape and develop a comprehensive enterprise modernization strategy. The initiative will establish a scalable interoperability framework that aligns people, processes, governance, and technology while adopting nationally recognized healthcare interoperability standards, including HL7 Version 2, HL7 FHIR, and modern API-based integration capabilities. Through a carefully planned, phased approach, the program will modernize the organization's integration environment while ensuring the continuity of critical clinical operations and existing enterprise systems.
+The purpose of this project is to conduct a focused discovery and assessment of Heartland's legacy connected infusion-pump environment and develop a safe, practical, phased modernization strategy.
 
-The outcome of this engagement will be a comprehensive modernization strategy that enables secure and efficient information exchange across the health system, improves care coordination, reduces integration complexity, strengthens operational efficiency, and positions HIHS to support future digital health initiatives and evolving models of patient care.
+The project will examine the current device environment, clinical workflows, connectivity, integration requirements, cybersecurity considerations, vendor support, operational dependencies, and geographic distribution of the affected devices.
+
+The project will not assume a specific technical solution. Discovery findings will be used to evaluate potential approaches, which may include device replacement, vendor-supported upgrades, network segmentation, controlled access, integration modernization, or a combination of strategies.
+
+The resulting recommendation will provide Heartland leadership with a practical path for reducing risk while maintaining continuity of clinical operations.
+
 
 
 ---
@@ -31,11 +37,11 @@ The outcome of this engagement will be a comprehensive modernization strategy th
 
 # 1. Organization Background
 
-Heartland Integrated Health System (HIHS) is a not-for-profit regional healthcare organization serving approximately 300,000 residents across four counties. The health system is committed to improving the health and well-being of the communities it serves by providing accessible, high-quality, patient-centered care across the continuum of care.
+Heartland Integrated Health System (HIHS) is a not-for-profit regional healthcare organization serving approximately 300,000 residents across four counties.
 
-Originally established as a single community hospital, HIHS has expanded over the past fifteen years through a series of strategic acquisitions designed to improve access to healthcare services throughout the region. As the organization grew, it integrated hospitals, physician practices, outpatient facilities, and specialty care providers into a unified health system serving both urban and rural communities.
+Originally established as a single community hospital, HIHS has expanded through strategic acquisitions designed to improve access to healthcare services throughout the region. Today, the organization serves both urban and rural communities through hospitals, primary care clinics, specialty care, urgent care, laboratory, imaging, and telehealth services.
 
-Today, HIHS consists of:
+HIHS currently consists of:
 
 - **Heartland Regional Medical Center** (Flagship tertiary care hospital)
 - **Heartland Community Hospital** (Community acute care hospital)
@@ -46,117 +52,163 @@ Today, HIHS consists of:
 - Two outpatient imaging centers
 - A growing telehealth services program
 
-This expansion has enabled patients to receive comprehensive healthcare services closer to home while strengthening the organization's ability to coordinate care across multiple locations. However, the rapid growth also resulted in a diverse technology environment composed of multiple clinical applications, electronic health record (EHR) systems, and independently developed integration solutions. These challenges have become the primary driver for the Enterprise Interoperability Modernization Program.
-
+The organization's continued growth has created a diverse technology environment in which clinical systems and medical devices have been acquired, implemented, and maintained at different points in time.
 
 ---
 
 
 # 2. Business Problem
 
-The rapid growth of Heartland Integrated Health System (HIHS) has significantly expanded access to healthcare services throughout the region. However, the integration of hospitals, physician practices, outpatient facilities, and specialty care providers has also created a complex and fragmented technology environment that presents challenges to the secure and efficient exchange of clinical information.
+Heartland has identified a population of legacy, network-connected infusion pumps that may not fully align with current enterprise technology and security requirements.
 
-Today, patient and operational data reside within multiple electronic health record (EHR) systems, departmental applications, diagnostic platforms, and legacy integration solutions that were implemented independently over time. As a result, information exchange often relies on point-to-point interfaces, customized integrations, and manual workflows that increase operational complexity and limit interoperability across the enterprise.
+The devices remain important to clinical operations and cannot simply be removed from service. However, their age, connectivity capabilities, vendor support status, integration limitations, and security characteristics may create operational and cybersecurity concerns.
 
-This fragmented technology landscape affects more than information technology. It impacts clinical workflows, care coordination, reporting, operational efficiency, and the organization's ability to respond quickly to evolving regulatory requirements and emerging digital health initiatives. As HIHS continues to expand its network and services, the limitations of the current integration environment present increasing operational and strategic risks.
+Heartland currently lacks a consolidated assessment of:
 
-To support its long-term strategic objectives, HIHS has initiated the Enterprise Interoperability Modernization Program. The program will evaluate the current interoperability landscape, establish an enterprise integration strategy, and develop a phased modernization roadmap that enables secure, standards-based information exchange while minimizing disruption to ongoing clinical operations.
+- Which legacy infusion pumps are in service
+- Where the devices are located
+- Which devices are network-connected
+- Which systems they communicate with
+- What integration capabilities they support
+- Which devices remain vendor-supported
+- Which devices present the greatest operational or cybersecurity risk
+- Which devices should be upgraded, isolated, replaced, or otherwise remediated
 
+The organization therefore needs a structured discovery and decision-making process before committing to a modernization approach.
+
+Core PM Question
+
+How can Heartland safely manage its legacy connected infusion pumps while determining an appropriate path toward modernization without disrupting clinical operations?
 
 ---
 
 
 # 3. Project Vision
 
-Heartland Integrated Health System (HIHS) envisions a connected healthcare ecosystem where patient information is securely available across all hospitals, clinics, outpatient facilities, and care settings, enabling clinicians to make informed decisions regardless of where care is delivered.
+Heartland seeks to establish a safe, sustainable approach for managing legacy connected infusion pumps while transitioning toward a modern medical-device environment.
 
-The Enterprise Interoperability Modernization Program will establish a scalable, enterprise-wide interoperability framework that supports seamless information exchange across the health system while reducing reliance on legacy point-to-point integrations. The future-state environment will enable HIHS to adopt emerging digital health technologies more efficiently, improve operational agility, strengthen collaboration across clinical and administrative teams, and deliver a consistent patient experience throughout the organization.
+The future state should:
 
-The modernization strategy will be built upon nationally recognized interoperability standards, including HL7 FHIR, while continuing to support existing integration technologies through a carefully planned, phased transition. This balanced approach will allow HIHS to modernize its technology landscape without disrupting critical clinical operations or patient care.
+- Support safe clinical operations
+- Reduce cybersecurity exposure associated with legacy technology
+- Maintain necessary clinical and system connectivity
+- Improve visibility into the medical-device environment
+- Establish clear device lifecycle and modernization priorities
+- Provide a practical path for phased modernization
+- Minimize disruption to patients and clinical staff
 
-Ultimately, the success of this initiative will be measured not only by improved interoperability, but by HIHS's ability to deliver safer, more coordinated, and more accessible healthcare to the communities it serves. By creating a connected healthcare ecosystem where information follows the patient, HIHS will establish the technological foundation necessary to support future innovation, strengthen partnerships across the region, and fulfill its mission of improving the health and well-being of every community it serves.
+The project will use discovery findings and stakeholder input to determine the appropriate combination of technical, operational, and lifecycle strategies.
 
+---
 
 # 4. Project Objectives
 
-The Enterprise Interoperability Modernization Program is intended to establish a strategic, enterprise-wide approach to healthcare interoperability that supports Heartland Integrated Health System's long-term clinical, operational, and organizational goals. The primary objectives of the initiative are to:
+The project will:
 
-1. Establish an Enterprise Interoperability Strategy
+1. **Establish a Current-State Device Inventory**
 
-Develop a comprehensive interoperability strategy that aligns technology investments with organizational priorities, clinical workflows, regulatory requirements, and future digital health initiatives.
+Identify the relevant infusion pumps, manufacturers, models, locations, age, connectivity, ownership, and support status.
 
-2. Assess the Current-State Environment
+2. **Understand Clinical Workflows**
 
-Evaluate the existing application landscape, integration architecture, data exchange methods, and operational workflows to identify interoperability challenges, technical debt, and opportunities for modernization.
+Document how infusion pumps are used within selected clinical environments and identify operational dependencies that could affect modernization.
 
-3. Standardize Information Exchange
+3. **Assess Connectivity and Integration**
 
-Promote the adoption of nationally recognized healthcare interoperability standards, including HL7 Version 2, HL7 FHIR, and modern API-based integration approaches, while supporting existing enterprise integration capabilities through a phased transition.
+Determine how selected devices connect to Heartland's network and clinical systems and identify significant interoperability or integration dependencies.
 
-4. Improve Care Coordination
+4. **Assess Cybersecurity Considerations**
 
-Enable the secure, timely, and accurate exchange of clinical information across hospitals, outpatient facilities, physician practices, laboratories, imaging centers, and community partners to support coordinated, patient-centered care.
+Identify security characteristics, vulnerabilities, access requirements, network exposure, and other risks associated with the legacy device environment.
 
-5. Strengthen Data Governance
+5. **Evaluate Device Lifecycle and Vendor Support**
 
-Establish governance practices that improve data quality, consistency, security, ownership, and stewardship across the enterprise while supporting regulatory compliance and organizational decision-making.
+Determine which devices are supported, approaching end of life, or otherwise candidates for remediation or replacement.
 
-6. Reduce Integration Complexity
+6. **Identify and Prioritize Risks**
 
-Simplify the existing integration environment by reducing redundant interfaces, minimizing manual processes, improving maintainability, and establishing a scalable enterprise interoperability framework.
+Develop a risk-based view of the device population using clinical, operational, cybersecurity, interoperability, and lifecycle considerations.
 
-7. Develop a Modernization Roadmap
+7. **Evaluate Modernization Options**
 
-Produce a phased implementation roadmap that prioritizes modernization initiatives, minimizes operational disruption, manages organizational change, and provides a practical path toward future-state interoperability.
+Evaluate potential approaches such as:
 
-8. Support Organizational Growth and Innovation
+- Device replacement
+- Vendor-supported upgrades
+- Network segmentation
+- Controlled access
+- Integration modernization
+- Compensating security controls
+- Phased combinations of these approaches
 
-Create a flexible interoperability foundation capable of supporting future acquisitions, emerging healthcare technologies, evolving regulatory requirements, and continued digital transformation across the health system.
+8. **Develop a Phased Modernization Strategy**
+Recommend a practical sequence for addressing the highest-priority devices and environments while maintaining clinical operations.
+
+---
 
 # 5. Project Scope
 
 ## In Scope
-- Assess the current interoperability environment across HIHS.
-- Inventory enterprise applications, interfaces, and data exchange methods.
-- Evaluate interoperability standards, integration technologies, and governance practices.
-- Identify interoperability gaps, risks, and opportunities.
-- Develop a future-state interoperability architecture.
-- Recommend enterprise interoperability standards and integration principles.
-- Produce a phased modernization roadmap.
-- Identify organizational change management considerations.
-- Develop executive-level recommendations supporting long-term digital transformation.
+- Selected legacy network-connected infusion pumps
+- Device inventory and classification
+- Device location and facility distribution
+- Clinical workflow discovery
+- Device connectivity and integration assessment
+- Cybersecurity risk assessment
+- Vendor and lifecycle assessment
+- Stakeholder interviews and workshops
+- Current-state architecture
+- Risk prioritization
+- Evaluation of modernization options
+- Future-state concept architecture
+- Phased modernization roadmap
+- Change-management considerations
+- Executive recommendation
+
 
 ## Out of Scope
-- Implementation of production software.
-- Selection or procurement of specific commercial products.
-- Replacement of Electronic Health Record (EHR) systems.
-- Detailed software development or interface coding.
-- Infrastructure deployment or production system configuration.
-- Operational support after implementation.
+- Replacement of all Heartland medical devices
+- Production deployment of security technologies
+- Production device configuration
+- Development of medical-device software
+- Development of production interfaces
+- Procurement or contract negotiation
+- Clinical validation of medication protocols
+- Replacement of the EHR
+- Enterprise-wide interoperability modernization
+- Operational support following project completion
+
+---
 
 # 6. Success Criteria
 
 The Enterprise Interoperability Modernization Program will be considered successful when the following outcomes have been achieved:
 
-## Strategic Outcomes
-- A comprehensive assessment of the current interoperability environment has been completed.
-- Enterprise interoperability goals have been aligned with HIHS strategic business objectives.
-- Executive leadership has approved the future-state interoperability vision and modernization strategy.
-  
-## Business Outcomes
-- Key interoperability challenges, organizational risks, and opportunities have been identified and documented.
-- Recommendations support improved care coordination, operational efficiency, and organizational collaboration.
-- The modernization strategy provides a sustainable foundation for future organizational growth and digital transformation.
-  
-## Technical Outcomes
-- Enterprise applications, interfaces, and data exchange methods have been inventoried and documented.
-- Current-state and future-state interoperability architectures have been developed.
-- Recommendations align with nationally recognized healthcare interoperability standards, including HL7 Version 2, HL7 FHIR, and modern API-based integration practices.
-  
-## Project Outcomes
-- A phased implementation roadmap has been developed and approved.
-- Project deliverables have been completed and accepted by executive leadership.
-- Governance recommendations support long-term interoperability management and continuous improvement.
+The project will be considered successful when:
+
+## Discovery
+- A representative population of legacy infusion pumps has been inventoried.
+- Device locations and relevant attributes have been documented.
+- Key clinical, technical, cybersecurity, and operational dependencies have been identified.
+
+## Assessment
+- Current-state device connectivity and integration have been documented.
+- Major risks have been identified and prioritized.
+- Device lifecycle and vendor-support conditions have been assessed.
+
+## Decision Support
+- Multiple modernization options have been evaluated.
+- Options have been compared using agreed-upon criteria.
+- A recommended approach has been presented to leadership.
+
+## Implementation Planning
+- A phased modernization roadmap has been developed.
+- High-priority facilities/devices have been identified.
+- Major implementation risks and dependencies have been documented.
+- Clinical continuity requirements have been incorporated into the plan.
+
+## Executive Outcome
+- Executive leadership has an evidence-based recommendation for managing and modernizing the legacy infusion-pump environment.
 
 # 7. Key Stakeholders
 
@@ -164,89 +216,122 @@ The success of the Enterprise Interoperability Modernization Program depends on 
 
 | Stakeholder | Role | Primary Responsibility |
 |-------------|------|------------------------|
-| Executive Leadership Team | Executive Sponsor | Provides strategic direction, funding approval, and executive oversight. |
-| Chief Executive Officer (CEO) | Executive Sponsor | Ensures the modernization initiative aligns with organizational strategy and patient care objectives. |
-| Chief Information Officer (CIO) | Technology Sponsor | Leads enterprise technology strategy and interoperability modernization efforts. |
-| Chief Medical Information Officer (CMIO) | Clinical Sponsor | Represents physician leadership and ensures interoperability supports clinical workflows. |
-| Chief Nursing Officer (CNO) | Clinical Sponsor | Represents nursing operations and supports care coordination improvements. |
-| Clinical Operations Leadership | Business Stakeholder | Defines operational requirements and validates workflow improvements. |
-| Health Information Management (HIM) | Business Stakeholder | Supports data governance, documentation, and regulatory compliance. |
-| Information Technology Services | Technical Stakeholder | Provides technical expertise, system architecture, and integration support. |
-| Compliance and Privacy Office | Regulatory Stakeholder | Ensures compliance with HIPAA and applicable healthcare regulations. |
-| Department Managers & SMEs | Subject Matter Experts | Participate in discovery, validate current processes, and identify improvement opportunities. |
-| Technical Project Manager (Consulting) | Project Lead | Coordinates the engagement, manages project activities, facilitates communication, and delivers project documentation. |
+| Executive Leadership  | Executive Sponsor | Strategic direction, funding, major decisions |
+| Chief Information Officer (CIO) | Technology Sponsor | Technology strategy and executive support |
+| Chief Medical Information Officer (CMIO) | Clinical Sponsor | Physician and clinical workflow considerations |
+| Chief Nursing Officer (CNO) | Clinical Sponsor | Nursing workflow and patient-care considerations |
+| Clinical Engineering/Biomedical | Technical SME | Device inventory, maintenance, lifecycle, vendor support |
+| Cybersecurity | Technical SME | Assesses device vulnerabilities, security controls, network exposure, authentication/access requirements, segmentation options, monitoring needs, and cybersecurity risks; recommends appropriate risk-mitigation controls. |
+| Network Engineering | Technical SME | Connectivity, network architecture, segmentation |
+| Integration/Interface Team | Technical SME | Device/system integration and data exchange |
+| Nursing Leadership | Business Stakeholder | Clinical workflow and operational requirements |
+| Pharmacy | Clinical Stakeholder | Medication-management dependencies |
+| IT Operations | Technical Stakeholder | Infrastructure and operational support |
+| Compliance/Privacy | Regulatory Stakeholder | Regulatory and organizational requirements |
+| Medical Device Vendors | External Stakeholder | Device capabilities, support, upgrades, technical constraints |
+| Technical Project Manager | Project Lead | Planning, discovery, coordination, risks, decisions, documentation |
+
 
 # 8. Assumptions and Constraints
 
 ## Assumptions
 - Executive sponsorship remains active.
-- Subject matter experts are available.
-- Existing documentation is reasonably accurate.
-- Business units participate in discovery.
-- The consulting team will be granted appropriate access to relevant systems, documentation, and stakeholders.
+- Clinical and technical SMEs will participate in discovery.
+- Heartland can provide available device and system documentation.
+- Device information can be validated through stakeholder interviews and technical review.
+- The project will use fictionalized data for portfolio development.
+- Clinical safety will remain the primary consideration for implementation decisions.
 
 ## Constraints
-- Fixed project timeline.
-- Ongoing clinical operations cannot be disrupted.
-- Budget limitations.
-- Existing legacy technologies.
-- Regulatory compliance requirements.
+- Clinical operations cannot be disrupted.
+- Legacy devices may have limited technical capabilities.
+- Device replacement budgets are limited.
+- Vendor support may vary by device and model.
+- Some device information may be incomplete.
+- Modernization must occur while existing clinical services continue.
 
 # 9. Project Risks and Mitigation Strategies
 
 | Risk | Potential Impact | Mitigation Strategy |
 |------|------------------|---------------------|
-| Incomplete system documentation | Delays discovery activities and limits understanding of the current environment. | Conduct stakeholder interviews and validate findings through workshops and technical reviews. |
-| Legacy system limitations | Older applications may not support modern interoperability standards or integration methods. | Recommend a phased modernization approach while maintaining support for legacy systems throughout the transition. |
-| Resistance to organizational change | Delays adoption of new processes and interoperability initiatives. | Engage stakeholders early, maintain executive sponsorship, and implement a structured change management plan. |
-| Data quality and consistency issues | Inaccurate or inconsistent data may affect interoperability and reporting. | Perform data assessments and establish enterprise data governance recommendations. |
-| Resource availability | Limited availability of subject matter experts may delay discovery and validation activities. | Develop a collaborative project schedule and prioritize critical stakeholder engagement. |
-| Regulatory and compliance changes | New healthcare regulations may affect project priorities and implementation plans. | Monitor regulatory requirements and incorporate flexibility into the modernization roadmap. |
-| Project scope expansion | Additional requests may impact schedule, budget, and project deliverables. | Utilize formal change management procedures and maintain clear project scope documentation. |
-| Operational disruption | Modernization activities may affect clinical operations if not carefully planned. | Recommend a phased implementation approach with comprehensive testing to minimize disruption to patient care. |
+| Incomplete device inventory | High-risk devices may be missed | Validate inventory with Biomedical, IT, and clinical teams |
+| Unsupported devices| Increased operational and cybersecurity risk| Prioritize lifecycle assessment and remediation |
+| Clinical workflow disruption | Patient-care impact | Include clinical stakeholders throughout discovery and planning |
+| Legacy integration limitations |Modernization options may be constrained | Document interfaces and vendor capabilities early |
+| Cybersecurity vulnerabilities | Potential patient-safety and operational risk | Conduct security assessment and evaluate compensating controls |
+| Vendor dependency | Delays or limited modernization options |Engage vendors during discovery |
+| Resource availability | Delayed discovery and validation | Prioritize critical stakeholders and facilities |
+| Scope expansion | Schedule and complexity increase | Maintain focused device population and formal change control |
+| Inaccurate assumptions | Poor recommendations | Validate findings through multiple stakeholder groups |
 
 
 # 10. Project Deliverables
 
 | Deliverable | Description |
 |--------------|-------------|
-| **Project Charter** | Defines the project vision, objectives, scope, governance, assumptions, constraints, risks, and success criteria for the Enterprise Interoperability Modernization Program. |
-| **Current-State Assessment** | Documents the existing interoperability environment, enterprise applications, integration architecture, current interfaces, and operational challenges. |
+| **Project Charter** | Defines the project problem, objectives, scope, stakeholders, risks, and success criteria. |
+| **Discovery Plan** | Defines discovery questions, activities, stakeholders, evidence, and outputs. |
+| **Device Inventory** | Documents the selected infusion-pump population and relevant attributes. |
+| **Stakeholder Analysis** | Identifies stakeholders, responsibilities, influence, and engagement needs. |
+| **Clinical Workflow Map** | Illustrates how infusion pumps are used within selected clinical workflows. |
+| **Current-State Architecture** | Shows device connectivity, systems, interfaces, and relevant network boundaries. |
 | **Stakeholder Analysis** | Identifies key stakeholders, governance structure, roles, responsibilities, and communication strategies. |
-| **Discovery Assessment** | Summarizes findings, risks, opportunities, and recommendations identified during discovery activities. |
-| **Application Inventory** | Catalogs enterprise applications, system owners, business functions, and interoperability capabilities. |
+| **Cybersecurity Assessment** | Summarizes identified security concerns and risk considerations. |
+| **Risk Assessment** | Prioritizes devices/facilities based on defined criteria. |
+| **QGIS Visualizations** | Maps facility and device distribution to support prioritization and implementation planning. |
+| **Gap Analysis** | Identifies gaps between the current environment and desired future state. |
+| **Solution Options Analysis** | Compares potential modernization approaches. |
 | **Interface Inventory** | Documents existing interfaces, data exchange methods, integration technologies, and information flows across the enterprise. |
 | **Gap Analysis** | Identifies gaps between the current and future interoperability environments and recommends modernization priorities. |
-| **Future-State Architecture** | Defines the target interoperability architecture, enterprise integration strategy, and guiding design principles. |
-| **Implementation Roadmap** | Provides a phased modernization roadmap, implementation priorities, and organizational change recommendations. |
-| **Executive Presentation** | Summarizes project findings, strategic recommendations, and the modernization roadmap for executive leadership. |
+| **Future-State Concept Architecture** | Illustrates the recommended target environment at an appropriate level of detail. |
+| **Modernization Roadmap** | Defines phased implementation priorities and dependencies. |
+| **Executive Presentation** | Summarizes findings, recommended approach, risks, and next steps. |
 
 # 11. Governance
 
 | Governance Role | Responsibilities |
 |--------------|-------------|
-| Executive Steering Committee | Provides strategic oversight, approves major scope changes, makes executive decisions, and reviews project milestones. |
-| Executive Sponsor (CIO | Champions the initiative, secures organizational support, and resolves executive issues. |
-| Technical Project Manager | Leads day-to-day project execution, manages schedule, risks, issues, communications, and project status reporting. |
-| Consulting Team | Conducts discovery, performs assessments, develops recommendations, and prepares project deliverables. |
-| Clinical & Business Stakeholders | Validate requirements, participate in workshops, and review recommendations. |
+| Executive Sponsor | Provides strategic direction and resolves major organizational issues. |
+| CIO/Technology Sponsor | Provides technology oversight and decision support |
+| Clinical Sponsors | Validate clinical priorities and workflow requirements |
+| Technical SMEs | Provide subject-matter expertise and validate findings |
+| Technical Project Manager | Leads planning, discovery, schedule, risks, communications, decisions, and deliverables |
+| Project Team | Performs discovery, analysis, documentation, and solution evaluation |
+| Steering Committee | Reviews major findings, risks, options, and recommendations |
+
+The Technical Project Manager will coordinate the project but will not act as the technical authority for clinical engineering, cybersecurity, networking, or medical-device engineering decisions.
 
 
 # 12. High-Level Timeline
 
 | Phase | Description |
 |--------------|-------------|
-| Project Initiation | Project charter approval, kickoff, and governance established. |
-| Discovery | Interviews, workshops, inventories, current-state documentation |
-| Current-State Assessment |Assess applications, interfaces, workflows, and enterprise interoperability maturity. |
-| Future-State Design | Develop the target interoperability architecture and modernization strategy. |
-| Roadmap Development | Prioritize modernization initiatives and develop the implementation roadmap. |
-| Executive Review & Closeout | Present project findings, strategic recommendations, and the modernization roadmap. |
+| Project Initiation | Charter approval, kickoff, governance, scope confirmation |
+| Discovery Planning | Define discovery questions, stakeholders, evidence, and activities |
+| Discovery | Device inventory, interviews, workflows, connectivity, cybersecurity, vendor assessment |
+| Current-State Assessment |Consolidate findings and document the current environment |
+| Risk & Gap Analysis | Identify and prioritize risks and modernization gaps |
+| Options Evaluation | Evaluate replacement, upgrade, segmentation, controlled-access, and other approaches |
+| Future-State Recommendation | Develop recommended approach and concept architecture |
+| Roadmap Development | Define phases, priorities, dependencies, risks, and implementation considerations |
+| Executive Review & Closeout | Present findings, recommendation, and roadmap |
+
+
+# 13. Project Guiding Principle
+
+Discovery before solution.
+
+The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution.
+
+The project team will first establish the current state, understand clinical and technical requirements, identify risks, and evaluate available options.
+
+The recommended solution will be based on evidence gathered during discovery.
+
 
 ---
 
 
 
 
-Version 1.0 – Initial Release
+Version 2.0 – Focused Project Revision
 
