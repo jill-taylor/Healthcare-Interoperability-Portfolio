@@ -1,6 +1,4 @@
-\# Discovery Assessment
+# Discovery Assessment
 
-
-
-This section documents the findings gathered during the discovery phase and identifies opportunities for modernization.
+This section documents the discovery activities, questions, evidence, and findings used to assess Heartland's legacy connected infusion-pump environment and identify risks, requirements, and potential modernization options.
 
