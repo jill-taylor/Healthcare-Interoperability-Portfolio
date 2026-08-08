@@ -68,6 +68,19 @@ Discovery questions:
 
 
 ## Objective 3 — Understand Connectivity and Integration
+Discovery questions:
+- How are the infusion pumps connected to Heartland's network?
+- Are the pumps connected through wired, wireless, or other connectivity methods?
+- Which pumps are currently network-connected, and are there differences by model or facility?
+- What clinical or enterprise systems communicate with the infusion pumps?
+- What information is exchanged between the pumps and connected systems?
+- What interfaces, protocols, or integration technologies support these exchanges?
+- Are any vendor-specific interfaces or proprietary technologies involved?
+- Where do the interfaces or integration points reside within the current architecture?
+- What happens when a pump loses network connectivity or an interface becomes unavailable?
+- How is connectivity or interface failure detected and communicated to clinical or technical staff?
+- Are there differences in connectivity or integration between the two hospitals or other selected facilities?
+- What dependencies would need to be considered if a pump, interface, network connection, or connected system were changed?
 
 
 
