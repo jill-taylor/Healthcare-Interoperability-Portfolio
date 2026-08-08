@@ -179,16 +179,16 @@ Discovery will require input from clinical, technical, operational, cybersecurit
 
 | Stakeholder / SME | Discovery Role | Information Needed |
 |---|---|---|
-| Executive Sponsor | Provides strategic direction and resolves organizational issues | Project priorities, constraints, decision authority |
-| Clinical Engineering / Biomedical | Primary device SME | Device inventory, models, maintenance, lifecycle, connectivity, vendor support |
+| Executive Sponsor | Executive decision-maker | Project priorities, constraints, decision authority |
+| Clinical Engineering/Biomedical | Primary device SME | Device inventory, models, maintenance, lifecycle, connectivity, vendor support |
 | Nursing Leadership | Clinical workflow SME | Clinical workflows, operational dependencies, workflow risks, staff impact |
 | Clinical Staff | End-user perspective | Actual pump usage, workflow challenges, downtime procedures, operational concerns |
 | Cybersecurity | Security SME | Vulnerabilities, security controls, network exposure, access, monitoring, compensating controls |
 | Network Engineering | Network SME | Network connectivity, segmentation, traffic, network architecture, device dependencies |
-| Integration / Interface Team | Integration SME | Interfaces, protocols, data exchanges, integration dependencies, failure handling |
+| Integration/Interface Team | Integration SME | Interfaces, protocols, data exchanges, integration dependencies, failure handling |
 | IT Operations | Infrastructure SME | Infrastructure support, monitoring, operational procedures, incident response |
 | Pharmacy | Clinical stakeholder | Medication-management dependencies and workflow considerations |
-| Compliance / Privacy | Regulatory stakeholder | Applicable organizational, regulatory, and privacy requirements |
+| Compliance/Privacy | Regulatory stakeholder | Applicable organizational, regulatory, and privacy requirements |
 | Medical Device Vendors | External technical SME | Device capabilities, support status, upgrades, limitations, lifecycle information |
 | Technical Project Manager | Discovery lead | Coordinates interviews, evidence collection, findings, risks, decisions, and documentation |
 
