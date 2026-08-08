@@ -52,6 +52,29 @@ Discovery questions:
 - How can Clinical Engineering records be reconciled with network records?
 - Which devices are vendor-supported?
 
+
+## Objective 2 — Understand Clinical Workflows
+Discovery questions:
+- In which clinical areas are the infusion pumps used?
+- Which types of patients and clinical workflows depend on the pumps?
+- Who interacts with the pumps during a typical clinical workflow?
+- How are pumps selected, configured, monitored, and maintained during use?
+- What information must clinicians receive from or enter into the pump?
+- Does pump connectivity support any part of the clinical workflow?
+- What happens when a pump is unavailable, disconnected, or unable to communicate with another system?
+- Are there differences in workflow between facilities or clinical departments?
+- Which workflow dependencies could create patient-safety or operational risks during modernization?
+- What changes to the current workflow would be difficult or disruptive for clinical staff?
+
+
+## Objective 3 — Understand Connectivity and Integration
+
+
+
+
+
+
+
 ---
 
 # 4. Stakeholders & Subject Matter Experts
