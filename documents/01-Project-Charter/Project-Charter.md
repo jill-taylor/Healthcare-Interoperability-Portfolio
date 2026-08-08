@@ -288,7 +288,7 @@ The success of the Legacy Medical Device Modernization & Secure Integration Proj
 
 | Governance Role | Responsibilities |
 |--------------|-------------|
-| Executive Sponsor | Provides strategic direction and resolves major organizational issues. |
+| Executive Sponsor | Provides strategic direction and resolves major organizational issues |
 | CIO/Technology Sponsor | Provides technology oversight and decision support |
 | Clinical Sponsors | Validate clinical priorities and workflow requirements |
 | Technical SMEs | Provide subject-matter expertise and validate findings |
@@ -316,13 +316,9 @@ The Technical Project Manager will coordinate the project but will not act as th
 
 # 13. Project Guiding Principle
 
-Discovery before solution.
+**Discovery before solution**
 
-The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution.
-
-The project team will first establish the current state, understand clinical and technical requirements, identify risks, and evaluate available options.
-
-The recommended solution will be based on evidence gathered during discovery.
+The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution. The project team will first establish the current state, understand clinical and technical requirements, identify risks, and evaluate available options. The recommended solution will be based on evidence gathered during discovery.
 
 
 ---
