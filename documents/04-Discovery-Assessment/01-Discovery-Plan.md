@@ -10,7 +10,6 @@ Discovery will not assume a specific technical solution.
 
 ---
 
-
 # 2. Discovery Objectives
 
 The discovery objectives define the information and evidence needed to establish the current state of Heartland's legacy connected infusion-pump environment and support evidence-based risk assessment and solution evaluation.
@@ -42,7 +41,7 @@ Identify the dependencies, priorities, resource considerations, and implementati
 ---
 
 # 3. Key Discovery Questions
-## Objective 1 - Establish a Reliable Device Baseline
+## Objective 1 — Establish a Reliable Device Baseline
 Discovery questions: 
 
 - How many infusion pumps are currently in service?
@@ -50,7 +49,7 @@ Discovery questions:
 - Where is each device located?
 - Which devices are network-connected?
 - Who owns and maintains the inventory?
-- How do we reconcile Clinical Engineering records with network records?
+- How can Clinical Engineering records be reconciled with network records?
 - Which devices are vendor-supported?
 
 ---
