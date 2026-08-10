@@ -41,7 +41,7 @@ Identify the dependencies, priorities, resource considerations, and implementati
 ---
 
 # 3. Key Discovery Questions
-## Objective 1 — Establish a Reliable Device Baseline
+## Objective 1: Establish a Reliable Device Baseline
 Discovery questions: 
 
 - How many infusion pumps are currently in service?
@@ -53,7 +53,7 @@ Discovery questions:
 - Which devices are vendor-supported?
 
 
-## Objective 2 — Understand Clinical Workflows
+## Objective 2: Understand Clinical Workflows
 Discovery questions:
 - In which clinical areas are the infusion pumps used?
 - Which types of patients and clinical workflows depend on the pumps?
@@ -67,7 +67,7 @@ Discovery questions:
 - What changes to the current workflow would be difficult or disruptive for clinical staff?
 
 
-## Objective 3 — Understand Connectivity and Integration
+## Objective 3: Understand Connectivity and Integration
 Discovery questions:
 - How are the infusion pumps connected to Heartland's network?
 - Are the pumps connected through wired, wireless, or other connectivity methods?
@@ -83,7 +83,7 @@ Discovery questions:
 - What dependencies would need to be considered if a pump, interface, network connection, or connected system were changed?
 
 
-## Objective 4 — Assess Cybersecurity Considerations
+## Objective 4: Assess Cybersecurity Considerations
 Discovery questions:
 - What security controls currently protect the infusion pumps and their supporting systems?
 - Which infusion pumps are connected to the network, and what level of network access do they require?
@@ -102,7 +102,7 @@ Discovery questions:
 - What cybersecurity dependencies or constraints should be considered before recommending a modernization approach?
 
 
-## Objective 5 — Assess Lifecycle and Vendor Support
+## Objective 5: Assess Lifecycle and Vendor Support
 Discovery questions:
 - What is the age and expected service life of each infusion-pump model?
 - Which manufacturers and models are currently supported by the vendor?
@@ -119,7 +119,7 @@ Discovery questions:
 - What information is needed from vendors to evaluate upgrade, replacement, or other modernization options?
 
 
-## Objective 6 — Identify and Prioritize Risks
+## Objective 6: Identify and Prioritize Risks
 Discovery questions:
 - What characteristics make one infusion pump or device population higher risk than another?
 - Which clinical, operational, cybersecurity, interoperability, and lifecycle factors should be considered when evaluating risk?
@@ -136,7 +136,7 @@ Discovery questions:
 - Who is responsible for validating and accepting the identified risks?
 
 
-## Objective 7 — Establish Decision Criteria for Modernization Options
+## Objective 7: Establish Decision Criteria for Modernization Options
 Discovery questions:
 - What clinical requirements must any modernization approach satisfy?
 - What cybersecurity requirements must be addressed?
@@ -148,12 +148,13 @@ Discovery questions:
 - What financial or resource constraints should be considered?
 - What dependencies could affect the feasibility or timing of each option?
 - Which requirements are mandatory, and which are desirable?
-- What criteria should be used to compare replacement, upgrade, segmentation, controlled access, integration modernization, and other potential approaches?
+- What criteria should be used to compare replacement, upgrade, segmentation, controlled access, integration modernization, and other potential
+- approaches?
 - Who should participate in defining and validating the evaluation criteria?
 - How will the criteria be documented and approved before options are evaluated?
 
 
-## Objective 8 — Establish Inputs for a Phased Strategy
+## Objective 8: Establish Inputs for a Phased Strategy
 Discovery questions:
 - Which devices, facilities, or environments should be considered highest priority based on the findings?
 - What dependencies could affect the sequence of modernization activities?
@@ -168,7 +169,6 @@ Discovery questions:
 - What risks could increase if modernization activities are delayed?
 - What information is still unknown and would need to be resolved before implementation planning?
 - What dependencies and decision points should be carried forward into the modernization roadmap?
-
 
 
 ---
@@ -192,19 +192,109 @@ Discovery will require input from clinical, technical, operational, cybersecurit
 | Medical Device Vendors | External technical SME | Device capabilities, support status, upgrades, limitations, lifecycle information |
 | Technical Project Manager | Discovery lead | Coordinates interviews, evidence collection, findings, risks, decisions, and documentation |
 
-
-
-
 ---
 
 # 5. Discovery Activities
-Interviews, workshops, technical reviews, inventory reconciliation, workflow observation, etc.
+
+Discovery activities will be conducted using a combination of stakeholder interviews, technical reviews, data and inventory analysis, workflow
+assessment, workshops, and evidence validation.
+
+Activities will be coordinated according to the discovery objectives and targeted to the stakeholders and subject matter experts with relevant
+knowledge. Findings will be documented and validated before being incorporated into the current-state assessment and subsequent risk and options
+analysis.
+
+### 5.1 Stakeholder Interviews
+
+Understand organizational priorities, clinical workflows, operational concerns, decision constraints, and stakeholder perspectives.
+
+### 5.2 Device Inventory & Data Reconciliation
+
+Compare Clinical Engineering, IT, network, and other available records to establish a reliable device baseline.
+
+### 5.3 Clinical Workflow Assessment
+
+Examine how infusion pumps are used in selected clinical environments and identify workflow dependencies, variations, and operational constraints.
+
+### 5.4 Connectivity & Integration Review
+
+Review network connectivity, system interfaces, data exchange, integration dependencies, and failure-handling processes.
+
+### 5.5 Cybersecurity & Technical Review
+
+Review relevant security characteristics, network exposure, access controls, monitoring, vulnerabilities, and existing or potential compensating controls.
+
+### 5.6 Lifecycle & Vendor Assessment
+
+Review device age, support status, end-of-life considerations, maintenance history, upgrade capabilities, and vendor dependencies.
+
+### 5.7 Cross-Functional Findings Validation
+
+Bring relevant SMEs together to validate findings, resolve discrepancies, identify gaps, and confirm risks, dependencies, and decision criteria.
 
 ---
 
 # 6. Evidence & Data Sources
-What we're actually going to examine—device inventories, network records, vendor documentation, architecture diagrams, policies, and so forth.
 
+Discovery will use available technical, operational, clinical, and organizational evidence to establish the current state of the selected infusion-pump environment.
+
+Evidence will be collected from multiple sources where practical and reconciled when discrepancies are identified. The objective is to develop a reliable evidence base for identifying risks, requirements, dependencies, and decision criteria.
+
+Potential evidence and data sources include:
+
+### 6.1 Device & Inventory Data
+- Clinical Engineering device inventories
+- Asset management records
+- Device manufacturer and model information
+- Device age and lifecycle records
+- Maintenance records
+- Device location records
+
+### 6.2 Network & Integration Data
+- Network diagrams
+- Network inventory records
+- Device connectivity records
+- Interface documentation
+- Integration architecture diagrams
+- Relevant interface specifications
+- System dependency information
+
+### 6.3 Clinical & Operational Evidence
+- Workflow documentation
+- Clinical procedures
+- Standard operating procedures
+- Downtime procedures
+- Workflow observation notes
+- Stakeholder and SME interview findings
+
+### 6.4 Cybersecurity Evidence
+- Applicable security policies
+- Network segmentation documentation
+- Access-control information
+- Vulnerability information
+- Security assessment findings, where available
+- Monitoring and logging information
+- Existing compensating controls
+
+### 6.5 Vendor & Lifecycle Evidence
+- Vendor documentation
+- Product specifications
+- Support status
+- End-of-life/end-of-support information
+- Upgrade or firmware documentation
+- Maintenance agreements
+- Vendor responses to discovery questions
+
+### 6.6 Organizational & Project Evidence
+- Existing architecture documentation
+- Previous assessment reports
+- Project or modernization plans
+- Organizational policies
+- Applicable requirements and standards
+- Existing risk or issue records
+
+### 6.7 Validation Evidence
+
+Findings will be reviewed with appropriate subject matter experts to confirm accuracy, resolve discrepancies, identify information gaps, and establish confidence in the current-state assessment.
 ---
 
 
