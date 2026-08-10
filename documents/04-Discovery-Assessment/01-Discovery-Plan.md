@@ -149,7 +149,7 @@ Discovery questions:
 - What dependencies could affect the feasibility or timing of each option?
 - Which requirements are mandatory, and which are desirable?
 - What criteria should be used to compare replacement, upgrade, segmentation, controlled access, integration modernization, and other potential
-- approaches?
+  approaches?
 - Who should participate in defining and validating the evaluation criteria?
 - How will the criteria be documented and approved before options are evaluated?
 
