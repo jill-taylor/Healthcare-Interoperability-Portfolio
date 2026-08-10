@@ -293,8 +293,9 @@ Potential evidence and data sources include:
 - Existing risk or issue records
 
 ### 6.7 Validation Evidence
-
 Findings will be reviewed with appropriate subject matter experts to confirm accuracy, resolve discrepancies, identify information gaps, and establish confidence in the current-state assessment.
+
+
 ---
 
 
