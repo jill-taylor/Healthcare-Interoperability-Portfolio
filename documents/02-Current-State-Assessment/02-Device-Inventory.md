@@ -64,10 +64,34 @@ Each device record will capture the following information:
 ---
 # 5. Device Inventory
 
-The detailed inventory will be maintained as the current-state device baseline and updated as discovery findings are validated.
+The current-state inventory contains 480 fictional infusion pumps distributed across the selected Heartland facilities.
 
-| Device ID | Facility | Clinical Area | Manufacturer | Model | Year | Network | Integration | Support | Lifecycle | Risk |
-|---|---|---|---|---|---:|---|---|---|---|---|
-| HP-0001 | Heartland Regional Medical Center | ICU | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| HP-0002 | Heartland Regional Medical Center | ICU | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
-| HP-0003 | Heartland Regional Medical Center | Medical/Surgical | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+The detailed device-level inventory is maintained in the accompanying `heartland_infusion_pump_inventory.csv` dataset.
+
+The inventory includes device identity, facility, clinical area, manufacturer, model, age, network connectivity, integration status, vendor support, lifecycle status, maintenance status, and preliminary risk tier.
+
+The inventory will serve as the baseline for subsequent risk assessment, interface analysis, geographic visualization, and modernization planning.
+
+## Device Inventory Summary
+
+## Model Summary
+
+| Model | Manufacturer | Devices | Avg Age (Years) | Network Connected | Integrated | Limited Support | Unsupported | High Risk |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| HI-100 | Heartland Medical Technologies | 90 | 15.3 | 0 | 0 | 41 | 49 | 90 |
+| HI-200 | Heartland Medical Technologies | 150 | 10.0 | 102 | 36 | 44 | 0 | 6 |
+| HI-300 | Apex Clinical Devices | 170 | 5.9 | 170 | 140 | 0 | 0 | 0 |
+| HI-400 | Apex Clinical Devices | 70 | 2.6 | 70 | 67 | 0 | 0 | 0 |
+| **Total** | | **480** | | **342** | **243** | **85** | **49** | **96** |
+
+## Facility Summary
+
+| Facility | Devices | Fleet % | Network Connected | Integrated | Aging or Beyond | Aging or Beyond % | End-of-Life | End-of-Support | Limited Support | Unsupported | High Risk | High Risk % |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Heartland Community Clinic Network | 30 | 6.2% | 22 | 16 | 19 | 63.3% | 4 | 3 | 5 | 5 | 8 | 26.7% |
+| Heartland Community Hospital | 100 | 20.8% | 75 | 56 | 47 | 47.0% | 11 | 7 | 16 | 9 | 19 | 19.0% |
+| Heartland Regional Medical Center | 280 | 58.3% | 190 | 129 | 147 | 52.5% | 41 | 13 | 54 | 26 | 57 | 20.4% |
+| Heartland Rural Hospital North | 40 | 8.3% | 31 | 25 | 23 | 57.5% | 4 | 3 | 6 | 6 | 8 | 20.0% |
+| Heartland Rural Hospital South | 30 | 6.2% | 24 | 17 | 16 | 53.3% | 3 | 1 | 4 | 3 | 4 | 13.3% |
+
+> **Note:** The inventory is fictional and represents the current-state baseline established for this portfolio. Counts and risk tiers are preliminary and should be treated as assessment inputs rather than validated clinical or operational findings.
