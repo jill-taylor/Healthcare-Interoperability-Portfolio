@@ -66,7 +66,7 @@ Each device record will capture the following information:
 
 The current-state inventory contains 480 fictional infusion pumps distributed across the selected Heartland facilities.
 
-The detailed device-level inventory is maintained in the accompanying `heartland_infusion_pump_inventory.csv` dataset.
+The detailed device-level inventory is maintained in the accompanying [`heartland_infusion_pump_inventory.csv`](../../data/heartland_infusion_pump_inventory.csv) dataset.
 
 The inventory includes device identity, facility, clinical area, manufacturer, model, age, network connectivity, integration status, vendor support, lifecycle status, maintenance status, and preliminary risk tier.
 
