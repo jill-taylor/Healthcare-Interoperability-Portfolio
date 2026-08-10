@@ -64,7 +64,7 @@ The current-state baseline contains 12 representative interfaces and integration
 | Active | 8 |
 | Partial | 3 |
 | Non-integrated | 1 |
-| High Critically | 7 |
+| High Criticality | 7 |
 | Moderate Criticality | 5 |
 
 ---
