@@ -1,39 +1,51 @@
 # Development Lab Setup
 
-
 ## Purpose
 
-This Healthcare Development Lab supports the design, documentation, and demonstration of the **Heartland Integrated Health System (HIHS) Enterprise Interoperability Modernization Program**, a fictional healthcare consulting case study.
+The Healthcare Development Lab is a personal technical environment used to design, develop, document, and demonstrate healthcare technology and interoperability projects.
 
-While the Heartland Integrated Health System (HIHS) and its modernization initiative are fictional, the project methodologies, healthcare interoperability standards, technical architecture, project management practices, and supporting artifacts are based on real-world industry best practices. The lab provides a structured environment for developing consulting deliverables, architecture documentation, API demonstrations, database models, GIS analyses, and other portfolio artifacts that reflect enterprise healthcare technology initiatives.
+The lab supports the Heartland Integrated Health System (HIHS) portfolio, a fictional healthcare consulting case study focused on enterprise interoperability modernization, medical device integration, healthcare technology implementation, and digital transformation.
+
+Although HIHS and its modernization program are fictional, the lab uses real technologies, healthcare interoperability standards, development practices, and project management methods to create realistic portfolio artifacts.
+
+The environment supports hands-on learning and experimentation across:
+
+- Healthcare interoperability
+- FHIR and HL7
+- REST APIs and API testing
+- Database development
+- Systems integration
+- Architecture and technical documentation
+- Geographic information systems (GIS)
+- Technical project management
+- Healthcare technology modernization
 
 ---
 
 # Hardware
 
 | Component | Specification |
-|------------|---------------|
+|---|---|
 | Computer | Dell Precision 3680 Tower |
 | Processor | Intel Core i7 |
 | Memory | 64 GB |
-| Storage | |
 | Operating System | Windows 11 Pro |
 
 ---
 
-# Software Inventory
+# Software Environment
 
-| Software | Version | Purpose | Status |
-|----------|----------|---------|--------|
-| Visual Studio Code | | Documentation & Development | Installed |
-| Git | | Version Control | Installed |
-| GitHub Desktop | | Repository Management | Installed |
-| PostgreSQL | | Database Platform | Installed |
-| pgAdmin | | Database Administration | Installed |
-| Postman | | API Testing | Installed |
-| QGIS | | GIS Mapping & Spatial Analysis | Installed |
-| draw.io Desktop | | Architecture Diagrams | Installed |
-| Docker Desktop | | Container Platform | Planned |
+| Software | Purpose | Status |
+|---|---|---|
+| Visual Studio Code | Documentation and development | Installed |
+| Git | Version control | Installed |
+| GitHub Desktop | Repository management | Installed |
+| PostgreSQL | Database development | Installed |
+| pgAdmin | Database administration | Installed |
+| Postman | API development and testing | Installed |
+| QGIS | GIS mapping and spatial analysis | Installed |
+| draw.io Desktop | Architecture and systems diagrams | Installed |
+| Docker Desktop | Containerized development | Installed |
 
 ---
 
@@ -50,70 +62,3 @@ Healthcare-Lab/
 ├── Templates/
 ├── Reading/
 └── Downloads/
-```
-
----
-
-# Repository Structure
-
-```text
-Heartland-Integrated-Health-System/
-
-documents/
-diagrams/
-maps/
-data/
-lab/
-presentations/
-assets/
-```
-
----
-
-# Development Standards
-
-- All project documentation is written in Markdown.
-- Source control is maintained using Git and GitHub.
-- Architecture diagrams are created using draw.io.
-- Geographic analysis is performed using QGIS.
-- Database demonstrations use PostgreSQL.
-- API testing is performed with Postman.
-- Project artifacts follow version control best practices.
-
----
-
-# Healthcare Standards
-
-The portfolio incorporates industry standards and best practices including:
-
-- HL7 FHIR
-- HL7 Version 2
-- REST APIs
-- JSON
-- OAuth 2.0 (future)
-- SMART on FHIR (future)
-
----
-
-# Current Project
-
-**Heartland Integrated Health System (HIHS)**
-
-Enterprise Interoperability Modernization Program
-
-Status:
-Project Charter
-
-Phase:
-Discovery
-
----
-
-# Future Enhancements
-
-- HAPI FHIR Server
-- NextGen (Mirth) Connect
-- Synthetic healthcare datasets
-- Enterprise architecture repository
-- Interactive QGIS dashboards
-- Executive reporting dashboards
