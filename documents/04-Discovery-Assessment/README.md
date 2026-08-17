@@ -1,4 +1,4 @@
 # Discovery Assessment
 
-This section documents the discovery activities, questions, evidence, and findings used to assess Heartland's legacy connected infusion-pump environment and identify risks, requirements, and potential modernization options.
+This section documents the discovery activities, questions, evidence, and findings used to assess Heartland's legacy connected infusion-pump environment and identify risks, requirements, dependencies, and potential modernization options.
 
