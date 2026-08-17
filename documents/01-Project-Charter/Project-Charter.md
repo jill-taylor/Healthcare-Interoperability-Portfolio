@@ -108,7 +108,7 @@ The future state should:
 - Minimize disruption to patients and clinical staff
 - Establish measurable outcomes for the future-state environment
 
-The project will use discovery findings and stakeholder input to determine the appropriate combination of technical, operational, workflow, communication, and lifecycle strategies.
+Discovery findings and stakeholder input will determine the appropriate combination of technical, operational, workflow, communication, and lifecycle strategies.
 
 ---
 
