@@ -73,9 +73,8 @@ The inventory includes device identity, facility, clinical area, manufacturer, m
 
 The inventory will serve as the baseline for subsequent risk assessment, workflow analysis, interface analysis, geographic visualization, and modernization planning.
 
-## Device Inventory Summary
 
-### Model Summary
+## Model Summary
 
 | Model | Manufacturer | Devices | Avg Age (Years) | Network Connected | Integrated | Limited Support | Unsupported | High Risk |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -85,7 +84,7 @@ The inventory will serve as the baseline for subsequent risk assessment, workflo
 | HI-400 | Apex Clinical Devices | 70 | 2.6 | 70 | 67 | 0 | 0 | 0 |
 | **Total** | | **480** | | **342** | **243** | **85** | **49** | **96** |
 
-### Facility Summary
+## Facility Summary
 
 | Facility | Devices | Fleet % | Network Connected | Integrated | Aging or Beyond | Aging or Beyond % | End-of-Life | End-of-Support | Limited Support | Unsupported | High Risk | High Risk % |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
