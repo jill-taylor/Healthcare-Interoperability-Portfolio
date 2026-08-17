@@ -59,7 +59,6 @@ The organization's continued growth has created a diverse technology environment
 
 # 2. Business Problem
 
-
 Heartland has identified a population of legacy, network-connected infusion pumps that may not fully align with current enterprise technology, security, interoperability, and clinical workflow requirements.
 
 The devices remain important to clinical operations and cannot simply be removed from service. However, their age, connectivity capabilities, vendor support status, integration limitations, security characteristics, and workflow dependencies may create operational and cybersecurity concerns.
@@ -172,8 +171,8 @@ Define the information leadership and operational stakeholders need to make info
 **11. Develop a Phased Modernization Strategy**
 
 Recommend a practical sequence for addressing the highest-priority devices and environments while maintaining clinical operations.
-**
-12. Define Measures of Success**
+
+**12. Define Measures of Success**
 
 Identify meaningful measures that extend beyond implementation or adoption and assess whether the future-state environment improves workflow, information availability, decision support, risk management, and operational outcomes.
 
@@ -268,8 +267,6 @@ Executive leadership has an evidence-based recommendation for managing and moder
 
 # 7. Key Stakeholders
 
-## 7. Key Stakeholders
-
 The success of the Legacy Medical Device Modernization & Clinical Workflow Integration Project depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team.
 
 | Stakeholder | Role | Primary Responsibility |
@@ -291,7 +288,7 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 
 ---
 
-## 8. Assumptions and Constraints
+# 8. Assumptions and Constraints
 
 ## Assumptions
 - Executive sponsorship remains active.
@@ -315,7 +312,7 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 
 ---
 
-## 9. Project Risks and Mitigation Strategies
+# 9. Project Risks and Mitigation Strategies
 
 | Risk | Potential Impact | Mitigation Strategy |
 |---|---|---|
@@ -335,7 +332,7 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 
 ---
 
-## 10. Project Deliverables
+# 10. Project Deliverables
 
 | Deliverable | Description |
 |---|---|
@@ -361,7 +358,7 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 
 ---
 
-## 11. Governance
+# 11. Governance
 
 | Governance Role | Responsibilities |
 |---|---|
@@ -380,7 +377,7 @@ The Technical Project Manager will ensure that technical findings are translated
 Governance will emphasize timely decision-making, clear ownership, cross-functional communication, and alignment between technical recommendations and clinical and operational needs.
 
 ---
-## 12. High-Level Timeline
+# 12. High-Level Timeline
 
 | Phase | Description |
 |---|---|
@@ -398,11 +395,41 @@ Governance will emphasize timely decision-making, clear ownership, cross-functio
 
 ---
 
-# 13. Project Guiding Principle
+# 13. Project Guiding Principles
 
 ### 1. Discovery Before Solution
 
 The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution. The project team will first establish the current state, understand clinical and technical requirements, examine workflows and information flows, identify risks and stakeholder needs, and evaluate available options. The recommended approach will be based on evidence gathered during discovery and its ability to support clinical, operational, technical, and organizational needs.
+
+### 2. Workflow Before Technology
+
+Technology decisions will be evaluated against real-world clinical workflows. The project will seek to understand how work is performed before determining how technology should support that work.
+
+### 3. Data Is a Foundation, Not the Outcome
+
+Reliable data and interoperability are necessary foundations, but the project will evaluate whether information is accessible, understandable, usable, and available at the point where it can support a decision or action.
+
+### 4. Communication Enables Action
+
+Communication will be treated as a core project and solution capability. Stakeholders must understand what is changing, why it matters, what they are responsible for, and what action is expected.
+
+### 5. Decision Support Over Data Availability
+
+The project will focus not only on whether information can be exchanged, but whether the resulting information supports meaningful decisions by the people responsible for clinical and operational actions.
+
+### 6. Action Over Adoption
+
+Successful implementation will not be defined solely by whether technology is deployed or adopted. The project will consider whether the solution enables the intended workflow, decisions, behaviors, and outcomes.
+
+### 7. Outcomes Over Measurement Alone
+
+Measures should serve a purpose. The project will seek to connect measurements to decisions and actions rather than treating measurement as the final objective.
+
+### 8. Clinical Safety and Continuity First
+
+All modernization options must preserve safe clinical operations and minimize disruption to patients and clinical staff.
+
+
 
 
 ---
