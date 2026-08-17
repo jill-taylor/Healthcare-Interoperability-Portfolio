@@ -22,7 +22,7 @@ Heartland's continued growth through hospital and healthcare-service acquisition
 
 Immediate replacement of the entire legacy device population is not considered practical because of cost, clinical dependencies, operational disruption, and device availability. At the same time, continued operation of aging connected devices may introduce cybersecurity, interoperability, support, workflow, usability, and patient-safety risks.
 
-This project will provide Heartland with an evidence-based assessment of its legacy connected infusion-pump environment and a practical, phased path toward modernization. The assessment encompasses the device environment, clinical workflows, information and communication flows, connectivity, integration requirements, cybersecurity considerations, vendor support, operational dependencies, and geographic distribution.
+The result will be an evidence-based assessment of Heartland's legacy connected infusion-pump environment and a practical, phased path toward modernization. The assessment encompasses the device environment, clinical workflows, information and communication flows, connectivity, integration requirements, cybersecurity considerations, vendor support, operational dependencies, and geographic distribution.
 
 Modernization is viewed as more than a technology upgrade. Interoperability and infrastructure provide the foundation for reliable information exchange, but the desired outcome is a clinical environment in which the right information reaches the right people at the right point in the workflow, supports sound decisions, and enables appropriate action.
 
