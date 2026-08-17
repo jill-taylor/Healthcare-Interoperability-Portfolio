@@ -2,9 +2,9 @@
 
 The purpose of the discovery phase is to establish a reliable understanding of Heartland Integrated Health System's legacy, network-connected infusion-pump environment before evaluating modernization options.
 
-Discovery will examine the device population, locations, clinical workflows, connectivity, system integrations, cybersecurity considerations, vendor support, lifecycle status, operational dependencies, and geographic distribution of affected devices.
+Discovery will examine the device population, locations, clinical workflows, connectivity, system integrations, cybersecurity considerations, vendor support, lifecycle status, operational dependencies, information flows, communication needs, and geographic distribution of affected devices.
 
-The discovery process will use stakeholder interviews, technical reviews, available documentation, inventory analysis, workflow assessment, and other appropriate evidence-gathering activities. Findings will be validated with relevant subject matter experts and used to identify risks, requirements, dependencies, and decision criteria for the subsequent assessment and options-evaluation phases.
+The discovery process will use stakeholder interviews, technical reviews, available documentation, inventory analysis, workflow assessment, and other appropriate evidence-gathering activities. Findings will be validated with relevant subject matter experts and used to identify risks, requirements, dependencies, communication needs, and decision criteria for the subsequent assessment and options-evaluation phases.
 
 Discovery will not assume a specific technical solution.
 
@@ -18,7 +18,7 @@ The discovery objectives define the information and evidence needed to establish
 Determine which legacy infusion pumps are in service, including manufacturer, model, age, location, ownership, connectivity, and support status.
 
 ### 2.2 Understand Clinical Workflows
-Determine how selected infusion pumps are used in clinical environments and identify workflow dependencies or operational constraints that could affect modernization.
+Determine how selected infusion pumps are used in clinical environments and identify workflow dependencies, information needs, communication points, usability concerns, or operational constraints that could affect modernization.
 
 ### 2.3 Understand Connectivity and Integration
 Determine how selected pumps connect to networks and clinical systems, what data is exchanged, and what integration dependencies exist.
@@ -65,7 +65,10 @@ Discovery questions:
 - Are there differences in workflow between facilities or clinical departments?
 - Which workflow dependencies could create patient-safety or operational risks during modernization?
 - What changes to the current workflow would be difficult or disruptive for clinical staff?
-
+- Is the information provided by connected systems available at the point where clinicians need it?
+- Are there situations where staff must obtain information from multiple systems or people to complete the workflow?
+- Where do communication handoffs occur between clinical, technical, and operational teams?
+- Are users able to understand what the technology is telling them and what action is expected?
 
 ## Objective 3: Understand Connectivity and Integration
 Discovery questions:
@@ -81,6 +84,8 @@ Discovery questions:
 - How is connectivity or interface failure detected and communicated to clinical or technical staff?
 - Are there differences in connectivity or integration between the two hospitals or other selected facilities?
 - What dependencies would need to be considered if a pump, interface, network connection, or connected system were changed?
+- Does the information exchanged between systems arrive in a form that is useful to the people who need it?
+- What information is lost, delayed, duplicated, or difficult to interpret across current interfaces?
 
 
 ## Objective 4: Assess Cybersecurity Considerations
@@ -175,7 +180,9 @@ Discovery questions:
 
 # 4. Stakeholders & Subject Matter Experts
 
-Discovery will require input from clinical, technical, operational, cybersecurity, and vendor stakeholders. Each stakeholder group provides a different perspective on the current infusion-pump environment. The Technical Project Manager will coordinate discovery activities, document findings, and ensure that information is validated by the appropriate subject matter experts.
+Discovery will require input from clinical, technical, operational, cybersecurity, and vendor stakeholders. Each stakeholder group provides a different perspective on the current infusion-pump environment.
+
+The Technical Project Manager will coordinate discovery activities, document findings, facilitate communication across stakeholder groups, and ensure that information is validated by the appropriate subject matter experts.
 
 | Stakeholder / SME | Discovery Role | Information Needed |
 |---|---|---|
@@ -213,7 +220,7 @@ Compare Clinical Engineering, IT, network, and other available records to establ
 
 ### 5.3 Clinical Workflow Assessment
 
-Examine how infusion pumps are used in selected clinical environments and identify workflow dependencies, variations, and operational constraints.
+Examine how infusion pumps are used in selected clinical environments and identify workflow dependencies, variations, information needs, usability concerns, communication points, and operational constraints.
 
 ### 5.4 Connectivity & Integration Review
 
@@ -229,7 +236,7 @@ Review device age, support status, end-of-life considerations, maintenance histo
 
 ### 5.7 Cross-Functional Findings Validation
 
-Bring relevant SMEs together to validate findings, resolve discrepancies, identify gaps, and confirm risks, dependencies, and decision criteria.
+Bring relevant SMEs together to validate findings, resolve discrepancies, identify gaps, and confirm risks, dependencies, communication needs, and decision criteria.
 
 ---
 
@@ -292,7 +299,16 @@ Potential evidence and data sources include:
 - Applicable requirements and standards
 - Existing risk or issue records
 
-### 6.7 Validation Evidence
+### 6.7 Communication & Organizational Evidence
+- Stakeholder communication records
+- Escalation procedures
+- Incident communication procedures
+- Change-management materials, where available
+- Training materials
+- User feedback or issue records
+- Meeting notes documenting operational or workflow concerns
+
+### 6.8 Validation Evidence
 Findings will be reviewed with appropriate subject matter experts to confirm accuracy, resolve discrepancies, identify information gaps, and establish confidence in the current-state assessment.
 
 
