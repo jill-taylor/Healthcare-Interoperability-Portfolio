@@ -4,7 +4,7 @@ The purpose of this document is to establish a current-state baseline of the int
 
 The inventory identifies the systems, devices, applications, and infrastructure components involved in exchanging information or supporting connectivity within the modernization scope.
 
-The interface inventory provides a foundation for current-state architecture, cybersecurity, clinical workflow, risk assessment, and modernization planning.
+The interface inventory provides a foundation for understanding current-state information flows and supports subsequent architecture, cybersecurity, clinical workflow, risk assessment, and modernization analysis.
 
 ---
 
@@ -23,8 +23,9 @@ The assessment includes:
 - Vendor support dependencies
 - Security and identity dependencies
 - Interface monitoring and operational support
+- Information-flow dependencies that may affect clinical or operational workflows
 
-The inventory does not attempt to document every interface within HIHS. Interfaces are included when they may affect device connectivity, clinical information exchange, operational support, cybersecurity, or modernization decisions.
+The inventory does not attempt to document every interface within HIHS. Interfaces are included when they may affect device connectivity, clinical information exchange, operational support, cybersecurity, workflow, or modernization decisions.
 
 
 ---
@@ -47,7 +48,9 @@ Each interface record will capture the following information:
 | Failure Handling | Expected response when the interface is unavailable |
 | Dependencies | Systems, infrastructure, vendors, or services required |
 | Notes | Relevant assumptions, unknowns, or validation requirements |
-
+| Workflow Dependency | Clinical or operational workflow affected by the interface |
+| Information Criticality | Preliminary importance of the information exchanged to clinical or operational activities |
+| Notes | Relevant assumptions, unknowns, or validation requirements |
 
 ---
 
@@ -57,7 +60,7 @@ The detailed interface inventory is maintained in the accompanying
 [`heartland_interface_inventory.csv`](../../data/heartland_interface_inventory.csv)
 dataset.
 
-The current-state baseline contains 12 representative interfaces and integration dependencies.
+The current-state baseline contains 12 representative interfaces and integration dependencies selected to illustrate the types of connections and dependencies requiring assessment.
 
 | Category | Count |
 |---|---|
@@ -71,7 +74,7 @@ The current-state baseline contains 12 representative interfaces and integration
 
 # 5. Key Integration Dependencies
 
-The preliminary interface inventory identifies several dependencies that require additional discovery and validation:
+The preliminary interface inventory identifies several dependencies that require additional discovery and validation because they may affect connectivity, information flow, clinical workflow, or operational support:
 
 - Infusion integration gateway
 - Enterprise interface engine
@@ -101,6 +104,7 @@ Validation should confirm:
 - Security dependencies
 - Vendor dependencies
 - Facility-specific differences
+- Workflow impact and affected users
 
 Unknown or conflicting information should be documented rather than assumed.
 
