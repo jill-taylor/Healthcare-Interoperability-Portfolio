@@ -49,7 +49,6 @@ The environment supports hands-on learning and experimentation across:
 
 ---
 
-
 # Lab Role in the Heartland Project
 
 The Healthcare Development Lab provides the technical environment used to develop, test, document, and demonstrate Heartland portfolio artifacts.
@@ -66,7 +65,6 @@ The lab supports both analytical and hands-on technical activities, including:
 - Containerized development and integration testing
 
 Not every Heartland artifact requires implementation in the lab. The lab is used selectively where hands-on technical work adds value to the project analysis or demonstrates a relevant technical capability.
-
 
 # Project Directory Structure
 
