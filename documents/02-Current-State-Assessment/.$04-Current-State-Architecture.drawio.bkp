@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="1H-e2lK0S56htVfLlBXc">
-    <mxGraphModel dx="2054" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="RUj2KCe7qd9aQCXer6SL-7" edge="1" parent="1" source="RUj2KCe7qd9aQCXer6SL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUj2KCe7qd9aQCXer6SL-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RUj2KCe7qd9aQCXer6SL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Infusion Integration Gateway" vertex="1">
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Intusion Integration Gateway" vertex="1">
           <mxGeometry height="60" width="120" x="230" y="370" as="geometry" />
         </mxCell>
         <mxCell id="RUj2KCe7qd9aQCXer6SL-9" edge="1" parent="1" source="RUj2KCe7qd9aQCXer6SL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUj2KCe7qd9aQCXer6SL-8">
