@@ -47,10 +47,10 @@ Each interface record will capture the following information:
 | Criticality | Preliminary operational importance |
 | Failure Handling | Expected response when the interface is unavailable |
 | Dependencies | Systems, infrastructure, vendors, or services required |
-| Notes | Relevant assumptions, unknowns, or validation requirements |
-| Workflow Dependency | Clinical or operational workflow affected by the interface |
 | Information Criticality | Preliminary importance of the information exchanged to clinical or operational activities |
+| Workflow Dependency | Clinical or operational workflow affected by the interface |
 | Notes | Relevant assumptions, unknowns, or validation requirements |
+
 
 ---
 
