@@ -1,23 +1,37 @@
-# Current-State Architecture
-
-## 1. Purpose
-
-## 2. Architecture Scope
-
-## 3. Architecture Components
-
-## 4. Connectivity and Integration
-
-## 5. Information Flows
-
-## 6. Network and Security Boundaries
-
-## 7. Operational and Support Dependencies
-
-## 8. Current-State Architecture Diagram
-
-## 9. Architecture Observations
-
-## 10. Known Gaps and Unknowns
-
-## 11. Validation Requirements
+<mxfile host="Electron">
+  <diagram name="Page-1" id="1H-e2lK0S56htVfLlBXc">
+    <mxGraphModel dx="1414" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-3" edge="1" parent="1" source="RUj2KCe7qd9aQCXer6SL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUj2KCe7qd9aQCXer6SL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Infusion Pumps" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-5" edge="1" parent="1" source="RUj2KCe7qd9aQCXer6SL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUj2KCe7qd9aQCXer6SL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Network Infrastructure" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-7" edge="1" parent="1" source="RUj2KCe7qd9aQCXer6SL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUj2KCe7qd9aQCXer6SL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Intusion Integration Gateway" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-9" edge="1" parent="1" source="RUj2KCe7qd9aQCXer6SL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUj2KCe7qd9aQCXer6SL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Enterprise Interface Engine" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="RUj2KCe7qd9aQCXer6SL-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EHR" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
