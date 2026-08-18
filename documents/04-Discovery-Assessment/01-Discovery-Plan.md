@@ -184,7 +184,7 @@ Discovery will require input from clinical, technical, operational, cybersecurit
 
 The Technical Project Manager will coordinate discovery activities, document findings, facilitate communication across stakeholder groups, and ensure that information is validated by the appropriate subject matter experts.
 
-| Stakeholder / SME | Discovery Role | Information Needed |
+| Stakeholder/SME | Discovery Role | Information Needed |
 |---|---|---|
 | Executive Sponsor | Executive decision-maker | Project priorities, constraints, decision authority |
 | Clinical Engineering/Biomedical | Primary device SME | Device inventory, models, maintenance, lifecycle, connectivity, vendor support |
