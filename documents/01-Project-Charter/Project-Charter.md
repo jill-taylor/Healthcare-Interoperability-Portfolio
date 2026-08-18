@@ -179,40 +179,45 @@ Identify meaningful measures that extend beyond implementation or adoption and a
 # 5. Project Scope
 
 ## In Scope
-- Selected legacy network-connected infusion pumps
-- Device inventory and classification
-- Device location and facility distribution
-- Clinical workflow discovery
-- Information and communication-flow discovery
-- Device connectivity and integration assessment
-- Cybersecurity risk assessment
-- Vendor and lifecycle assessment
-- Stakeholder interviews and workshops
-- Usability and workflow assessment
-- Current-state architecture
-- Current-state information flows
-- Risk prioritization
-- Decision-support requirements
-- Evaluation of modernization options
-- Future-state concept architecture
-- Communication and change-management considerations
-- Stakeholder readiness considerations
-- Measures of success and outcome considerations
-- Phased modernization roadmap
-- Executive recommendation
+
+| Area | Scope |
+|---|---|
+| Devices | Selected legacy network-connected infusion pumps |
+| Inventory | Device inventory, classification, location, and facility distribution |
+| Clinical Workflow | Workflow discovery, usability, information needs, and dependencies |
+| Information & Communication | Information flows, communication dependencies, gaps, and ownership |
+| Connectivity & Integration | Device connectivity, interfaces, integration, and information exchange |
+| Cybersecurity | Device security characteristics, vulnerabilities, exposure, and risk |
+| Lifecycle & Vendor Support | Device lifecycle, vendor support, and remediation considerations |
+| Stakeholders | Interviews, workshops, stakeholder readiness, and engagement |
+| Architecture | Current-state architecture and information flows |
+| Risk & Gap Analysis | Risk prioritization and gaps across technology, workflow, security, interoperability, and lifecycle |
+| Decision Support | Modernization evaluation criteria, priorities, tradeoffs, and decision requirements |
+| Modernization | Evaluation of options, future-state concept architecture, and phased roadmap |
+| Communication & Change | Communication, stakeholder engagement, change-management, and implementation considerations |
+| Outcomes | Measures of success and future-state outcome considerations |
+| Executive Recommendation | Recommended approach, priorities, risks, and next steps |
 
 ## Out of Scope
-- Replacement of all Heartland medical devices
-- Production deployment of security technologies
-- Production device configuration
-- Development of medical-device software
-- Development of production interfaces
-- Procurement or contract negotiation
-- Clinical validation of medication protocols
-- Replacement of the EHR
-- Enterprise-wide interoperability modernization
-- Operational support following project completion
-- Direct clinical outcome evaluation beyond the scope of the discovery and planning effort
+
+| Area | Exclusion |
+|---|---|
+| Enterprise Device Replacement | Replacement of all Heartland medical devices |
+| Production Security Deployment | Production deployment of security technologies |
+| Device Configuration | Production device configuration |
+| Medical-Device Software | Development of medical-device software |
+| Production Interfaces | Development of production interfaces |
+| Procurement | Procurement or contract negotiation |
+| Clinical Validation | Clinical validation of medication protocols |
+| EHR Replacement | Replacement of the EHR |
+| Enterprise Interoperability | Enterprise-wide interoperability modernization |
+| Post-Project Operations | Operational support following project completion |
+| Clinical Outcomes | Direct clinical outcome evaluation beyond the discovery and planning effort |
+
+
+
+
+
 
 ---
 
