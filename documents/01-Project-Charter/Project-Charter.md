@@ -81,11 +81,9 @@ The organization therefore needs a structured discovery and decision-making proc
 
 ### Core PM Question
 
-How can Heartland safely modernize its legacy connected infusion-pump environment in a way that improves clinical workflow, enables reliable information exchange, supports effective decision-making and action, and reduces risk without disrupting patient care?
-
+How can Heartland safely modernize its legacy connected infusion-pump environment to improve workflow, information exchange, decision support, and action without disrupting patient care?
 
 ---
-
 
 # 3. Project Vision
 
