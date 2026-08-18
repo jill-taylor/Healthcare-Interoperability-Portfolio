@@ -214,12 +214,7 @@ Identify meaningful measures that extend beyond implementation or adoption and a
 | Post-Project Operations | Operational support following project completion |
 | Clinical Outcomes | Direct clinical outcome evaluation beyond the discovery and planning effort |
 
-
-
-
-
-
----
+--
 
 # 6. Success Criteria
 
@@ -373,9 +368,7 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 | Project Team | Performs discovery, analysis, documentation, stakeholder engagement, and solution evaluation |
 | Steering Committee | Reviews major findings, risks, options, recommendations, priorities, and implementation considerations |
 
-The Technical Project Manager will coordinate the project but will not act as the technical authority for clinical engineering, cybersecurity, networking, or medical-device engineering decisions.
-
-The Technical Project Manager will ensure that technical findings are translated into clear information for the appropriate stakeholders and that decisions, responsibilities, dependencies, risks, and follow-up actions are documented and communicated.
+The Technical Project Manager will coordinate the project without acting as the technical authority for clinical engineering, cybersecurity, networking, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that decisions, responsibilities, dependencies, risks, and follow-up actions are documented and communicated.
 
 Governance will emphasize timely decision-making, clear ownership, cross-functional communication, and alignment between technical recommendations and clinical and operational needs.
 
