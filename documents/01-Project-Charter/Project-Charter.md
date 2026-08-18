@@ -42,8 +42,8 @@ Originally established as a single community hospital, HIHS has expanded through
 
 HIHS currently consists of:
 
-- Heartland Regional Medical Center — Flagship tertiary care hospital
-- Heartland Community Hospital — Community acute care hospital
+- **Heartland Regional Medical Center — Flagship tertiary care hospital**
+- **Heartland Community Hospital — Community acute care hospital**
 - Eight primary care clinics
 - Three specialty care clinics
 - Two urgent care centers
