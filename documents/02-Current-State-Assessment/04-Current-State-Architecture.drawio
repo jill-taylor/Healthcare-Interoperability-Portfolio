@@ -1,6 +1,6 @@
-<mxfile host="Electron">
-  <diagram name="Page-1" id="1H-e2lK0S56htVfLlBXc">
-    <mxGraphModel dx="2054" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="Electron" pages="3">
+  <diagram name="Current-State Architecture" id="1H-e2lK0S56htVfLlBXc">
+    <mxGraphModel dx="707" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,351 @@
         </mxCell>
         <mxCell id="RUj2KCe7qd9aQCXer6SL-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EHR" vertex="1">
           <mxGeometry height="60" width="120" x="230" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4Xflm3fwXf10Fk09H1A2" name="Component Inventory">
+    <mxGraphModel dx="1131" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jci8VnBttGaRo6ycO5IC-1" parent="1" style="shape=table;startSize=40;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;fontStyle=1" value="Component Inventory" vertex="1">
+          <mxGeometry height="580" width="740" x="50" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-2" parent="jci8VnBttGaRo6ycO5IC-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="67" width="740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-3" parent="jci8VnBttGaRo6ycO5IC-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;b&gt;ID&lt;/b&gt;" vertex="1">
+          <mxGeometry height="67" width="246" as="geometry">
+            <mxRectangle height="67" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-4" parent="jci8VnBttGaRo6ycO5IC-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;b&gt;Component&lt;/b&gt;" vertex="1">
+          <mxGeometry height="67" width="248" x="246" as="geometry">
+            <mxRectangle height="67" width="248" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-5" parent="jci8VnBttGaRo6ycO5IC-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;b&gt;Role&lt;/b&gt;" vertex="1">
+          <mxGeometry height="67" width="246" x="494" as="geometry">
+            <mxRectangle height="67" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-6" parent="jci8VnBttGaRo6ycO5IC-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="52" width="740" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-7" parent="jci8VnBttGaRo6ycO5IC-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="C-01" vertex="1">
+          <mxGeometry height="52" width="246" as="geometry">
+            <mxRectangle height="52" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-8" parent="jci8VnBttGaRo6ycO5IC-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Infusion Pumps" vertex="1">
+          <mxGeometry height="52" width="248" x="246" as="geometry">
+            <mxRectangle height="52" width="248" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-9" parent="jci8VnBttGaRo6ycO5IC-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Generates infusion/device data" vertex="1">
+          <mxGeometry height="52" width="246" x="494" as="geometry">
+            <mxRectangle height="52" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-10" parent="jci8VnBttGaRo6ycO5IC-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="91" width="740" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-11" parent="jci8VnBttGaRo6ycO5IC-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="C-02" vertex="1">
+          <mxGeometry height="91" width="246" as="geometry">
+            <mxRectangle height="91" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-12" parent="jci8VnBttGaRo6ycO5IC-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Network Infrastructure" vertex="1">
+          <mxGeometry height="91" width="248" x="246" as="geometry">
+            <mxRectangle height="91" width="248" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jci8VnBttGaRo6ycO5IC-13" parent="jci8VnBttGaRo6ycO5IC-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Provides network connectivity for medical devices" vertex="1">
+          <mxGeometry height="91" width="246" x="494" as="geometry">
+            <mxRectangle height="91" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-wsizkBqcdDNVhz2Slj-28" parent="jci8VnBttGaRo6ycO5IC-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="110" width="740" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="u-wsizkBqcdDNVhz2Slj-29" parent="u-wsizkBqcdDNVhz2Slj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="C-03" vertex="1">
+          <mxGeometry height="110" width="246" as="geometry">
+            <mxRectangle height="110" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-wsizkBqcdDNVhz2Slj-30" parent="u-wsizkBqcdDNVhz2Slj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Infusion Integration Gateway&#xa;&#xa;" vertex="1">
+          <mxGeometry height="110" width="248" x="246" as="geometry">
+            <mxRectangle height="110" width="248" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-wsizkBqcdDNVhz2Slj-31" parent="u-wsizkBqcdDNVhz2Slj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Receives and manages infusion-device data and provides an integration point to enterprise systems&#xa;&#xa;" vertex="1">
+          <mxGeometry height="110" width="246" x="494" as="geometry">
+            <mxRectangle height="110" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-1" parent="jci8VnBttGaRo6ycO5IC-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="110" width="740" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-2" parent="SIDe_9lqPgGEs7wv9rx3-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="C-04" vertex="1">
+          <mxGeometry height="110" width="246" as="geometry">
+            <mxRectangle height="110" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-3" parent="SIDe_9lqPgGEs7wv9rx3-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Enterprise Interface Engine" vertex="1">
+          <mxGeometry height="110" width="248" x="246" as="geometry">
+            <mxRectangle height="110" width="248" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-4" parent="SIDe_9lqPgGEs7wv9rx3-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Receives, validates, transforms, and routes data between enterprise healthcare systems&#xa;&#xa;" vertex="1">
+          <mxGeometry height="110" width="246" x="494" as="geometry">
+            <mxRectangle height="110" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-5" parent="jci8VnBttGaRo6ycO5IC-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="110" width="740" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-6" parent="SIDe_9lqPgGEs7wv9rx3-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="C-05" vertex="1">
+          <mxGeometry height="110" width="246" as="geometry">
+            <mxRectangle height="110" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-7" parent="SIDe_9lqPgGEs7wv9rx3-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="EHR" vertex="1">
+          <mxGeometry height="110" width="248" x="246" as="geometry">
+            <mxRectangle height="110" width="248" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SIDe_9lqPgGEs7wv9rx3-8" parent="SIDe_9lqPgGEs7wv9rx3-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Receives and presents relevant infusion/device information within the clinical workflow&#xa;&#xa;" vertex="1">
+          <mxGeometry height="110" width="246" x="494" as="geometry">
+            <mxRectangle height="110" width="246" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2LyDuw15-6TYh2t0qnZp" name="Interface/Data Flow Inventory">
+    <mxGraphModel dx="1414" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IrCij7luky40BanwSngp-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;fontStyle=1" value="Interface/Data Flow Inventory" vertex="1">
+          <mxGeometry height="620" width="1120" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-2" parent="IrCij7luky40BanwSngp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="57" width="1120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-3" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="ID" vertex="1">
+          <mxGeometry height="57" width="100" as="geometry">
+            <mxRectangle height="57" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-4" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Source" vertex="1">
+          <mxGeometry height="57" width="130" x="100" as="geometry">
+            <mxRectangle height="57" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-5" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Destination" vertex="1">
+          <mxGeometry height="57" width="120" x="230" as="geometry">
+            <mxRectangle height="57" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-16" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Purpose" vertex="1">
+          <mxGeometry height="57" width="170" x="350" as="geometry">
+            <mxRectangle height="57" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-13" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Data" vertex="1">
+          <mxGeometry height="57" width="125" x="520" as="geometry">
+            <mxRectangle height="57" width="125" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-10" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Protocol/Interface" vertex="1">
+          <mxGeometry height="57" width="163" x="645" as="geometry">
+            <mxRectangle height="57" width="163" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-7" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Transport" vertex="1">
+          <mxGeometry height="57" width="127" x="808" as="geometry">
+            <mxRectangle height="57" width="127" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-4" parent="IrCij7luky40BanwSngp-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Security" vertex="1">
+          <mxGeometry height="57" width="185" x="935" as="geometry">
+            <mxRectangle height="57" width="185" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-6" parent="IrCij7luky40BanwSngp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="143" width="1120" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-7" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="A-01" vertex="1">
+          <mxGeometry height="143" width="100" as="geometry">
+            <mxRectangle height="143" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-8" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Infusion Pumps" vertex="1">
+          <mxGeometry height="143" width="130" x="100" as="geometry">
+            <mxRectangle height="143" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-9" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Network Infrastructure" vertex="1">
+          <mxGeometry height="143" width="120" x="230" as="geometry">
+            <mxRectangle height="143" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-17" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Provides network connectivity for pump communication&#xa;&#xa;" vertex="1">
+          <mxGeometry height="143" width="170" x="350" as="geometry">
+            <mxRectangle height="143" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-14" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Infusion/device data" vertex="1">
+          <mxGeometry height="143" width="125" x="520" as="geometry">
+            <mxRectangle height="143" width="125" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-11" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="TBD: device/vendor dependent" vertex="1">
+          <mxGeometry height="143" width="163" x="645" as="geometry">
+            <mxRectangle height="143" width="163" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-8" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;br&gt;TBD: likely TCP; confirm with device/interface specification&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="143" width="127" x="808" as="geometry">
+            <mxRectangle height="143" width="127" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-5" parent="IrCij7luky40BanwSngp-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Network segmentation and access controls; specific device security controls TBD&#xa;&#xa;" vertex="1">
+          <mxGeometry height="143" width="185" x="935" as="geometry">
+            <mxRectangle height="143" width="185" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-10" parent="IrCij7luky40BanwSngp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="150" width="1120" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-11" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="A-02" vertex="1">
+          <mxGeometry height="150" width="100" as="geometry">
+            <mxRectangle height="150" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-12" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Network Infrastructure" vertex="1">
+          <mxGeometry height="150" width="130" x="100" as="geometry">
+            <mxRectangle height="150" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrCij7luky40BanwSngp-13" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Infusion Integration Gateway" vertex="1">
+          <mxGeometry height="150" width="120" x="230" as="geometry">
+            <mxRectangle height="150" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-18" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Routes authorized pump traffic to the infusion integration gateway&#xa;&#xa;" vertex="1">
+          <mxGeometry height="150" width="170" x="350" as="geometry">
+            <mxRectangle height="150" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-15" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Infusion/device data" vertex="1">
+          <mxGeometry height="150" width="125" x="520" as="geometry">
+            <mxRectangle height="150" width="125" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-12" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="TBD: device/vendor dependent" vertex="1">
+          <mxGeometry height="150" width="163" x="645" as="geometry">
+            <mxRectangle height="150" width="163" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-9" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;br&gt;TBD: likely TCP; confirm with device/interface specification&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="127" x="808" as="geometry">
+            <mxRectangle height="150" width="127" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-6" parent="IrCij7luky40BanwSngp-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Network segmentation and firewall/access controls; specific rules TBD&#xa;&#xa;" vertex="1">
+          <mxGeometry height="150" width="185" x="935" as="geometry">
+            <mxRectangle height="150" width="185" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-28" parent="IrCij7luky40BanwSngp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="150" width="1120" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-29" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="A-03" vertex="1">
+          <mxGeometry height="150" width="100" as="geometry">
+            <mxRectangle height="150" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-30" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Infusion Integration Gateway" vertex="1">
+          <mxGeometry height="150" width="130" x="100" as="geometry">
+            <mxRectangle height="150" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-31" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Enterprise Interface Engine" vertex="1">
+          <mxGeometry height="150" width="120" x="230" as="geometry">
+            <mxRectangle height="150" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-32" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Transmits infusion/device data to the enterprise integration layer" vertex="1">
+          <mxGeometry height="150" width="170" x="350" as="geometry">
+            <mxRectangle height="150" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-33" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Normalized infusion/device data" vertex="1">
+          <mxGeometry height="150" width="125" x="520" as="geometry">
+            <mxRectangle height="150" width="125" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-34" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;br&gt;TBD: gateway/vendor interface specification&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="163" x="645" as="geometry">
+            <mxRectangle height="150" width="163" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-35" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;br&gt;TBD: likely TCP; confirm implementation&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="127" x="808" as="geometry">
+            <mxRectangle height="150" width="127" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-36" parent="PQsx6O_cQ6s5UEUkEbSZ-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&#xa;Encrypted transport TBD; network segmentation and access controls&#xa;&#xa;" vertex="1">
+          <mxGeometry height="150" width="185" x="935" as="geometry">
+            <mxRectangle height="150" width="185" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-19" parent="IrCij7luky40BanwSngp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="90" width="1120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-20" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="A-04" vertex="1">
+          <mxGeometry height="90" width="100" as="geometry">
+            <mxRectangle height="90" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-21" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Enterprise Interface Engine" vertex="1">
+          <mxGeometry height="90" width="130" x="100" as="geometry">
+            <mxRectangle height="90" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-22" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="EHR" vertex="1">
+          <mxGeometry height="90" width="120" x="230" as="geometry">
+            <mxRectangle height="90" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-23" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Delivers relevant infusion/device data to the EHR" vertex="1">
+          <mxGeometry height="90" width="170" x="350" as="geometry">
+            <mxRectangle height="90" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-24" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Clinical infusion/device data" vertex="1">
+          <mxGeometry height="90" width="125" x="520" as="geometry">
+            <mxRectangle height="90" width="125" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-25" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="TBD: EHR interface specification" vertex="1">
+          <mxGeometry height="90" width="163" x="645" as="geometry">
+            <mxRectangle height="90" width="163" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-26" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="TBD: likely TCP-based; confirm interface implementation" vertex="1">
+          <mxGeometry height="90" width="127" x="808" as="geometry">
+            <mxRectangle height="90" width="127" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQsx6O_cQ6s5UEUkEbSZ-27" parent="PQsx6O_cQ6s5UEUkEbSZ-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="Encrypted transport and access controls; specific controls TBD" vertex="1">
+          <mxGeometry height="90" width="185" x="935" as="geometry">
+            <mxRectangle height="90" width="185" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
