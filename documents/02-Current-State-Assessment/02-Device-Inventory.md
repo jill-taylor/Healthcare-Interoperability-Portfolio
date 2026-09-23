@@ -2,7 +2,7 @@
 
 The purpose of this document is to establish the current-state baseline for legacy infusion pumps within the scope of the Heartland Integrated Health System (HIHS) modernization assessment.
 
-The inventory identifies the devices in scope, their locations, technical characteristics, connectivity, integration status, lifecycle position, vendor support status, and relevant operational dependencies. This information provides a common baseline for subsequent risk assessment, workflow and architecture analysis, modernization options, and implementation planning.
+The inventory identifies the devices in scope, their locations, technical characteristics, connectivity, integration status, lifecycle position, vendor support status, and relevant operational dependencies. This information provides a common baseline for subsequent risk assessment, workflow and architecture analysis, current-state findings, and identification of considerations for future modernization planning.
 
 The inventory represents the fictional current-state environment established for this portfolio and demonstrates the types of information that would be collected, validated, and reconciled during an actual healthcare technology discovery effort.
 
@@ -71,7 +71,7 @@ The detailed device-level inventory is maintained in the accompanying [`heartlan
 
 The inventory includes device identity, facility, clinical area, manufacturer, model, age, network connectivity, integration status, vendor support, lifecycle status, maintenance status, and preliminary risk tier.
 
-The inventory will serve as the baseline for subsequent risk assessment, workflow analysis, interface analysis, geographic visualization, and modernization planning.
+The inventory will serve as the baseline for subsequent risk assessment, workflow analysis, interface analysis, geographic visualization, and current-state findings.
 
 
 ## Model Summary
