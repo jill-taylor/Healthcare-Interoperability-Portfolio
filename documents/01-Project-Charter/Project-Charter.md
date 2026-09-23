@@ -341,17 +341,19 @@ Stakeholder engagement will focus on validating the current-state environment, u
 
 | Governance Role | Responsibilities |
 |---|---|
-| Executive Sponsor | Provides strategic direction, resolves major organizational issues, and approves major project decisions |
+| Executive Sponsor | Provides strategic direction, resolves major organizational issues, and reviews major discovery findings |
 | CIO/Technology Sponsor | Provides technology oversight, executive support, and technology-related decision guidance |
 | Clinical Sponsors | Validate clinical priorities, workflow requirements, patient-safety considerations, and operational impacts |
-| Technical SMEs | Provide subject-matter expertise, validate findings, identify technical constraints, and assess proposed approaches |
-| Technical Project Manager | Leads planning, discovery, schedule, risks, communications, stakeholder alignment, decisions, and deliverables |
-| Project Team | Performs discovery, analysis, documentation, stakeholder engagement, and solution evaluation |
-| Steering Committee | Reviews major findings, risks, options, recommendations, priorities, and implementation considerations |
+| Technical SMEs | Provide subject-matter expertise, validate findings, identify technical constraints, and document technical considerations |
+| Technical Project Manager | Leads discovery planning, coordination, schedule, risks, communications, stakeholder alignment, evidence tracking, decisions, and deliverables |
+| Project Team | Performs discovery, assessment, analysis, documentation, stakeholder engagement, and findings development |
+| Steering Committee | Reviews major findings, risks, dependencies, unresolved questions, and decision requirements |
 
-The Technical Project Manager will coordinate the project without acting as the technical authority for clinical engineering, cybersecurity, networking, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that decisions, responsibilities, dependencies, risks, and follow-up actions are documented and communicated.
+The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decisions, assumptions, and follow-up actions are documented and communicated.
 
-Governance will emphasize timely decision-making, clear ownership, cross-functional communication, and alignment between technical recommendations and clinical and operational needs.
+Governance will emphasize evidence-based discovery, timely review of findings, clear ownership, cross-functional communication, documented assumptions, and identification of questions requiring further investigation.
+
+Major decisions regarding future modernization approaches remain outside the scope of this discovery engagement and would be addressed through an appropriate subsequent phase.
 
 ---
 # 12. High-Level Timeline
