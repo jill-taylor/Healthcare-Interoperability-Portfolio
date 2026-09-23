@@ -4,7 +4,7 @@ The purpose of this document is to establish a current-state baseline of the int
 
 The inventory identifies the systems, devices, applications, and infrastructure components involved in exchanging information or supporting connectivity within the modernization scope.
 
-The interface inventory provides a foundation for understanding current-state information flows and supports subsequent architecture, cybersecurity, clinical workflow, risk assessment, and modernization analysis.
+The interface inventory provides a foundation for understanding current-state information flows and supports subsequent architecture, cybersecurity, clinical workflow, risk assessment, and current-state findings.
 
 ---
 
