@@ -356,22 +356,20 @@ Governance will emphasize evidence-based discovery, timely review of findings, c
 Major decisions regarding future modernization approaches remain outside the scope of this discovery engagement and would be addressed through an appropriate subsequent phase.
 
 ---
+
 # 12. High-Level Timeline
 
 | Phase | Description |
 |---|---|
-| Project Initiation | Charter approval, kickoff, governance, scope confirmation, and stakeholder alignment |
-| Discovery Planning | Define discovery questions, stakeholders, evidence, communication needs, and activities |
-| Discovery | Device inventory, stakeholder interviews, clinical workflows, information flows, connectivity, cybersecurity, and vendor assessment |
-| Current-State Assessment | Consolidate findings and document the current technology, workflow, information, and communication environment |
-| Workflow & Communication Assessment | Identify workflow gaps, usability issues, information needs, communication dependencies, and ownership gaps |
-| Risk & Gap Analysis | Identify and prioritize clinical, operational, cybersecurity, interoperability, workflow, and lifecycle risks and gaps |
-| Options Evaluation | Evaluate replacement, upgrade, segmentation, controlled access, integration, workflow, and other modernization approaches |
-| Decision-Support Development | Define evaluation criteria, tradeoffs, priorities, expected benefits, and information needed for decision-making |
-| Future-State Recommendation | Develop the recommended approach, future-state concept architecture, workflow considerations, and expected outcomes |
-| Roadmap Development | Define implementation phases, priorities, dependencies, risks, stakeholder responsibilities, communication needs, and major actions |
-| Executive Review & Closeout | Present findings, recommendation, roadmap, expected outcomes, and next steps for executive decision-making |
-
+| Project Initiation | Charter approval, kickoff, governance, scope confirmation, assumptions, constraints, and stakeholder alignment |
+| Discovery Planning | Define discovery questions, stakeholders, evidence requirements, communication needs, and discovery activities |
+| Discovery | Conduct device inventory review, stakeholder interviews, clinical workflow discovery, information-flow review, connectivity assessment, cybersecurity review, and vendor-support assessment |
+| Current-State Assessment | Consolidate evidence and document the current technology, device, workflow, information, communication, connectivity, and integration environment |
+| Workflow & Communication Assessment | Identify workflow dependencies, usability considerations, information needs, communication gaps, and ownership dependencies |
+| Risk & Gap Analysis | Identify and prioritize clinical, operational, cybersecurity, interoperability, workflow, lifecycle, and information risks and gaps |
+| Current-State Findings | Consolidate evidence-based findings, dependencies, constraints, assumptions, unresolved questions, and areas requiring further investigation |
+| Decision-Readiness Review | Organize findings around the information leadership and operational stakeholders may need for future modernization decisions |
+| Discovery Closeout | Document discovery conclusions, limitations, unresolved questions, areas for further investigation, and considerations for a potential subsequent phase |
 ---
 
 # 13. Project Guiding Principles
