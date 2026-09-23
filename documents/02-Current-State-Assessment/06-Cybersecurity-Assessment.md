@@ -53,3 +53,16 @@ The assessment should identify and document:
 - Dependencies that could affect remediation
 - Gaps in current security visibility or control
 The assessment should distinguish between identifying a vulnerability and determining its actual risk to HIHS. Risk should be considered in the context of device connectivity, clinical criticality, operational dependencies, and available mitigation options.
+
+# 6. Access, Monitoring, and Security Dependencies
+The assessment should examine applicable dependencies involving:
+- Identity and access management
+- Network monitoring
+- Interface monitoring
+-  Device and asset records
+- Vendor support
+- Network infrastructure
+- Integration components
+The current-state architecture identifies Identity and Access Management as supporting authentication and access controls for applicable systems, while Network Monitoring and Interface Monitoring provide visibility into network connectivity and interface operational status.
+
+The assessment should identify areas where visibility, ownership, monitoring, or access controls require additional investigation.
