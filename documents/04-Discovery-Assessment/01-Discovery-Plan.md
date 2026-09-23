@@ -12,32 +12,39 @@ Discovery will not assume a specific technical solution or determine future-stat
 
 # 2. Discovery Objectives
 
-The discovery objectives define the information and evidence needed to establish the current state of Heartland's legacy connected infusion-pump environment and support evidence-based risk assessment and solution evaluation.
+The discovery objectives define the information and evidence needed to establish the current state of Heartland's legacy connected infusion-pump environment and support evidence-based assessment, decision-readiness, and identification of areas requiring further investigation.
 
 ### 2.1 Establish a Reliable Device Baseline
+
 Determine which legacy infusion pumps are in service, including manufacturer, model, age, location, ownership, connectivity, and support status.
 
 ### 2.2 Understand Clinical Workflows
-Determine how selected infusion pumps are used in clinical environments and identify workflow dependencies, information needs, communication points, usability concerns, or operational constraints that could affect modernization.
+
+Determine how selected infusion pumps are used in clinical environments and identify workflow dependencies, information needs, communication points, usability concerns, and operational constraints.
 
 ### 2.3 Understand Connectivity and Integration
-Determine how selected pumps connect to networks and clinical systems, what data is exchanged, and what integration dependencies exist.
+
+Determine how selected pumps connect to networks and clinical systems, what information is exchanged, and what integration dependencies exist.
 
 ### 2.4 Assess Cybersecurity Considerations
-Identify relevant security characteristics, network exposure, access requirements, vulnerabilities, and existing or potential compensating controls.
+
+Identify relevant security characteristics, network exposure, access requirements, vulnerability considerations, and existing security controls or dependencies.
 
 ### 2.5 Assess Lifecycle and Vendor Support
+
 Determine device support status, lifecycle position, end-of-life considerations, and vendor capabilities or limitations.
 
 ### 2.6 Identify and Prioritize Risks
-Establish the factors needed to evaluate clinical, operational, cybersecurity, interoperability, and lifecycle risk across the selected device population.
 
-### 2.7 Establish Decision Criteria for Modernization Options
-Identify the requirements and constraints that will later be used to evaluate potential approaches, without assuming a specific solution.
+Establish the factors needed to evaluate clinical, operational, cybersecurity, interoperability, and lifecycle risks across the selected device population.
 
-### 2.8 Establish Inputs for a Phased Strategy
-Identify the dependencies, priorities, resource considerations, and implementation constraints needed to develop a practical modernization roadmap.
+### 2.7 Identify Decision-Readiness Considerations
 
+Identify the requirements, constraints, dependencies, evidence gaps, and unresolved questions that should be understood before future decisions are made.
+
+### 2.8 Identify Areas for Further Investigation
+
+Identify information, technical conditions, stakeholder questions, dependencies, or risks that require additional assessment beyond the current discovery activities.
 ---
 
 # 3. Key Discovery Questions
