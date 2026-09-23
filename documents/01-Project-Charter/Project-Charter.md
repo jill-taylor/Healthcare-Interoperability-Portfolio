@@ -56,7 +56,7 @@ The organization's continued growth has created a diverse technology environment
 
 Heartland has identified a population of legacy, network-connected infusion pumps that may not fully align with current enterprise technology, security, interoperability, and clinical workflow requirements.
 
-The devices remain important to clinical operations and cannot simply be removed from service. However, their age, connectivity capabilities, vendor support status, integration limitations, security characteristics, and workflow dependencies may create operational and cybersecurity concerns.
+The devices remain important to clinical operations and cannot simply be removed from service. Their age, connectivity capabilities, vendor support status, integration limitations, security characteristics, and workflow dependencies create conditions that require structured assessment.
 
 Heartland currently lacks a consolidated assessment of:
 
@@ -69,14 +69,14 @@ Heartland currently lacks a consolidated assessment of:
 - Which devices remain vendor-supported
 - How the devices are incorporated into clinical workflows
 - Where workflow or communication gaps exist
-- Which devices present the greatest operational, cybersecurity, interoperability, or clinical risk
-- Which devices should be upgraded, isolated, replaced, or otherwise remediated
+- Which devices or environments have significant operational, cybersecurity, interoperability, or lifecycle risk factors
+- What information remains unknown or requires further investigation
 
-The organization therefore needs a structured discovery and decision-making process before committing to a modernization approach.
+The organization therefore needs a structured discovery and current-state assessment before future modernization decisions are considered.
 
 ### Core PM Question
 
-How can Heartland safely modernize its legacy connected infusion-pump environment to improve workflow, information exchange, decision support, and action without disrupting patient care?
+What does Heartland need to understand about its legacy connected infusion-pump environment—including devices, workflows, information flows, connectivity, integration, cybersecurity, lifecycle, risks, and dependencies—to support informed decisions in a subsequent phase?
 
 ---
 
@@ -92,9 +92,9 @@ The discovery effort will:
 - Identify cybersecurity, operational, interoperability, lifecycle, and clinical considerations associated with the current environment
 - Identify risks, dependencies, gaps, assumptions, and areas requiring further investigation
 - Clarify stakeholder responsibilities, information needs, decision points, and unresolved questions
-- Provide leadership with a structured set of current-state findings and decision requirements that can inform a future modernization effort
+- Provide leadership with a structured set of current-state findings and decision-readiness considerations that can inform a future modernization effort
 
-The project will not select, design, or implement a modernization solution. Future-state options may be identified as areas for subsequent analysis, but detailed solution design, implementation planning, and deployment are outside the scope of this discovery engagement.
+The project will not select, design, or implement a modernization solution. Areas requiring future investigation may be identified, but detailed solution design, implementation planning, and deployment are outside the scope of this discovery engagement.
 
 ---
 
@@ -136,11 +136,11 @@ Develop a risk-based view of the device population using clinical, operational, 
 
 **9. Identify Modernization Considerations**
 
-Identify the constraints, dependencies, risks, lifecycle considerations, integration limitations, workflow impacts, cybersecurity considerations, and information gaps that should be considered in any future modernization effort.
+Identify the constraints, dependencies, risks, lifecycle considerations, integration limitations, workflow impacts, cybersecurity considerations, and information gaps that should be considered during any future modernization analysis.
 
 **10. Develop Decision-Readiness Findings**
 
-Organize discovery findings into the information leadership and operational stakeholders would need to evaluate future modernization options, including risks, priorities, dependencies, tradeoffs, and unresolved questions.
+Organize discovery findings into the information leadership and operational stakeholders would need to evaluate future modernization considerations, including risks, priorities, dependencies, constraints, and unresolved questions.
 
 **11. Identify Areas for Further Investigation**
 
@@ -169,7 +169,7 @@ Establish measures that demonstrate whether the discovery effort has produced a 
 | Stakeholders | Interviews, workshops, stakeholder roles, information needs, decision points, and engagement requirements |
 | Architecture | Current-state architecture, system relationships, connectivity, interfaces, and information flows |
 | Risk & Gap Analysis | Identification and prioritization of risks and gaps across technology, workflow, security, interoperability, lifecycle, and operations |
-| Decision Readiness | Identification of decision requirements, dependencies, tradeoffs, unresolved questions, and information needed for future modernization decisions |
+| Decision Readiness || Decision Readiness | Identification of decision-readiness considerations, dependencies, constraints, unresolved questions, and information needed for future modernization analysis |
 | Modernization Considerations | Identification of constraints, dependencies, and considerations that may affect future modernization planning |
 | Discovery Findings | Consolidated current-state findings, evidence, assumptions, risks, gaps, and areas requiring further investigation |
 
@@ -189,7 +189,7 @@ Establish measures that demonstrate whether the discovery effort has produced a 
 | Future-State Solution Design | Detailed design or engineering of a future-state technical solution |
 | Implementation Planning | Detailed implementation plans, schedules, deployment activities, or resource assignments |
 | Modernization Roadmap | Development of a phased implementation roadmap |
-| Production Deployment | Deployment, configuration, testing, or operational release of solutions |
+| Production Deployment | Deployment, production configuration, production testing, or operational release of solutions |
 | Post-Project Operations | Operational support following completion of the discovery engagement |
 | Clinical Outcomes | Direct measurement of clinical outcomes beyond the discovery effort |
 
@@ -197,7 +197,7 @@ Establish measures that demonstrate whether the discovery effort has produced a 
 
 # 6. Success Criteria
 
-The Legacy Medical Device Modernization & Clinical Workflow Integration Project will be considered successful when the discovery effort has produced a sufficiently clear, evidence-based understanding of the current environment to support future modernization decision-making.
+The Legacy Medical Device Modernization & Clinical Workflow Integration Project will be considered successful when the discovery effort has produced a sufficiently clear, evidence-based understanding of the current environment to support future modernization analysis and decision-readiness.
 
 ### Discovery
 
@@ -255,9 +255,9 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 | IT Operations | Technical Stakeholder | Infrastructure and operational dependencies |
 | Compliance/Privacy | Regulatory Stakeholder | Regulatory, privacy, and organizational requirements |
 | Medical Device Vendors | External Stakeholder | Device capabilities, support status, upgrades, technical constraints, and product information |
-| Technical Project Manager | Project Lead | Discovery planning, coordination, risks, decisions, communications, stakeholder alignment, evidence tracking, and documentation |
+| Technical Project Manager | Project Lead | Project Lead | Discovery planning, coordination, risks, decision-readiness considerations, communications, stakeholder alignment, evidence tracking, and documentation |
 
-The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decisions, assumptions, and follow-up actions are documented and communicated.
+The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decision points, assumptions, and follow-up actions are documented and communicated.
 
 Stakeholder engagement will focus on validating the current-state environment, understanding workflows and information needs, identifying risks and dependencies, clarifying ownership, and documenting unresolved questions requiring further investigation.
 
