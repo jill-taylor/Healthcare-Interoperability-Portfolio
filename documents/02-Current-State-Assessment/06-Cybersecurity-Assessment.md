@@ -66,3 +66,53 @@ The assessment should examine applicable dependencies involving:
 The current-state architecture identifies Identity and Access Management as supporting authentication and access controls for applicable systems, while Network Monitoring and Interface Monitoring provide visibility into network connectivity and interface operational status.
 
 The assessment should identify areas where visibility, ownership, monitoring, or access controls require additional investigation.
+
+# 7. Clinical and Operational Impact
+Cybersecurity controls cannot be evaluated independently from clinical operations.
+
+If a device must be isolated, have access restricted, or undergo another security-related change, HIHS should evaluate potential effects on:
+- Clinical workflow
+- Required information flows
+- Device availability
+- Connected-system dependencies
+- Operational continuity
+- Manual workarounds
+- Timing of modernization activities
+The objective is to reduce cybersecurity exposure while maintaining necessary clinical functionality and information exchange.
+
+# 8. Remediation and Compensating-Control Considerations
+Where a cybersecurity concern is identified, the assessment should document potential approaches for further evaluation.
+Potential approaches may include:
+- Vendor-supported remediation or upgrade
+- Device replacement
+- Network isolation
+- Controlled access
+- Compensating controls
+- Increased monitoring
+- Other risk-reduction measures appropriate to the identified condition
+These options are **discovery and planning considerations**, not production implementations.
+
+# 9. Risk and Gap Prioritization
+Cybersecurity findings should be documented and prioritized based on factors such as:
+- Severity or potential impact of the identified issue
+- Device clinical criticality
+- Network connectivity and exposure
+- Vendor/lifecycle status
+- Availability of security updates
+- Dependency on connected systems
+- Availability of alternative controls or remediation options
+- Potential impact on clinical continuity
+The resulting risks and gaps will feed into **Section 07 — Current-State Finding**s and support subsequent modernization planning.
+
+# 10. Assessment Outcome
+The Cybersecurity Assessment provides HIHS with a structured view of cybersecurity considerations affecting the legacy connected infusion-pump environment.
+The assessment supports identification of:
+- Devices requiring additional cybersecurity review
+- Lifecycle and security-support concerns
+- Connectivity-related exposure
+- Security dependencies and visibility gaps
+- Potential remediation or compensating-control approaches
+- Risks requiring prioritization
+- Cybersecurity considerations that may affect modernization and clinical continuity
+The assessment provides a foundation for consolidating technical, clinical, operational, and cybersecurity observations into the **Current-State Findings** and subsequent
+modernization recommendations.
