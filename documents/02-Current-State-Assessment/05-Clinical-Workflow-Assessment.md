@@ -12,7 +12,7 @@ Each stage provides information needed to understand how a device change could
 affect clinical operations and supporting technology.
 
 # 3. Device Identification and Criticality
-- For each selected infusion pump, the assessment should establish:
+For each selected infusion pump, the assessment should establish:
 - Device model and relevant attributes
 - Physical location and facility
 - Current lifecycle status
