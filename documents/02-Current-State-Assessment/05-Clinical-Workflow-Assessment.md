@@ -61,3 +61,44 @@ The assessment should consider:
 - Whether clinical operations could be disrupted during transition
   
 A key consideration is to avoid introducing unnecessary manual work when automated information exchange can be maintained or improved.
+
+# 7. Training and Transition
+If modernization changes the device or workflow, the assessment should identify:
+- Required user training
+- Changes to existing procedures
+- Communication requirements
+- Stakeholders affected by the change
+- Workflow changes that users need to understand
+- Change-management considerations
+  
+The project charter identifies communication, training, stakeholder engagement, and change-management as considerations for modernization planning.
+
+# 8. Phased Testing and Validation
+Future modernization activities should consider a phased approach that allows the organization to evaluate the replacement device and associated information flows before broader deployment.
+Planning considerations include:
+- Testing device connectivity
+- Testing information exchange
+- Validating expected interface behavior
+- Confirming that the clinical workflow continues to function as intended
+- Identifying issues before broader deployment
+- Incorporating stakeholder feedback
+- Maintaining clinical continuity during transition
+This assessment does not constitute production testing or implementation. Rather, it identifies testing and validation as requirements for future modernization planning.
+
+# 9. Clinical Continuity Considerations
+Modernization activities should account for the operational dependency on infusion pumps and avoid unnecessary disruption to clinical services.
+The project should consider:
+- Device availability during transition
+- Alternative devices or processes
+- Timing of changes
+- Dependencies on clinical, technical, and vendor resources
+- Communication with affected stakeholders
+- Rollback or contingency considerations
+- Phased deployment opportunities
+The HIHS project specifically identifies clinical continuity requirements as part of implementation planning.
+
+# 10. Assessment Outcome
+The Clinical Workflow Assessment will provide HIHS with a structured understanding of how legacy infusion pumps support clinical operations and how potential modernization
+activities could affect users, information flows, connected systems, and operational continuity.
+
+The assessment will support subsequent identification of current-state findings, risks, gaps, and modernization requirements.
