@@ -87,26 +87,19 @@ How can Heartland safely modernize its legacy connected infusion-pump environmen
 
 # 3. Project Vision
 
-Heartland seeks to establish a safe, sustainable, and usable approach for managing legacy connected infusion pumps while transitioning toward a modern medical-device environment.
+Heartland seeks to establish a clear, evidence-based understanding of its legacy connected infusion-pump environment before making future modernization decisions.
 
-The future state should:
+The discovery effort will:
 
-- Support safe clinical operations
-- Reduce cybersecurity exposure associated with legacy technology
-- Maintain necessary clinical and system connectivity
-- Improve visibility into the medical-device environment
-- Support reliable and meaningful information exchange
-- Fit naturally within clinical workflows
-- Reduce unnecessary manual work and information gaps
-- Provide information in a form that supports timely decision-making
-- Establish clear device lifecycle and modernization priorities
-- Define communication and ownership across affected teams
-- Prepare stakeholders for changes in technology and workflow
-- Provide a practical path for phased modernization
-- Minimize disruption to patients and clinical staff
-- Establish measurable outcomes for the future-state environment
+- Establish visibility into the current device population, connectivity, lifecycle, and vendor-support status
+- Document how infusion pumps interact with clinical workflows, systems, interfaces, and organizational processes
+- Identify information flows, communication dependencies, integration constraints, and workflow gaps
+- Identify cybersecurity, operational, interoperability, lifecycle, and clinical considerations associated with the current environment
+- Identify risks, dependencies, gaps, assumptions, and areas requiring further investigation
+- Clarify stakeholder responsibilities, information needs, decision points, and unresolved questions
+- Provide leadership with a structured set of current-state findings and decision requirements that can inform a future modernization effort
 
-Discovery findings and stakeholder input will determine the appropriate combination of technical, operational, workflow, communication, and lifecycle strategies.
+The project will not select, design, or implement a modernization solution. Future-state options may be identified as areas for subsequent analysis, but detailed solution design, implementation planning, and deployment are outside the scope of this discovery engagement.
 
 ---
 
@@ -132,7 +125,7 @@ Determine how selected devices connect to Heartland's network and clinical syste
 
 **5. Assess Usability and Workflow Fit**
 
-Evaluate whether the current technology and potential modernization approaches support the way clinical staff actually work, including usability, workflow disruption, information accessibility, and operational burden.
+Evaluate whether the current technology supports the way clinical staff actually work, including usability, workflow disruption, information accessibility, and operational burden.
 
 **6. Assess Cybersecurity Considerations**
 
@@ -140,39 +133,28 @@ Identify security characteristics, vulnerabilities, access requirements, network
 
 **7. Evaluate Device Lifecycle and Vendor Support**
 
-Determine which devices are supported, approaching end of life, or otherwise candidates for remediation or replacement.
+Determine which devices are supported, approaching end of life, or otherwise require further lifecycle assessment.
 
 **8. Identify and Prioritize Risks**
 
 Develop a risk-based view of the device population using clinical, operational, cybersecurity, interoperability, workflow, communication, and lifecycle considerations.
 
-**9. Evaluate Modernization Options**
+**9. Identify Modernization Considerations**
 
-Evaluate potential approaches such as:
+Identify the constraints, dependencies, risks, lifecycle considerations, integration limitations, workflow impacts, cybersecurity considerations, and information gaps that should be considered in any future modernization effort.
 
-- Device replacement
-- Vendor-supported upgrades
-- Network segmentation
-- Controlled access
-- Integration modernization
-- Compensating security controls
-- Workflow improvements
-- Communication and change-management measures
-- Phased combinations of these approaches
+**10. Develop Decision-Readiness Findings**
 
-Options will be evaluated based on technical feasibility, clinical safety, workflow impact, usability, risk reduction, cost considerations, stakeholder readiness, and implementation complexity.
+Organize discovery findings into the information leadership and operational stakeholders would need to evaluate future modernization options, including risks, priorities, dependencies, tradeoffs, and unresolved questions.
 
-**10. Develop a Decision-Support Framework**
+**11. Identify Areas for Further Investigation**
 
-Define the information leadership and operational stakeholders need to make informed modernization decisions, including risk, priority, dependencies, tradeoffs, and expected benefits.
+Document significant gaps, assumptions, unknowns, and areas requiring additional technical, clinical, operational, or vendor investigation before future modernization decisions can be made.
 
-**11. Develop a Phased Modernization Strategy**
+**12. Define Discovery Success Measures**
 
-Recommend a practical sequence for addressing the highest-priority devices and environments while maintaining clinical operations.
+Establish measures that demonstrate whether the discovery effort has produced a sufficiently clear understanding of the current environment, including device visibility, workflow understanding, information flows, connectivity, risks, dependencies, gaps, and stakeholder needs.
 
-**12. Define Measures of Success**
-
-Identify meaningful measures that extend beyond implementation or adoption and assess whether the future-state environment improves workflow, information availability, decision support, risk management, and operational outcomes.
 
 ---
 
@@ -183,20 +165,18 @@ Identify meaningful measures that extend beyond implementation or adoption and a
 | Area | Scope |
 |---|---|
 | Devices | Selected legacy network-connected infusion pumps |
-| Inventory | Device inventory, classification, location, and facility distribution |
-| Clinical Workflow | Workflow discovery, usability, information needs, and dependencies |
+| Inventory | Device inventory, classification, location, facility distribution, lifecycle status, and vendor-support status |
+| Clinical Workflow | Workflow discovery, usability, information needs, handoffs, dependencies, and operational impacts |
 | Information & Communication | Information flows, communication dependencies, gaps, and ownership |
-| Connectivity & Integration | Device connectivity, interfaces, integration, and information exchange |
-| Cybersecurity | Device security characteristics, vulnerabilities, exposure, and risk |
-| Lifecycle & Vendor Support | Device lifecycle, vendor support, and remediation considerations |
-| Stakeholders | Interviews, workshops, stakeholder readiness, and engagement |
-| Architecture | Current-state architecture and information flows |
-| Risk & Gap Analysis | Risk prioritization and gaps across technology, workflow, security, interoperability, and lifecycle |
-| Decision Support | Modernization evaluation criteria, priorities, tradeoffs, and decision requirements |
-| Modernization | Evaluation of options, future-state concept architecture, and phased roadmap |
-| Communication & Change | Communication, stakeholder engagement, change-management, and implementation considerations |
-| Outcomes | Measures of success and future-state outcome considerations |
-| Executive Recommendation | Recommended approach, priorities, risks, and next steps |
+| Connectivity & Integration | Device connectivity, interfaces, integration dependencies, and information exchange |
+| Cybersecurity | Device security characteristics, vulnerabilities, exposure, access requirements, and identified risk considerations |
+| Lifecycle & Vendor Support | Device lifecycle status, vendor support, end-of-life considerations, and available technical constraints |
+| Stakeholders | Interviews, workshops, stakeholder roles, information needs, decision points, and engagement requirements |
+| Architecture | Current-state architecture, system relationships, connectivity, interfaces, and information flows |
+| Risk & Gap Analysis | Identification and prioritization of risks and gaps across technology, workflow, security, interoperability, lifecycle, and operations |
+| Decision Readiness | Identification of decision requirements, dependencies, tradeoffs, unresolved questions, and information needed for future modernization decisions |
+| Modernization Considerations | Identification of constraints, dependencies, and considerations that may affect future modernization planning |
+| Discovery Findings | Consolidated current-state findings, evidence, assumptions, risks, gaps, and areas requiring further investigation |
 
 ## Out of Scope
 
@@ -204,109 +184,115 @@ Identify meaningful measures that extend beyond implementation or adoption and a
 |---|---|
 | Enterprise Device Replacement | Replacement of all Heartland medical devices |
 | Production Security Deployment | Production deployment of security technologies |
-| Device Configuration | Production device configuration |
-| Medical-Device Software | Development of medical-device software |
-| Production Interfaces | Development of production interfaces |
-| Procurement | Procurement or contract negotiation |
-| Clinical Validation | Clinical validation of medication protocols |
-| EHR Replacement | Replacement of the EHR |
+| Device Configuration | Production device configuration or modification |
+| Medical-Device Software | Development or modification of medical-device software |
+| Production Interfaces | Development, deployment, or modification of production interfaces |
+| Procurement | Procurement, purchasing, or contract negotiation |
+| Clinical Validation | Clinical validation of medication protocols or device functionality |
+| EHR Replacement | Replacement or major modification of the EHR |
 | Enterprise Interoperability | Enterprise-wide interoperability modernization |
-| Post-Project Operations | Operational support following project completion |
-| Clinical Outcomes | Direct clinical outcome evaluation beyond the discovery and planning effort |
+| Future-State Solution Design | Detailed design or engineering of a future-state technical solution |
+| Implementation Planning | Detailed implementation plans, schedules, deployment activities, or resource assignments |
+| Modernization Roadmap | Development of a phased implementation roadmap |
+| Production Deployment | Deployment, configuration, testing, or operational release of solutions |
+| Post-Project Operations | Operational support following completion of the discovery engagement |
+| Clinical Outcomes | Direct measurement of clinical outcomes beyond the discovery effort |
 
---
+---
 
 # 6. Success Criteria
 
-The Legacy Medical Device Modernization & Clinical Workflow Integration Project will be considered successful when the following outcomes have been achieved.
+The Legacy Medical Device Modernization & Clinical Workflow Integration Project will be considered successful when the discovery effort has produced a sufficiently clear, evidence-based understanding of the current environment to support future modernization decision-making.
 
-**Discovery**
+### Discovery
+
 - A representative population of legacy infusion pumps has been inventoried.
 - Device locations and relevant attributes have been documented.
+- Device connectivity, lifecycle status, and vendor-support conditions have been assessed.
 - Key clinical, technical, cybersecurity, workflow, communication, and operational dependencies have been identified.
-  
-**Workflow & Usability**
+
+### Workflow & Usability
+
 - Selected clinical workflows have been documented.
-- Major workflow dependencies and pain points have been identified.
+- Major workflow dependencies and gaps have been identified.
 - Information requirements at key workflow points have been documented.
-- Potential usability and workflow impacts of modernization options have been assessed.
-  
-**Assessment**
+- Potential workflow and usability considerations associated with the current environment have been identified.
+
+### Assessment
+
 - Current-state device connectivity and integration have been documented.
 - Major risks have been identified and prioritized.
-- Device lifecycle and vendor-support conditions have been assessed.
 - Significant information and communication gaps have been identified.
-  
-**Decision Support**
-- Multiple modernization options have been evaluated.
-- Options have been compared using agreed-upon criteria.
-- Tradeoffs, dependencies, risks, and expected benefits have been documented.
-- A recommended approach has been presented to leadership.
-  
-**Implementation Planning**
-- A phased modernization roadmap has been developed.
-- High-priority facilities/devices have been identified.
-- Major implementation risks and dependencies have been documented.
-- Clinical continuity requirements have been incorporated into the plan.
-- Communication, training, stakeholder engagement, and change-management considerations have been identified.
-- Stakeholder responsibilities for implementation have been clarified.
-  
-**Organizational Readiness**
-- Key clinical and operational stakeholders understand the recommended future-state approach.
-- Stakeholders understand how the proposed changes may affect their workflows.
-- Required communication and decision points have been identified.
-- Ownership for major implementation actions has been established.
-  
-**Executive Outcome**
+- Important lifecycle, vendor-support, cybersecurity, and interoperability considerations have been documented.
 
-Executive leadership has an evidence-based recommendation for managing and modernizing the legacy infusion-pump environment, including the expected impact on clinical workflow, information exchange, usability, risk, decision support, and implementation priorities.
+### Decision Readiness
+
+- Discovery findings have been consolidated into a clear current-state view.
+- Major risks, dependencies, gaps, constraints, and unresolved questions have been documented.
+- Information required for future modernization decisions has been identified.
+- Areas requiring additional technical, clinical, operational, or vendor investigation have been documented.
+- Findings are traceable to available evidence, stakeholder input, or clearly identified portfolio assumptions.
+
+### Discovery Closeout
+
+- Key stakeholders have had an opportunity to review relevant findings.
+- Outstanding questions and limitations have been documented.
+- The discovery engagement has clearly identified what is known, what remains uncertain, and what should be investigated in a subsequent phase.
 
 ---
 
 # 7. Key Stakeholders
 
-The success of the Legacy Medical Device Modernization & Clinical Workflow Integration Project depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team.
+The success of the Legacy Medical Device Modernization & Clinical Workflow Integration discovery effort depends on collaboration among executive leadership, clinical departments, operational teams, information technology, and the consulting team.
 
 | Stakeholder | Role | Primary Responsibility |
 |---|---|---|
-| Executive Leadership | Executive Sponsor | Strategic direction, funding, major decisions |
-| Chief Information Officer (CIO) | Technology Sponsor | Technology strategy and executive support |
+| Executive Leadership | Executive Sponsor | Strategic direction, major decisions, and review of discovery findings |
+| Chief Information Officer (CIO) | Technology Sponsor | Technology strategy, executive support, and technology-related decision guidance |
 | Chief Medical Information Officer (CMIO) | Clinical Sponsor | Physician and clinical workflow considerations |
 | Chief Nursing Officer (CNO) | Clinical Sponsor | Nursing workflow and patient-safety considerations |
-| Clinical Engineering/Biomedical | Technical SME | Device inventory, maintenance, lifecycle, vendor support |
-| Cybersecurity | Technical SME | Device vulnerabilities, security controls, network exposure, access, segmentation, monitoring, and risk mitigation |
-| Network Engineering | Technical SME | Connectivity, network architecture, segmentation |
-| Integration/Interface Team | Technical SME | Device/system integration and data exchange |
+| Clinical Engineering/Biomedical | Technical SME | Device inventory, maintenance, lifecycle, vendor support, and device capabilities |
+| Cybersecurity | Technical SME | Device vulnerabilities, security controls, network exposure, access, segmentation, monitoring, and risk considerations |
+| Network Engineering | Technical SME | Connectivity, network architecture, and network dependencies |
+| Integration/Interface Team | Technical SME | Device/system integration, interfaces, and data exchange |
 | Nursing Leadership | Business Stakeholder | Clinical workflow and operational requirements |
 | Pharmacy | Clinical Stakeholder | Medication-management dependencies |
-| IT Operations | Technical Stakeholder | Infrastructure and operational support |
-| Compliance/Privacy | Regulatory Stakeholder | Regulatory and organizational requirements |
-| Medical Device Vendors | External Stakeholder | Device capabilities, support, upgrades, technical constraints |
-| Technical Project Manager | Project Lead | Planning, discovery, coordination, risks, decisions, communications, stakeholder alignment, and documentation |
+| IT Operations | Technical Stakeholder | Infrastructure and operational dependencies |
+| Compliance/Privacy | Regulatory Stakeholder | Regulatory, privacy, and organizational requirements |
+| Medical Device Vendors | External Stakeholder | Device capabilities, support status, upgrades, technical constraints, and product information |
+| Technical Project Manager | Project Lead | Discovery planning, coordination, risks, decisions, communications, stakeholder alignment, evidence tracking, and documentation |
+
+The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decisions, assumptions, and follow-up actions are documented and communicated.
+
+Stakeholder engagement will focus on validating the current-state environment, understanding workflows and information needs, identifying risks and dependencies, clarifying ownership, and documenting unresolved questions requiring further investigation.
 
 ---
 
 # 8. Assumptions and Constraints
 
 ## Assumptions
-- Executive sponsorship remains active.
-- Clinical and technical SMEs will participate in discovery.
-- Heartland can provide available device and system documentation.
-- Device information can be validated through stakeholder interviews and technical review.
-- The project will use fictionalized data for portfolio development.
-- Clinical safety will remain the primary consideration for implementation decisions.
-- Stakeholders will participate in workflow and communication discovery.
-- Current-state findings may identify gaps that require further investigation during implementation planning.
+
+- Executive sponsorship remains active throughout the discovery engagement.
+- Clinical and technical SMEs will participate in discovery activities as available.
+- Heartland can provide available device, system, workflow, and interface documentation.
+- Device information can be validated through stakeholder interviews, available documentation, and technical review.
+- The project will use fictionalized data and assumptions for portfolio development.
+- Clinical safety and continuity of care will remain primary considerations throughout discovery.
+- Stakeholders will participate in workflow, information-flow, and communication discovery.
+- Discovery findings may identify gaps or questions that require additional investigation during a future phase.
+- Findings will distinguish documented evidence from stakeholder-reported information and portfolio assumptions.
 
 ## Constraints
-- Clinical operations cannot be disrupted.
-- Legacy devices may have limited technical capabilities.
-- Device replacement budgets are limited.
-- Vendor support may vary by device and model.
-- Some device information may be incomplete.
-- Modernization must occur while existing clinical services continue.
+
+- Clinical operations cannot be disrupted by discovery activities.
+- Legacy devices may have limited technical capabilities or incomplete documentation.
+- Device replacement budgets and vendor support information may be limited or unavailable during discovery.
+- Vendor support may vary by device, model, age, and facility.
+- Some device, interface, network, or workflow information may be incomplete.
+- Technical access to production environments is outside the scope of this portfolio discovery engagement.
 - Clinical and technical stakeholder availability may limit the depth of discovery.
 - Portfolio assumptions must be clearly distinguished from validated operational data.
+- The discovery effort does not include production configuration, deployment, implementation, or operational support.
 
 ---
 
@@ -314,45 +300,40 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 
 | Risk | Potential Impact | Mitigation Strategy |
 |---|---|---|
-| Incomplete device inventory | High-risk devices may be missed | Validate inventory with Clinical Engineering/Biomedical, IT, and clinical teams |
-| Unsupported devices | Increased operational and cybersecurity risk | Prioritize lifecycle assessment and remediation |
-| Clinical workflow disruption | Patient-safety impact | Include clinical stakeholders throughout discovery and planning |
-| Legacy integration limitations | Modernization options may be constrained | Document interfaces and vendor capabilities early |
-| Cybersecurity vulnerabilities | Potential patient-safety and operational risk | Conduct security assessment and evaluate compensating controls |
-| Vendor dependency | Delays or limited modernization options | Engage vendors during discovery |
-| Resource availability | Delayed discovery and validation | Prioritize critical stakeholders and facilities |
-| Scope expansion | Schedule and complexity increase | Maintain focused device population and formal change control |
-| Inaccurate assumptions | Poor recommendations | Validate findings through multiple stakeholder groups |
-| Communication gaps | Misunderstanding, resistance, workflow errors, or delayed action | Establish stakeholder communication needs, ownership, decision points, and feedback mechanisms |
-| Poor workflow fit | Low usability or limited adoption | Evaluate proposed solutions against actual clinical workflows before recommendation |
-| Information overload | Decision-makers may not act on available information | Design decision-support outputs around the information required for specific decisions and actions |
-| Unclear ownership | Actions may not occur after decisions are made | Define responsibility and escalation paths for key implementation activities |
-
+| Incomplete device inventory | High-risk devices or dependencies may be missed | Validate available inventory information with Clinical Engineering/Biomedical, IT, and clinical stakeholders |
+| Unsupported devices | Increased operational, cybersecurity, and lifecycle risk | Document vendor-support status and identify devices requiring further lifecycle investigation |
+| Clinical workflow disruption | Discovery activities could interfere with clinical operations | Coordinate discovery activities with clinical stakeholders and avoid disruption to patient care |
+| Legacy integration limitations | Current information flows or modernization considerations may be difficult to understand | Document available interfaces, connectivity, data flows, and known technical constraints |
+| Cybersecurity vulnerabilities | Potential operational and patient-safety concerns may not be fully understood | Document available security information, known vulnerabilities, network exposure, access requirements, and areas requiring further investigation |
+| Vendor dependency | Limited information may constrain understanding of device capabilities and lifecycle status | Identify vendor dependencies, available documentation, support status, and unresolved vendor questions |
+| Resource availability | Delayed discovery activities or incomplete stakeholder input | Prioritize critical stakeholders, facilities, and discovery questions |
+| Scope expansion | Increased complexity and loss of discovery focus | Maintain the defined discovery scope and document requests that belong to future phases |
+| Inaccurate assumptions | Findings may be based on incomplete or incorrect information | Validate findings through available documentation and multiple stakeholder sources; clearly identify portfolio assumptions |
+| Communication gaps | Important information, ownership, or unresolved questions may be missed | Document stakeholder communication needs, ownership, decision points, and follow-up actions |
+| Poor workflow understanding | Technical findings may not reflect actual clinical work | Validate workflow information with appropriate clinical stakeholders and document workflow dependencies |
+| Information overload | Decision-makers may have difficulty identifying important findings | Organize findings around risks, dependencies, gaps, decision requirements, and unresolved questions |
+| Unclear ownership | Findings or follow-up questions may not have an identified owner | Identify appropriate stakeholder or SME ownership for significant findings, dependencies, and follow-up actions |
 ---
 
 # 10. Project Deliverables
 
 | Deliverable | Description |
 |---|---|
-| **Project Charter** | Defines the project problem, objectives, scope, stakeholders, risks, guiding principles, and success criteria. |
+| **Project Charter** | Defines the project problem, objectives, discovery scope, stakeholders, risks, assumptions, constraints, and success criteria. |
 | **Discovery Plan** | Defines discovery questions, activities, stakeholders, evidence, and expected outputs. |
-| **Device Inventory** | Documents the selected infusion-pump population and relevant attributes. |
-| **Stakeholder Analysis** | Identifies stakeholders, responsibilities, influence, communication needs, and engagement requirements. |
-| **Clinical Workflow Map** | Illustrates how infusion pumps are used within selected clinical workflows, including key users, handoffs, dependencies, and information needs. |
-| **Information & Communication Flow Map** | Shows how information moves between devices, systems, users, and organizational stakeholders and identifies communication gaps or dependencies. |
-| **Current-State Architecture** | Shows device connectivity, systems, interfaces, and relevant network boundaries. |
-| **Cybersecurity Assessment** | Summarizes identified security concerns, vulnerabilities, and risk considerations. |
-| **Risk Assessment** | Prioritizes devices and facilities based on defined clinical, operational, cybersecurity, interoperability, and lifecycle criteria. |
-| **QGIS Visualizations** | Maps facility and device distribution to support risk assessment, prioritization, and implementation planning. |
-| **Gap Analysis** | Identifies gaps between the current environment and desired future state across technology, workflow, information exchange, usability, and operational needs. |
-| **Solution Options Analysis** | Compares potential modernization approaches based on clinical safety, workflow fit, usability, technical feasibility, risk reduction, stakeholder readiness, and implementation complexity. |
-| **Interface Inventory** | Documents existing interfaces, data-exchange methods, integration technologies, and information flows associated with the selected infusion-pump environment. |
-| **Decision-Support Framework** | Defines the information, criteria, and outputs needed to support modernization decisions and prioritize action. |
-| **Future-State Concept Architecture** | Illustrates the recommended target environment and how technology, information flows, and clinical workflows interact. |
-| **Communication & Change-Management Plan** | Identifies stakeholder communication needs, key messages, decision points, responsibilities, feedback mechanisms, and change considerations. |
-| **Modernization Roadmap** | Defines phased implementation priorities, dependencies, risks, stakeholder responsibilities, and major actions. |
-| **Outcome & Measurement Framework** | Defines measures for workflow improvement, information availability, decision support, risk reduction, implementation effectiveness, and future-state outcomes. |
-| **Executive Presentation** | Summarizes findings, recommended approach, risks, expected benefits, priorities, and next steps for executive decision-making. |
+| **Device Inventory** | Documents the selected infusion-pump population and relevant attributes, including location, connectivity, lifecycle, and vendor-support status. |
+| **Stakeholder Analysis** | Identifies stakeholders, responsibilities, information needs, communication needs, and engagement requirements. |
+| **Clinical Workflow Assessment** | Documents selected clinical workflows, key users, handoffs, dependencies, information needs, and workflow considerations. |
+| **Information & Communication Flow Map** | Shows how information moves between devices, systems, users, and organizational stakeholders and identifies communication dependencies or gaps. |
+| **Current-State Architecture** | Shows device connectivity, systems, interfaces, relevant network boundaries, and major information flows within the assessed environment. |
+| **Cybersecurity Assessment** | Documents available security characteristics, vulnerabilities, exposure, access requirements, and identified cybersecurity considerations. |
+| **Interface Inventory** | Documents identified interfaces, data-exchange methods, integration technologies, and information flows associated with the selected infusion-pump environment. |
+| **Risk Assessment** | Identifies and prioritizes risks across clinical, operational, cybersecurity, interoperability, workflow, communication, and lifecycle considerations. |
+| **Gap Analysis** | Identifies gaps, dependencies, unknowns, and areas requiring further investigation across technology, workflow, information exchange, security, and operations. |
+| **QGIS Visualizations** | Maps facility and device distribution to support geographic understanding of the assessed environment and discovery findings. |
+| **Current-State Findings** | Consolidates evidence-based findings from the discovery and assessment activities, including risks, gaps, dependencies, constraints, and unresolved questions. |
+| **Decision-Readiness Findings** | Identifies the information, criteria, dependencies, and unresolved questions leadership and operational stakeholders may need for future modernization decisions. |
+| **Discovery Closeout Summary** | Summarizes what was learned, what remains uncertain, areas requiring further investigation, and considerations for a potential future phase. |
 
 ---
 
