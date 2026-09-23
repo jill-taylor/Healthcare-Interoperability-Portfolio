@@ -376,39 +376,35 @@ Major decisions regarding future modernization approaches remain outside the sco
 
 ### 1. Discovery Before Solution
 
-The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution. The project team will first establish the current state, understand clinical and technical requirements, examine workflows and information flows, identify risks and stakeholder needs, and evaluate available options. The recommended approach will be based on evidence gathered during discovery and its ability to support clinical, operational, technical, and organizational needs.
+The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution. The project team will first establish the current state, understand clinical and technical requirements, examine workflows and information flows, identify risks and stakeholder needs, and document available options and constraints. Findings will be based on evidence gathered during discovery and its ability to support clinical, operational, technical, and organizational needs.
 
 ### 2. Workflow Before Technology
 
-Technology decisions will be evaluated against real-world clinical workflows. The project will seek to understand how work is performed before determining how technology should support that work.
+Technology considerations will be evaluated against real-world clinical workflows. The project will seek to understand how work is performed before determining how technology may support that work.
 
 ### 3. Data Is a Foundation, Not the Outcome
 
-Reliable data and interoperability are necessary foundations, but the project will evaluate whether information is accessible, understandable, usable, and available at the point where it can support a decision or action.
+Reliable data and interoperability are necessary foundations, but the discovery effort will evaluate whether information is accessible, understandable, usable, and available at the point where it may support a decision or action.
 
 ### 4. Communication Enables Action
 
-Communication will be treated as a core project and solution capability. Stakeholders must understand what is changing, why it matters, what they are responsible for, and what action is expected.
+Communication will be treated as a core project capability. Stakeholders must understand what is known, what remains uncertain, what information is needed, who owns relevant questions or dependencies, and what follow-up may be required.
 
 ### 5. Decision Support Over Data Availability
 
-The project will focus not only on whether information can be exchanged, but whether the resulting information supports meaningful decisions by the people responsible for clinical and operational actions.
+The project will focus not only on whether information can be exchanged, but whether the resulting information is understandable and useful to the people responsible for clinical and operational decisions.
 
-### 6. Action Over Adoption
+### 6. Actionable Findings Over Activity
 
-Successful implementation will not be defined solely by whether technology is deployed or adopted. The project will consider whether the solution enables the intended workflow, decisions, behaviors, and outcomes.
+Discovery success will not be defined solely by the amount of information collected. Findings should identify meaningful risks, gaps, dependencies, ownership, unresolved questions, and areas requiring further investigation.
 
-### 7. Outcomes Over Measurement Alone
+### 7. Evidence Over Assumption
 
-Measures should serve a purpose. The project will seek to connect measurements to decisions and actions rather than treating measurement as the final objective.
+Discovery findings should be based on available evidence, stakeholder input, documentation, and clearly identified portfolio assumptions. Where information cannot be validated, the limitation or uncertainty should be documented.
 
 ### 8. Clinical Safety and Continuity First
 
-All modernization options must preserve safe clinical operations and minimize disruption to patients and clinical staff.
-
-
-
-
+All discovery activities and modernization considerations must respect safe clinical operations and minimize disruption to patients and clinical staff.
 ---
 
 Version 2.1 – Workflow & Decision-Support Revision
