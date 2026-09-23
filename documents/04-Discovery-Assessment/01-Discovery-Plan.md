@@ -1,12 +1,12 @@
 # 1. Purpose
 
-The purpose of the discovery phase is to establish a reliable understanding of Heartland Integrated Health System's legacy, network-connected infusion-pump environment before evaluating modernization options.
+The purpose of the discovery phase is to establish a reliable understanding of Heartland Integrated Health System's legacy, network-connected infusion-pump environment and document the evidence needed to assess its current state.
 
 Discovery will examine the device population, locations, clinical workflows, connectivity, system integrations, cybersecurity considerations, vendor support, lifecycle status, operational dependencies, information flows, communication needs, and geographic distribution of affected devices.
 
-The discovery process will use stakeholder interviews, technical reviews, available documentation, inventory analysis, workflow assessment, and other appropriate evidence-gathering activities. Findings will be validated with relevant subject matter experts and used to identify risks, requirements, dependencies, communication needs, and decision criteria for the subsequent assessment and options-evaluation phases.
+The discovery process will use stakeholder interviews, technical reviews, available documentation, inventory analysis, workflow assessment, and other appropriate evidence-gathering activities. Findings will be validated with relevant subject matter experts and used to identify current-state risks, gaps, dependencies, communication needs, decision-readiness considerations, and areas requiring further investigation.
 
-Discovery will not assume a specific technical solution.
+Discovery will not assume a specific technical solution or determine future-state implementation activities.
 
 ---
 
