@@ -168,7 +168,7 @@ Discovery questions:
 - What workflow dependencies or clinical continuity considerations should be understood before future decisions are made?
 - What financial or resource information is available that may affect future analysis?
 - What dependencies or evidence gaps could affect future decision-making?
-- Which requirements or constraints are considered mandatory, and which are desirable?
+- Which requirements or constraints are currently known, and which remain to be clarified?
 - Which stakeholders should participate in defining and validating decision-readiness considerations?
 - How should these requirements, constraints, dependencies, and evidence gaps be documented for future analysis?
 
