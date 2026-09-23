@@ -284,7 +284,7 @@ Stakeholder engagement will focus on validating the current-state environment, u
 - Device replacement budgets and vendor support information may be limited or unavailable during discovery.
 - Vendor support may vary by device, model, age, and facility.
 - Some device, interface, network, or workflow information may be incomplete.
-- Technical access to production environments is outside the scope of this portfolio discovery engagement.
+- Technical access to production environments is outside the scope of this discovery engagement.
 - Clinical and technical stakeholder availability may limit the depth of discovery.
 - Portfolio assumptions must be clearly distinguished from validated operational data.
 - The discovery effort does not include production configuration, deployment, implementation, or operational support.
@@ -306,8 +306,9 @@ Stakeholder engagement will focus on validating the current-state environment, u
 | Inaccurate assumptions | Findings may be based on incomplete or incorrect information | Validate findings through available documentation and multiple stakeholder sources; clearly identify portfolio assumptions |
 | Communication gaps | Important information, ownership, or unresolved questions may be missed | Document stakeholder communication needs, ownership, decision points, and follow-up actions |
 | Poor workflow understanding | Technical findings may not reflect actual clinical work | Validate workflow information with appropriate clinical stakeholders and document workflow dependencies |
-| Information overload | Decision-makers may have difficulty identifying important findings | Organize findings around risks, dependencies, gaps, decision requirements, and unresolved questions |
+| Information overload | Decision-makers may have difficulty identifying important findings | Organize findings around risks, dependencies, gaps, decision-readiness considerations, and unresolved questions |
 | Unclear ownership | Findings or follow-up questions may not have an identified owner | Identify appropriate stakeholder or SME ownership for significant findings, dependencies, and follow-up actions |
+
 ---
 
 # 10. Project Deliverables
@@ -327,7 +328,7 @@ Stakeholder engagement will focus on validating the current-state environment, u
 | **Gap Analysis** | Identifies gaps, dependencies, unknowns, and areas requiring further investigation across technology, workflow, information exchange, security, and operations. |
 | **QGIS Visualizations** | Maps facility and device distribution to support geographic understanding of the assessed environment and discovery findings. |
 | **Current-State Findings** | Consolidates evidence-based findings from the discovery and assessment activities, including risks, gaps, dependencies, constraints, and unresolved questions. |
-| **Decision-Readiness Findings** | Identifies the information, criteria, dependencies, and unresolved questions leadership and operational stakeholders may need for future modernization decisions. |
+| **Decision-Readiness Findings** | Identifies the information, criteria, dependencies, constraints, and unresolved questions leadership and operational stakeholders may need for future modernization analysis. |
 | **Discovery Closeout Summary** | Summarizes what was learned, what remains uncertain, areas requiring further investigation, and considerations for a potential future phase. |
 
 ---
@@ -340,11 +341,11 @@ Stakeholder engagement will focus on validating the current-state environment, u
 | CIO/Technology Sponsor | Provides technology oversight, executive support, and technology-related decision guidance |
 | Clinical Sponsors | Validate clinical priorities, workflow requirements, patient-safety considerations, and operational impacts |
 | Technical SMEs | Provide subject-matter expertise, validate findings, identify technical constraints, and document technical considerations |
-| Technical Project Manager | Leads discovery planning, coordination, schedule, risks, communications, stakeholder alignment, evidence tracking, decisions, and deliverables |
+| Technical Project Manager | Leads discovery planning, coordination, schedule, risks, communications, stakeholder alignment, evidence tracking, decision-readiness considerations, and deliverables |
 | Project Team | Performs discovery, assessment, analysis, documentation, stakeholder engagement, and findings development |
-| Steering Committee | Reviews major findings, risks, dependencies, unresolved questions, and decision requirements |
+| Steering Committee | Reviews major findings, risks, dependencies, unresolved questions, and decision-readiness considerations |
 
-The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decisions, assumptions, and follow-up actions are documented and communicated.
+The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decision points, assumptions, and follow-up actions are documented and communicated.
 
 Governance will emphasize evidence-based discovery, timely review of findings, clear ownership, cross-functional communication, documented assumptions, and identification of questions requiring further investigation.
 
@@ -363,15 +364,16 @@ Major decisions regarding future modernization approaches remain outside the sco
 | Workflow & Communication Assessment | Identify workflow dependencies, usability considerations, information needs, communication gaps, and ownership dependencies |
 | Risk & Gap Analysis | Identify and prioritize clinical, operational, cybersecurity, interoperability, workflow, lifecycle, and information risks and gaps |
 | Current-State Findings | Consolidate evidence-based findings, dependencies, constraints, assumptions, unresolved questions, and areas requiring further investigation |
-| Decision-Readiness Review | Organize findings around the information leadership and operational stakeholders may need for future modernization decisions |
+| Decision-Readiness Review | Organize findings around the information leadership and operational stakeholders may need for future modernization analysis |
 | Discovery Closeout | Document discovery conclusions, limitations, unresolved questions, areas for further investigation, and considerations for a potential subsequent phase |
+
 ---
 
 # 13. Project Guiding Principles
 
 ### 1. Discovery Before Solution
 
-The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution. The project team will first establish the current state, understand clinical and technical requirements, examine workflows and information flows, identify risks and stakeholder needs, and document available options and constraints. Findings will be based on evidence gathered during discovery and its ability to support clinical, operational, technical, and organizational needs.
+The project will not assume that device replacement, Zero Trust, network segmentation, secure browser technology, interoperability modernization, or any other technical approach is the appropriate solution. The project team will first establish the current state, understand clinical and technical requirements, examine workflows and information flows, identify risks and stakeholder needs, and document relevant constraints and areas requiring further investigation. Findings will be based on evidence gathered during discovery and their relevance to clinical, operational, technical, and organizational needs.
 
 ### 2. Workflow Before Technology
 
@@ -399,7 +401,8 @@ Discovery findings should be based on available evidence, stakeholder input, doc
 
 ### 8. Clinical Safety and Continuity First
 
-All discovery activities and modernization considerations must respect safe clinical operations and minimize disruption to patients and clinical staff.
+All discovery activities and documented considerations for future modernization must respect safe clinical operations and minimize disruption to patients and clinical staff.
+
 ---
 
 Version 2.1 – Workflow & Decision-Support Revision
