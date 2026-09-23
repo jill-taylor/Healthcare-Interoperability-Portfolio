@@ -16,20 +16,15 @@
 
 # Executive Summary
 
-Heartland Integrated Health System (HIHS) has identified a need to assess and modernize a population of legacy, network-connected infusion pumps within its healthcare environment.
+Heartland Integrated Health System (HIHS) has identified a need to assess a population of legacy, network-connected infusion pumps within its healthcare environment.
 
-Heartland's continued growth through hospital and healthcare-service acquisitions has created a diverse technology environment that includes medical devices of varying ages, manufacturers, connectivity capabilities, security controls, and vendor support levels. Some legacy devices may no longer align with current enterprise cybersecurity, interoperability, infrastructure, or clinical workflow requirements.
+Heartland's continued growth through hospital and healthcare-service acquisitions has created a diverse technology environment that includes medical devices of varying ages, manufacturers, connectivity capabilities, security characteristics, and vendor-support levels. Some legacy devices may not align with current enterprise cybersecurity, interoperability, infrastructure, or clinical workflow requirements.
 
-Immediate replacement of the entire legacy device population is not considered practical because of cost, clinical dependencies, operational disruption, and device availability. At the same time, continued operation of aging connected devices may introduce cybersecurity, interoperability, support, workflow, usability, and patient-safety risks.
+The discovery engagement will establish an evidence-based understanding of Heartland's legacy connected infusion-pump environment and the clinical, technical, operational, and organizational factors associated with the current state. The assessment will examine the device population, clinical workflows, information and communication flows, connectivity, integration dependencies, cybersecurity considerations, vendor support, lifecycle status, operational dependencies, and geographic distribution.
 
-This assessment will establish an evidence-based understanding of Heartland's legacy connected infusion-pump environment and the clinical, technical, operational, and organizational factors that influence modernization. It will examine the device environment, clinical workflows, information and communication flows, connectivity, integration requirements, cybersecurity considerations, vendor support, operational dependencies, and geographic distribution. These findings will help identify risks, constraints, requirements, and opportunities that inform subsequent modernization analysis and decision-making.
+The discovery effort will identify current-state risks, gaps, dependencies, constraints, information needs, unresolved questions, and areas requiring further investigation. Findings will be validated with appropriate stakeholders and subject matter experts and organized to support decision-readiness for any subsequent phase.
 
-Modernization is viewed as more than a technology upgrade. Interoperability and infrastructure provide the foundation for reliable information exchange, but the desired outcome is a clinical environment in which the right information reaches the right people at the right point in the workflow, supports sound decisions, and enables appropriate action.
-
-Potential approaches may include device replacement, vendor-supported upgrades, network segmentation, controlled access, integration modernization, workflow improvements, compensating controls, or combinations of these strategies. Options will be considered based on clinical safety, workflow fit, usability, technical feasibility, risk reduction, stakeholder readiness, and implementation complexity.
-
-The resulting recommendation will give Heartland leadership a clear basis for deciding how and where to modernize while maintaining continuity of patient care. Success will be measured not simply by technology deployment or connectivity, but by the extent to which the future-state environment improves workflow, information availability, decision support, communication, risk management, and the organization's ability to act on what its technology enables.
-
+The discovery engagement will not select, design, or implement a modernization solution. Future-state solution evaluation, detailed design, implementation planning, and deployment are outside the scope of this engagement.
 
 ---
 
