@@ -145,5 +145,4 @@ The assessment supports identification of:
 - Evidence gaps, assumptions, and unresolved questions requiring further investigation
 
 The assessment provides a foundation for consolidating technical, clinical, operational, and cybersecurity observations into the **Current-State Findings** and supporting decision-readiness for subsequent phases of analysis.
-The resulting cybersecurity risks and gaps will be consolidated into **Section 07 — Current-State Findings** and used to support decision-readiness and identification of areas requiring further investigation.
 
