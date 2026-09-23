@@ -49,6 +49,7 @@ Identify information, technical conditions, stakeholder questions, dependencies,
 
 # 3. Key Discovery Questions
 ## Objective 1: Establish a Reliable Device Baseline
+
 Discovery questions: 
 
 - How many infusion pumps are currently in service?
@@ -61,7 +62,9 @@ Discovery questions:
 
 
 ## Objective 2: Understand Clinical Workflows
+
 Discovery questions:
+
 - In which clinical areas are the infusion pumps used?
 - Which types of patients and clinical workflows depend on the pumps?
 - Who interacts with the pumps during a typical clinical workflow?
@@ -70,15 +73,17 @@ Discovery questions:
 - Does pump connectivity support any part of the clinical workflow?
 - What happens when a pump is unavailable, disconnected, or unable to communicate with another system?
 - Are there differences in workflow between facilities or clinical departments?
-- Which workflow dependencies could create patient-safety or operational risks during modernization?
-- What changes to the current workflow would be difficult or disruptive for clinical staff?
-- Is the information provided by connected systems available at the point where clinicians need it?
+- What workflow dependencies could affect clinical operations or continuity?
+- What information is available to clinicians at the point where it is needed?
 - Are there situations where staff must obtain information from multiple systems or people to complete the workflow?
 - Where do communication handoffs occur between clinical, technical, and operational teams?
-- Are users able to understand what the technology is telling them and what action is expected?
-
+- Are there workflow steps that depend on information being transmitted between the pump and another system?
+- What workflow issues, gaps, or uncertainties require further investigation?
+  
 ## Objective 3: Understand Connectivity and Integration
+
 Discovery questions:
+
 - How are the infusion pumps connected to Heartland's network?
 - Are the pumps connected through wired, wireless, or other connectivity methods?
 - Which pumps are currently network-connected, and are there differences by model or facility?
@@ -89,33 +94,35 @@ Discovery questions:
 - Where do the interfaces or integration points reside within the current architecture?
 - What happens when a pump loses network connectivity or an interface becomes unavailable?
 - How is connectivity or interface failure detected and communicated to clinical or technical staff?
-- Are there differences in connectivity or integration between the two hospitals or other selected facilities?
-- What dependencies would need to be considered if a pump, interface, network connection, or connected system were changed?
+- Are there differences in connectivity or integration between facilities?
+- What dependencies exist between the pumps, network infrastructure, integration components, and connected systems?
 - Does the information exchanged between systems arrive in a form that is useful to the people who need it?
 - What information is lost, delayed, duplicated, or difficult to interpret across current interfaces?
-
-
+- What connectivity, interface, or integration issues require further investigation?
+  
 ## Objective 4: Assess Cybersecurity Considerations
+
 Discovery questions:
+
 - What security controls currently protect the infusion pumps and their supporting systems?
 - Which infusion pumps are connected to the network, and what level of network access do they require?
 - Are the pumps located within appropriate network segments or security zones?
 - What network traffic is required for normal pump operation and system integration?
 - How are users, devices, and administrative access authenticated and authorized?
 - What remote-access capabilities exist for the pumps or supporting systems?
-- How are security updates, patches, firmware, and configuration changes managed?
+- How are security updates, patches, firmware, and configuration changes currently managed?
 - Which devices or models have known vulnerabilities or unsupported security characteristics?
 - How are vulnerabilities identified, tracked, prioritized, and communicated?
 - What monitoring or logging exists for device and network activity?
 - What happens when a device cannot support a required security control because of its age or technical limitations?
 - Are compensating controls currently being used for legacy devices?
-- What cybersecurity requirements could affect potential modernization options?
-- What security controls could reduce risk without disrupting clinical operations?
-- What cybersecurity dependencies or constraints should be considered before recommending a modernization approach?
-
+- What cybersecurity dependencies or constraints exist within the current environment?
+- What cybersecurity risks, gaps, or uncertainties require further investigation?
 
 ## Objective 5: Assess Lifecycle and Vendor Support
+
 Discovery questions:
+
 - What is the age and expected service life of each infusion-pump model?
 - Which manufacturers and models are currently supported by the vendor?
 - Which devices are approaching or past their expected service life?
@@ -124,15 +131,16 @@ Discovery questions:
 - Are replacement parts, firmware updates, security patches, and other vendor services still available?
 - What limitations exist for devices that are no longer fully supported?
 - Are there differences in lifecycle or support status between facilities?
-- What vendor dependencies could affect the timing or feasibility of modernization?
+- What vendor dependencies exist within the current environment?
 - Are there contractual, licensing, or maintenance considerations that need to be understood?
-- Which devices may require near-term remediation because of lifecycle or support concerns?
-- Which devices could reasonably remain in service with appropriate controls or monitoring?
-- What information is needed from vendors to evaluate upgrade, replacement, or other modernization options?
-
+- Which devices require further investigation because of lifecycle or support concerns?
+- What information is available about devices that remain in service despite lifecycle or support limitations?
+- What information is needed from vendors to clarify device capabilities, support limitations, lifecycle status, and available technical options?
 
 ## Objective 6: Identify and Prioritize Risks
+
 Discovery questions:
+
 - What characteristics make one infusion pump or device population higher risk than another?
 - Which clinical, operational, cybersecurity, interoperability, and lifecycle factors should be considered when evaluating risk?
 - Which devices or facilities have the greatest combination of risk factors?
@@ -140,48 +148,44 @@ Discovery questions:
 - Which devices have the greatest dependency on network connectivity or system integration?
 - Which devices or workflows would create the greatest operational impact if connectivity or device functionality were disrupted?
 - Are there differences in risk between facilities, departments, device models, or device configurations?
-- How should risk factors be weighted or prioritized for this project?
-- Which risks require immediate attention, and which can be addressed through longer-term planning?
-- What existing controls or mitigations reduce the identified risks?
-- Where are residual risks present after existing controls are considered?
-- Which risks could materially affect potential modernization options or implementation sequencing?
-- Who is responsible for validating and accepting the identified risks?
+- How should risk factors be documented and prioritized for this discovery assessment?
+- Which risks require further investigation or additional evidence?
+- What existing controls or mitigations are currently documented for the identified risks?
+- Where are residual risks or evidence gaps present after existing controls are considered?
+- Which risks or gaps should be carried forward into the current-state findings?
+- Which stakeholders or subject matter experts should validate the identified risks and findings?
 
+## Objective 7: Identify Decision-Readiness Considerations
 
-## Objective 7: Establish Decision Criteria for Modernization Options
 Discovery questions:
-- What clinical requirements must any modernization approach satisfy?
-- What cybersecurity requirements must be addressed?
-- What interoperability and integration requirements must be maintained or improved?
-- What device capabilities or limitations could affect the available options?
-- What operational constraints could affect implementation?
-- What lifecycle and vendor-support considerations should influence the evaluation?
-- What level of disruption to clinical workflows is acceptable?
-- What financial or resource constraints should be considered?
-- What dependencies could affect the feasibility or timing of each option?
-- Which requirements are mandatory, and which are desirable?
-- What criteria should be used to compare replacement, upgrade, segmentation, controlled access, integration modernization, and other potential
-  approaches?
-- Who should participate in defining and validating the evaluation criteria?
-- How will the criteria be documented and approved before options are evaluated?
 
+- What clinical requirements are important to understanding the current environment?
+- What cybersecurity requirements and dependencies are currently identified?
+- What interoperability and integration requirements must be understood?
+- What device capabilities or limitations affect current workflows and system dependencies?
+- What operational constraints are currently documented?
+- What lifecycle and vendor-support considerations require further investigation?
+- What workflow dependencies or clinical continuity considerations should be understood before future decisions are made?
+- What financial or resource information is available that may affect future analysis?
+- What dependencies or evidence gaps could affect future decision-making?
+- Which requirements or constraints are considered mandatory, and which are desirable?
+- Which stakeholders should participate in defining and validating decision-readiness considerations?
+- How should these requirements, constraints, dependencies, and evidence gaps be documented for future analysis?
 
-## Objective 8: Establish Inputs for a Phased Strategy
+## Objective 8: Identify Areas for Further Investigation
+
 Discovery questions:
-- Which devices, facilities, or environments should be considered highest priority based on the findings?
-- What dependencies could affect the sequence of modernization activities?
-- Are there clinical, technical, operational, cybersecurity, or vendor dependencies that must be addressed before changes can occur?
-- Which devices or facilities could be addressed together because they share similar characteristics or requirements?
-- Are there opportunities to phase modernization by facility, device model, clinical area, risk level, or another logical grouping?
-- What resources and subject matter expertise would be required for each phase?
-- What vendor participation or support would be required?
-- What implementation constraints could affect the timing or sequence of activities?
-- What clinical continuity requirements must be addressed before implementation begins?
-- Which activities could occur independently, and which activities have prerequisites?
-- What risks could increase if modernization activities are delayed?
-- What information is still unknown and would need to be resolved before implementation planning?
-- What dependencies and decision points should be carried forward into the modernization roadmap?
 
+- Which devices, facilities, workflows, or interfaces require additional assessment based on current findings?
+- What technical, clinical, operational, cybersecurity, interoperability, lifecycle, or vendor questions remain unresolved?
+- What information gaps or conflicting information require additional validation?
+- Which findings require confirmation from subject matter experts?
+- What additional documentation or evidence is needed to clarify current-state conditions?
+- What vendor information or participation may be needed to resolve outstanding questions?
+- Which dependencies or assumptions should be validated before future decisions are made?
+- Which risks or gaps require additional analysis to support decision-readiness?
+- Which findings should be carried forward into subsequent phases of analysis?
+- What areas remain outside the scope of the current discovery activities?
 
 ---
 
@@ -204,7 +208,7 @@ The Technical Project Manager will coordinate discovery activities, document fin
 | Pharmacy | Clinical stakeholder | Medication-management dependencies and workflow considerations |
 | Compliance/Privacy | Regulatory stakeholder | Applicable organizational, regulatory, and privacy requirements |
 | Medical Device Vendors | External technical SME | Device capabilities, support status, upgrades, limitations, lifecycle information |
-| Technical Project Manager | Discovery lead | Coordinates interviews, evidence collection, findings, risks, decisions, and documentation |
+| Technical Project Manager | Discovery lead | Coordinates interviews, evidence collection, findings, risks, decision-readiness considerations, and documentation |
 
 ---
 
