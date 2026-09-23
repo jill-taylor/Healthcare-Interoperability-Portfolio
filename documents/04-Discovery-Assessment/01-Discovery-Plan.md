@@ -214,12 +214,9 @@ The Technical Project Manager will coordinate discovery activities, document fin
 
 # 5. Discovery Activities
 
-Discovery activities will be conducted using a combination of stakeholder interviews, technical reviews, data and inventory analysis, workflow
-assessment, workshops, and evidence validation.
+Discovery activities will be conducted using a combination of stakeholder interviews, technical reviews, data and inventory analysis, workflow assessment, workshops, and evidence validation.
 
-Activities will be coordinated according to the discovery objectives and targeted to the stakeholders and subject matter experts with relevant
-knowledge. Findings will be documented and validated before being incorporated into the current-state assessment and subsequent risk and options
-analysis.
+Activities will be coordinated according to the discovery objectives and targeted to the stakeholders and subject matter experts with relevant knowledge. Findings will be documented and validated before being incorporated into the current-state assessment, risk and gap analysis, and decision-readiness findings.
 
 ### 5.1 Stakeholder Interviews
 
@@ -239,15 +236,15 @@ Review network connectivity, system interfaces, data exchange, integration depen
 
 ### 5.5 Cybersecurity & Technical Review
 
-Review relevant security characteristics, network exposure, access controls, monitoring, vulnerabilities, and existing or potential compensating controls.
+Review relevant security characteristics, network exposure, access controls, monitoring, vulnerabilities, and existing compensating controls.
 
 ### 5.6 Lifecycle & Vendor Assessment
 
-Review device age, support status, end-of-life considerations, maintenance history, upgrade capabilities, and vendor dependencies.
+Review device age, support status, end-of-life considerations, maintenance history, current device capabilities and limitations, and vendor dependencies.
 
 ### 5.7 Cross-Functional Findings Validation
 
-Bring relevant SMEs together to validate findings, resolve discrepancies, identify gaps, and confirm risks, dependencies, communication needs, and decision criteria.
+Bring relevant SMEs together to validate findings, resolve discrepancies, identify gaps, and confirm risks, dependencies, communication needs, and decision-readiness considerations.
 
 ---
 
@@ -255,7 +252,7 @@ Bring relevant SMEs together to validate findings, resolve discrepancies, identi
 
 Discovery will use available technical, operational, clinical, and organizational evidence to establish the current state of the selected infusion-pump environment.
 
-Evidence will be collected from multiple sources where practical and reconciled when discrepancies are identified. The objective is to develop a reliable evidence base for identifying risks, requirements, dependencies, and decision criteria.
+Evidence will be collected from multiple sources where practical and reconciled when discrepancies are identified. The objective is to develop a reliable evidence base for identifying current-state risks, gaps, dependencies, decision-readiness considerations, and areas requiring further investigation.
 
 Potential evidence and data sources include:
 
