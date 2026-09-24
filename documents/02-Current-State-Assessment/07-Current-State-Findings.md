@@ -3,8 +3,8 @@
 | ID | Finding | Potential Impact | Evidence | Status |
 |---|---|---|---|---|
 | F-01 | Vendor-dependent device integration may increase integration complexity and interface dependencies. | Potential for increased maintenance effort, more complex testing or upgrade activities, and vendor-specific troubleshooting dependencies. | C-03 / A-01–A-03 | Needs further assessment |
- | F-02 | The current-state baseline contains information and validation gaps requiring additional discovery. | Potential difficulty confirming interface ownership, data flows, monitoring coverage, security dependencies, vendor dependencies, facility-specific differences, and workflow impacts. | C-03 / A-01–A-03 / W-01 | Needs further assessment |
- | F-03 | The infusion-pump environment includes devices with varying lifecycle and vendor-support conditions that may affect integration, security, and operational dependencies. | Potential for differing support, maintenance, upgrade, security-update, and integration considerations across the device population. | D-01 / W-01 / C-03 | Needs further assessment |
+| F-02 | The current-state baseline contains information and validation gaps requiring additional discovery. | Potential difficulty confirming interface ownership, data flows, monitoring coverage, security dependencies, vendor dependencies, facility-specific differences, and workflow impacts. | C-03 / A-01–A-03 / W-01 | Needs further assessment |
+| F-03 | The infusion-pump environment includes devices with varying lifecycle and vendor-support conditions that may affect integration, security, and operational dependencies. | Potential for differing support, maintenance, upgrade, security-update, and integration considerations across the device population. | D-01 / W-01 / C-03 | Needs further assessment |
 
 # Assessment Notes
 
