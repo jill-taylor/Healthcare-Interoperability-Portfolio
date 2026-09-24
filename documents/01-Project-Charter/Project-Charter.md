@@ -159,7 +159,7 @@ Establish measures that demonstrate whether the discovery effort has produced a 
 
 | Area | Scope |
 |---|---|
-| Devices | Selected legacy network-connected infusion pumps |
+| Devices | Selected legacy infusion pumps, including network-connected and non-network-connected devices within the assessed population |
 | Inventory | Device inventory, classification, location, facility distribution, lifecycle status, and vendor-support status |
 | Clinical Workflow | Workflow discovery, usability, information needs, handoffs, dependencies, and operational impacts |
 | Information & Communication | Information flows, communication dependencies, gaps, and ownership |
