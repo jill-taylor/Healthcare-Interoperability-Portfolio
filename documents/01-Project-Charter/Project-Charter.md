@@ -169,7 +169,7 @@ Establish measures that demonstrate whether the discovery effort has produced a 
 | Stakeholders | Interviews, workshops, stakeholder roles, information needs, decision points, and engagement requirements |
 | Architecture | Current-state architecture, system relationships, connectivity, interfaces, and information flows |
 | Risk & Gap Analysis | Identification and prioritization of risks and gaps across technology, workflow, security, interoperability, lifecycle, and operations |
-| Decision Readiness | Decision Readiness | Identification of decision-readiness considerations, dependencies, constraints, unresolved questions, and information needed for future modernization analysis |
+| Decision Readiness | Identification of decision-readiness considerations, dependencies, constraints, unresolved questions, and information needed for future modernization analysis |
 | Modernization Considerations | Identification of constraints, dependencies, and considerations that may affect future modernization planning |
 | Discovery Findings | Consolidated current-state findings, evidence, assumptions, risks, gaps, and areas requiring further investigation |
 
@@ -255,7 +255,7 @@ The success of the Legacy Medical Device Modernization & Clinical Workflow Integ
 | IT Operations | Technical Stakeholder | Infrastructure and operational dependencies |
 | Compliance/Privacy | Regulatory Stakeholder | Regulatory, privacy, and organizational requirements |
 | Medical Device Vendors | External Stakeholder | Device capabilities, support status, upgrades, technical constraints, and product information |
-| Technical Project Manager | Project Lead | Project Lead | Discovery planning, coordination, risks, decision-readiness considerations, communications, stakeholder alignment, evidence tracking, and documentation |
+| Technical Project Manager | Project Lead | Discovery planning, coordination, risks, decision-readiness considerations, communications, stakeholder alignment, evidence tracking, and documentation |
 
 The Technical Project Manager will coordinate the discovery effort without acting as the technical authority for clinical engineering, cybersecurity, networking, integration, or medical-device engineering decisions. The Technical Project Manager will translate technical findings into clear information for appropriate stakeholders and ensure that findings, responsibilities, dependencies, risks, decision points, assumptions, and follow-up actions are documented and communicated.
 
