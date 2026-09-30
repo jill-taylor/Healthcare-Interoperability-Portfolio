@@ -34,7 +34,6 @@ Heartland Integrated Health System (HIHS) is a not-for-profit regional healthcar
 Originally established as a single community hospital, HIHS has expanded through strategic acquisitions designed to improve access to healthcare services throughout the region. Today, the organization serves both urban and rural communities through hospitals, primary care clinics, specialty care, urgent care, laboratory, imaging, and telehealth services.
 
 HIHS currently consists of:
-
 - **Heartland Regional Medical Center — Flagship tertiary care hospital**
 - **Heartland Community Hospital — Community acute care hospital**
 - Eight primary care clinics
@@ -52,101 +51,62 @@ The organization's continued growth has created a diverse technology environment
 
 # 2. Business Problem
 
-Heartland has identified a population of legacy, network-connected infusion pumps that may not fully align with current enterprise technology, security, interoperability, and clinical workflow requirements.
+Heartland Integrated Health System (HIHS) has identified a population of legacy infusion pumps that may not fully meet current technology, cybersecurity, interoperability, and clinical workflow requirements.
+These devices remain essential to clinical operations. However, their age, connectivity capabilities, vendor support status, integration limitations, and security characteristics may create operational and technical challenges.
+HIHS currently lacks a consolidated understanding of the devices, their relationships with clinical systems, and their role in everyday clinical workflows.
 
-The devices remain important to clinical operations and cannot simply be removed from service. Their age, connectivity capabilities, vendor support status, integration limitations, security characteristics, and workflow dependencies create conditions that require structured assessment.
+Key areas requiring assessment include:
+- Device inventory, location, age, and lifecycle status.
+- Network connectivity and integration with enterprise clinical systems.
+- Information exchange between infusion pumps and supporting systems.
+- Vendor support and device maintenance considerations.
+- Clinical workflows, usability, and information requirements.
+- Cybersecurity risks and technical dependencies.
+- Operational gaps, unresolved issues, and areas requiring further investigation.
 
-Heartland currently lacks a consolidated assessment of:
+Without a comprehensive understanding of these areas, leadership may lack the information needed to evaluate future modernization options.
+The project will establish a documented view of the current environment, identify significant risks and gaps, and provide findings to support future planning and decision-making.
 
-- Which legacy infusion pumps are in service
-- Where the devices are located
-- Which devices are network-connected
-- Which systems they communicate with
-- What information is exchanged
-- What integration capabilities they support
-- Which devices remain vendor-supported
-- How the devices are incorporated into clinical workflows
-- Where workflow or communication gaps exist
-- Which devices or environments have significant operational, cybersecurity, interoperability, or lifecycle risk factors
-- What information remains unknown or requires further investigation
+Core Project Question
 
-The organization therefore needs a structured discovery and current-state assessment before future modernization decisions are considered.
-
-### Core PM Question
-
-What does Heartland need to understand about its legacy connected infusion-pump environment—including devices, workflows, information flows, connectivity, integration, cybersecurity, lifecycle, risks, and dependencies—to support informed decisions in a subsequent phase?
+What are the current capabilities, limitations, risks, and clinical workflow dependencies of the HIHS legacy infusion pump environment, and what information is needed to support future modernization decisions?
 
 ---
 
 # 3. Project Vision
 
-Heartland seeks to establish a clear, evidence-based understanding of its legacy connected infusion-pump environment before making future modernization decisions.
+The vision is to provide Heartland Integrated Health System with a clear, evidence-based understanding of its legacy infusion pump environment and the factors that may influence future modernization.
+The project will bring together clinical, technical, operational, and organizational perspectives to examine how devices are used, how they exchange information, and how they support clinical work.
 
-The discovery effort will:
+The assessment will:
+- Establish a consolidated view of the infusion pump population, including connectivity, lifecycle, and vendor support.
+- Document selected clinical workflows, user needs, handoffs, and operational dependencies.
+- Examine information flows and integration with relevant clinical systems.
+- Evaluate usability, workflow fit, and the accessibility of information needed by clinical staff.
+- Identify cybersecurity, interoperability, operational, and lifecycle risks.
+- Document technical constraints, information gaps, and unresolved questions.
+- Provide leadership with findings and recommendations to inform future modernization decisions.
 
-- Establish visibility into the current device population, connectivity, lifecycle, and vendor-support status
-- Document how infusion pumps interact with clinical workflows, systems, interfaces, and organizational processes
-- Identify information flows, communication dependencies, integration constraints, and workflow gaps
-- Identify cybersecurity, operational, interoperability, lifecycle, and clinical considerations associated with the current environment
-- Identify risks, dependencies, gaps, assumptions, and areas requiring further investigation
-- Clarify stakeholder responsibilities, information needs, decision points, and unresolved questions
-- Provide leadership with a structured set of current-state findings and decision-readiness considerations that can inform a future modernization effort
-
-The project will not select, design, or implement a modernization solution. Areas requiring future investigation may be identified, but detailed solution design, implementation planning, and deployment are outside the scope of this discovery engagement.
+The project will not select, design, procure, or implement a replacement solution. Detailed engineering and implementation planning will be considered outside the project's scope.
 
 ---
 
 # 4. Project Objectives
 
-The project will:
+The project has six primary objectives.
 
-**1. Establish a Current-State Device Inventory**
-
-Identify the relevant infusion pumps, manufacturers, models, locations, age, connectivity, ownership, support status, and other attributes required for assessment and prioritization.
-
-**2. Understand Clinical Workflows**
-
-Document how infusion pumps are used within selected clinical environments, including key users, workflow steps, information requirements, handoffs, dependencies, and points where technology affects clinical work.
-
-**3. Understand Information and Communication Flows**
-
-Identify what information moves between devices, clinical systems, staff, and other stakeholders; how that information is communicated; and where gaps, delays, duplication, ambiguity, or manual work may occur.
-
-**4. Assess Connectivity and Integration**
-
-Determine how selected devices connect to Heartland's network and clinical systems and identify significant interoperability, interface, data-exchange, and integration dependencies.
-
-**5. Assess Usability and Workflow Fit**
-
-Evaluate whether the current technology supports the way clinical staff actually work, including usability, workflow disruption, information accessibility, and operational burden.
-
-**6. Assess Cybersecurity Considerations**
-
-Identify security characteristics, vulnerabilities, access requirements, network exposure, and other risks associated with the legacy device environment.
-
-**7. Evaluate Device Lifecycle and Vendor Support**
-
-Determine which devices are supported, approaching end of life, or otherwise require further lifecycle assessment.
-
-**8. Identify and Prioritize Risks**
-
-Develop a risk-based view of the device population using clinical, operational, cybersecurity, interoperability, workflow, communication, and lifecycle considerations.
-
-**9. Identify Modernization Considerations**
-
-Identify the constraints, dependencies, risks, lifecycle considerations, integration limitations, workflow impacts, cybersecurity considerations, and information gaps that should be considered during any future modernization analysis.
-
-**10. Develop Decision-Readiness Findings**
-
-Organize discovery findings into the information leadership and operational stakeholders would need to evaluate future modernization considerations, including risks, priorities, dependencies, constraints, and unresolved questions.
-
-**11. Identify Areas for Further Investigation**
-
-Document significant gaps, assumptions, unknowns, and areas requiring additional technical, clinical, operational, or vendor investigation before future modernization decisions can be made.
-
-**12. Define Discovery Success Measures**
-
-Establish measures that demonstrate whether the discovery effort has produced a sufficiently clear understanding of the current environment, including device visibility, workflow understanding, information flows, connectivity, risks, dependencies, gaps, and stakeholder needs.
+## 1. Establish a Current-State Device Inventory
+Document the assessed infusion pump population, including manufacturers, models, locations, connectivity, ownership, lifecycle status, and vendor support.
+## 2. Assess Clinical Workflows and Usability
+Examine how infusion pumps are used in selected clinical environments. Document workflow steps, users, handoffs, information requirements, operational dependencies, and usability considerations.
+## 3. Evaluate Connectivity and Information Exchange
+Identify how selected infusion pumps connect to networks and clinical systems. Document relevant interfaces, information flows, integration dependencies, and interoperability limitations.
+## 4. Assess Cybersecurity and Operational Risks
+Evaluate available information about device security, network exposure, access requirements, vendor support, and other technical or operational risks. Identify areas requiring further investigation.
+## 5. Identify Gaps and Modernization Considerations
+Analyze the current environment to identify workflow gaps, technology limitations, lifecycle concerns, integration dependencies, and other factors that may affect future modernization.
+## 6. Provide Findings to Support Leadership Decisions
+Consolidate the assessment results into clear findings and recommendations. Identify priorities, constraints, dependencies, and outstanding questions that leadership should consider before proceeding with a future modernization initiative.
 
 
 ---
@@ -157,39 +117,38 @@ Establish measures that demonstrate whether the discovery effort has produced a 
 
 | Area | Scope |
 |---|---|
-| Devices | Selected legacy infusion pumps, including network-connected and non-network-connected devices within the assessed population |
-| Inventory | Device inventory, classification, location, facility distribution, lifecycle status, and vendor-support status |
-| Clinical Workflow | Workflow discovery, usability, information needs, handoffs, dependencies, and operational impacts |
-| Information & Communication | Information flows, communication dependencies, gaps, and ownership |
-| Connectivity & Integration | Device connectivity, interfaces, integration dependencies, and information exchange |
-| Cybersecurity | Device security characteristics, vulnerabilities, exposure, access requirements, and identified risk considerations |
-| Lifecycle & Vendor Support | Device lifecycle status, vendor support, end-of-life considerations, and available technical constraints |
-| Stakeholders | Interviews, workshops, stakeholder roles, information needs, decision points, and engagement requirements |
-| Architecture | Current-state architecture, system relationships, connectivity, interfaces, and information flows |
-| Risk & Gap Analysis | Identification and prioritization of risks and gaps across technology, workflow, security, interoperability, lifecycle, and operations |
-| Decision Readiness | Identification of decision-readiness considerations, dependencies, constraints, unresolved questions, and information needed for future modernization analysis |
-| Modernization Considerations | Identification of constraints, dependencies, and considerations that may affect future modernization planning |
-| Discovery Findings | Consolidated current-state findings, evidence, assumptions, risks, gaps, and areas requiring further investigation |
+| Devices | Selected legacy infusion pumps, including network-connected and non-network-connected devices. |
+| Inventory | Device identification, location, classification, lifecycle, and vendor support. |
+| Clinical workflows | Workflow steps, usability, information needs, handoffs, and operational dependencies. |
+| Information exchange | Information flows, communication dependencies, and identified gaps. |
+| Connectivity and integration | Network connectivity, interfaces, system relationships, and interoperability considerations. |
+| Cybersecurity | Available security information, vulnerabilities, network exposure, access requirements, and risk considerations. |
+| Stakeholders | Interviews, workshops, responsibilities, information needs, and communication requirements. |
+| Architecture | Current-state architecture, system relationships, interfaces, and information flows. |
+| Risk and gap analysis | Identification and prioritization of clinical, technical, operational, cybersecurity, and lifecycle risks. |
+| Modernization considerations | Constraints, dependencies, and findings relevant to future modernization decisions. |
+| Reporting | Consolidated assessment findings, recommendations, assumptions, and areas requiring further investigation. |
+| GIS visualizations | Geographic representation of facility and device distribution, using fictional portfolio data. |
 
 ## Out of Scope
 
 | Area | Exclusion |
 |---|---|
-| Enterprise Device Replacement | Replacement of all Heartland medical devices |
-| Production Security Deployment | Production deployment of security technologies |
-| Device Configuration | Production device configuration or modification |
-| Medical-Device Software | Development or modification of medical-device software |
-| Production Interfaces | Development, deployment, or modification of production interfaces |
-| Procurement | Procurement, purchasing, or contract negotiation |
-| Clinical Validation | Clinical validation of medication protocols or device functionality |
-| EHR Replacement | Replacement or major modification of the EHR |
-| Enterprise Interoperability | Enterprise-wide interoperability modernization |
-| Future-State Solution Design | Detailed design or engineering of a future-state technical solution |
-| Implementation Planning | Detailed implementation plans, schedules, deployment activities, or resource assignments |
-| Modernization Roadmap | Development of a phased implementation roadmap |
-| Production Deployment | Deployment, production configuration, production testing, or operational release of solutions |
-| Post-Project Operations | Operational support following completion of the discovery engagement |
-| Clinical Outcomes | Direct measurement of clinical outcomes beyond the discovery effort |
+| Device replacement | Purchasing or replacing infusion pumps. |
+| Procurement | Vendor selection, purchasing, and contract negotiation. |
+| Device configuration | Modifying or configuring production devices. |
+| Software development | Developing or modifying medical-device software. |
+| Production interfaces | Developing, modifying, or deploying production interfaces. |
+| Clinical validation | Validating medication protocols or device functionality. |
+| EHR replacement | Replacing or substantially modifying the EHR. |
+| Enterprise modernization | Implementing enterprise-wide interoperability or infrastructure changes. |
+| Solution design | Detailed engineering or design of a future-state solution. |
+| Implementation planning | Detailed deployment schedules, resource assignments, and implementation activities. |
+| Modernization roadmap | Developing a phased implementation roadmap. |
+| Production deployment | Installing, testing, or releasing new production solutions. |
+| Post-project operations | Ongoing operational support after the assessment concludes. |
+| Clinical outcomes measurement | Measuring actual clinical outcomes resulting from a future modernization initiative. |
+
 
 ---
 
