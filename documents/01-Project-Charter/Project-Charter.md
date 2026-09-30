@@ -1,6 +1,6 @@
 # Heartland Integrated Health System (HIHS)
 
-## Legacy Medical Device Modernization & Clinical Workflow Integration Project
+## Legacy Infusion Pump Modernization Assessment
 
 ### Project Charter
 
@@ -16,15 +16,13 @@
 
 # Executive Summary
 
-Heartland Integrated Health System (HIHS) has identified a need to assess a population of legacy, network-connected infusion pumps within its healthcare environment.
+Heartland Integrated Health System (HIHS) is undertaking a modernization assessment of its legacy infusion pump environment to better understand current technology, clinical workflows, system integration, and operational risks.
 
-Heartland's continued growth through hospital and healthcare-service acquisitions has created a diverse technology environment that includes medical devices of varying ages, manufacturers, connectivity capabilities, security characteristics, and vendor-support levels. Some legacy devices may not align with current enterprise cybersecurity, interoperability, infrastructure, or clinical workflow requirements.
+The project will examine approximately 480 infusion pumps across hospitals and selected community facilities, focusing on device inventory, vendor support, lifecycle status, connectivity, and integration with enterprise clinical systems. The assessment will also consider how existing workflows and technical infrastructure support safe and effective clinical operations.
 
-The discovery engagement will establish an evidence-based understanding of Heartland's legacy connected infusion-pump environment and the clinical, technical, operational, and organizational factors associated with the current state. The assessment will examine the device population, clinical workflows, information and communication flows, connectivity, integration dependencies, cybersecurity considerations, vendor support, lifecycle status, operational dependencies, and geographic distribution.
+The project will establish a baseline of the current environment, identify gaps and areas of risk, and develop recommendations to inform future modernization decisions. Findings will provide organizational leadership with a clearer understanding of current capabilities, operational challenges, and potential opportunities for improvement.
 
-The discovery effort will identify current-state risks, gaps, dependencies, constraints, information needs, unresolved questions, and areas requiring further investigation. Findings will be validated with appropriate stakeholders and subject matter experts and organized to support decision-readiness for any subsequent phase.
-
-The discovery engagement will not select, design, or implement a modernization solution. Future-state solution evaluation, detailed design, implementation planning, and deployment are outside the scope of this engagement.
+This initiative is limited to assessment and planning. It does not include equipment procurement, system implementation, or changes to clinical operations. Its purpose is to provide HIHS with the information needed to make informed decisions about the future of its infusion technology environment.
 
 ---
 
