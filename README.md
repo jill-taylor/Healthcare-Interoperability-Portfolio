@@ -69,3 +69,36 @@ The project does **not** include:
 
 Future modernization options may be considered in a subsequent phase using the findings produced through discovery.
 
+---
+
+## Project Artifacts
+
+### Project definition
+- [Project Charter](documents/01-Project-Charter/Project-Charter.md)
+
+### Current-state assessment
+- [Heartland Environment](documents/02-Current-State-Assessment/01-Heartland-Environment.md)
+- [Device Inventory](documents/02-Current-State-Assessment/02-Device-Inventory.md)
+- [Interface Inventory](documents/02-Current-State-Assessment/03-Interface-Inventory.md)
+- [Current-State Architecture (editable draw.io file)](documents/02-Current-State-Assessment/04-Current-State-Architecture.drawio)
+- [Current-State Architecture (description)](documents/02-Current-State-Assessment/04-Current-State-Architecture.md)
+- [Clinical Workflow Assessment](documents/02-Current-State-Assessment/05-Clinical-Workflow-Assessment.md)
+- [Cybersecurity Assessment](documents/02-Current-State-Assessment/06-Cybersecurity-Assessment.md)
+- [Current-State Findings](documents/02-Current-State-Assessment/07-Current-State-Findings.md)
+
+### Discovery planning
+- [Discovery Plan](documents/04-Discovery-Assessment/01-Discovery-Plan.md)
+
+### Data
+- [Infusion Pump Inventory (CSV)](data/heartland_infusion_pump_inventory.csv)
+- [Interface Inventory (CSV)](data/heartland_interface_inventory.csv)
+- [Device Summary by Facility](data/heartland_device_facility_summary.csv)
+- [Device Summary by Model](data/heartland_device_model_summary.csv)
+
+---
+
+## Working with the Architecture Diagram
+
+The editable draw.io source is stored at `documents/02-Current-State-Assessment/04-Current-State-Architecture.drawio`. Open it with [diagrams.net](https://app.diagrams.net/) using **File → Open From → Device**. After editing, save the `.drawio` file and commit the updated version to this same repository path.
+
+The diagram is a source artifact; GitHub may not render it as an image in the README. Use diagrams.net to view and edit it.
