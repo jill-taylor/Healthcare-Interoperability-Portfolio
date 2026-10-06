@@ -1,4 +1,6 @@
-# 1. Purpose
+# 06 - Cybersecurity Assessment
+
+## 1. Purpose
 
 The purpose of this assessment is to evaluate cybersecurity considerations associated with the legacy connected infusion-pump environment and identify security risks, dependencies, visibility gaps, and areas requiring further investigation.
 
@@ -6,19 +8,21 @@ The assessment focuses on device lifecycle and support status, security updates,
 
 This assessment supports **current-state discovery, risk and gap analysis, and decision readiness**. It does not define future-state security architecture, select remediation approaches, or implement security controls.
 
-# 2. Cybersecurity Assessment Approach
+---
+
+## 2. Cybersecurity Assessment Approach
 
 The assessment follows this general sequence:
 
-**Device & Lifecycle → Security Updates → Vulnerability Exposure → Connectivity
-→ Security Dependencies → Clinical Criticality → Risk & Gap Assessment →
-Areas for Further Investigation**
+**Device & Lifecycle → Security Updates → Vulnerability Exposure → Connectivity → Security Dependencies → Clinical Criticality → Risk & Gap Assessment → Areas for Further Investigation**
 
 This approach recognizes that cybersecurity risk must be evaluated in the context of both the technical environment and the clinical role of the device.
 
 The assessment documents available evidence, stakeholder-reported information, assumptions, unknowns, and areas requiring further investigation. It does not determine or implement specific remediation actions.
 
-# 3. Device Lifecycle and Security Support
+---
+
+## 3. Device Lifecycle and Security Support
 
 For each selected infusion pump, the assessment should consider:
 
@@ -34,7 +38,9 @@ Unsupported or outdated devices should be identified as cybersecurity and lifecy
 
 The assessment should document available evidence regarding device support, security updates, technical limitations, and vendor dependencies. It should not assume that an unsupported or outdated device requires a specific response. Potential impacts, dependencies, and unresolved questions should be documented for consideration in subsequent decision-making.
 
-# 4. Network Connectivity and Security Exposure
+---
+
+## 4. Network Connectivity and Security Exposure
 
 The assessment should determine:
 
@@ -47,9 +53,13 @@ The assessment should determine:
 - What network monitoring or visibility is available
 - What connectivity dependencies or security considerations require further investigation
 
-The current-state architecture identifies network infrastructure, the infusion integration gateway, enterprise interface engine, EHR/supporting clinical systems, network monitoring, interface monitoring, and identity/access management as components or dependencies within the environment.
+The current-state architecture identifies network infrastructure, the infusion integration gateway, enterprise interface engine, EHR and supporting clinical systems, network monitoring, interface monitoring, and identity and access management as components or dependencies within the environment.
 
-# 5. Vulnerability and Risk Considerations
+Connectivity and security exposure should be validated where possible through available documentation and appropriate technical subject matter experts. Unknown or conflicting information should be documented rather than assumed.
+
+---
+
+## 5. Vulnerability and Risk Considerations
 
 The assessment should identify and document:
 
@@ -66,7 +76,9 @@ The assessment should distinguish between identifying a vulnerability and determ
 
 Unresolved questions, evidence gaps, and areas requiring additional cybersecurity investigation should be documented as part of the current-state findings.
 
-# 6. Access, Monitoring, and Security Dependencies
+---
+
+## 6. Access, Monitoring, and Security Dependencies
 
 The assessment should examine applicable dependencies involving:
 
@@ -82,7 +94,9 @@ The current-state architecture identifies Identity and Access Management as supp
 
 The assessment should identify gaps or uncertainties involving visibility, ownership, monitoring, or access controls and document areas requiring further investigation.
 
-# 7. Clinical and Operational Impact
+---
+
+## 7. Clinical and Operational Impact
 
 Cybersecurity considerations cannot be evaluated independently from clinical operations.
 
@@ -98,7 +112,9 @@ If a device has connectivity, access, or security concerns, HIHS should evaluate
 
 The assessment should document how cybersecurity conditions may affect clinical functionality, information exchange, workflow dependencies, and operational continuity. It should also identify evidence gaps, assumptions, and unresolved questions requiring further investigation.
 
-# 8. Cybersecurity Concerns Requiring Further Investigation
+---
+
+## 8. Cybersecurity Concerns Requiring Further Investigation
 
 Where a cybersecurity concern is identified, the assessment should document the condition, available evidence, affected devices or systems, relevant dependencies, and potential clinical or operational impact.
 
@@ -117,7 +133,9 @@ Areas for further investigation may include:
 
 The assessment does not select, design, or implement remediation measures. Specific response options, security controls, or modernization approaches may be evaluated in a subsequent phase based on the documented current-state findings.
 
-# 9. Risk and Gap Prioritization
+---
+
+## 9. Risk and Gap Prioritization
 
 Cybersecurity findings should be documented and prioritized based on factors such as:
 
@@ -130,7 +148,11 @@ Cybersecurity findings should be documented and prioritized based on factors suc
 - Existing security controls and visibility
 - Potential impact on clinical continuity
 
-# 10. Assessment Outcome
+Prioritization should be based on available evidence and clearly identified assumptions or unknowns. Where sufficient information is not available to determine priority, the finding should be documented as requiring further investigation rather than assigned an unsupported risk level.
+
+---
+
+## 10. Assessment Outcome
 
 The Cybersecurity Assessment provides HIHS with a structured view of cybersecurity considerations affecting the legacy connected infusion-pump environment.
 
@@ -144,5 +166,4 @@ The assessment supports identification of:
 - Cybersecurity considerations that may affect clinical continuity
 - Evidence gaps, assumptions, and unresolved questions requiring further investigation
 
-The assessment provides a foundation for consolidating technical, clinical, operational, and cybersecurity observations into the **Current-State Findings** and supporting decision-readiness for subsequent phases of analysis.
-
+The assessment provides a foundation for consolidating technical, clinical, operational, and cybersecurity observations into the **Current-State Findings** and supporting decision readiness for subsequent phases of analysis.
