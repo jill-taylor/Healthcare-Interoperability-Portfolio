@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-The purpose of this document is to establish a current-state architectural view of the Heartland Integrated Health System (HIHS) legacy connected infusion-pump environment.
+The purpose of this document is to establish a current-state architectural view of the network-connected portion of the Heartland Integrated Health System (HIHS) legacy infusion-pump environment and the technical and operational dependencies that support it.
 
 The architecture describes the major devices, systems, applications, infrastructure, integration components, and supporting services within the modernization scope. It also identifies the relationships and dependencies among these components and provides a foundation for understanding current-state information flows.
 
