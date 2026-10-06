@@ -10,9 +10,9 @@ The inventory represents the fictional current-state environment established for
 
 # 2. Inventory Scope
 
-The inventory includes infusion pumps operated within the selected HIHS facilities that may be affected by the modernization initiative.
+The inventory includes infusion pumps operated within the selected HIHS facilities included in the modernization assessment.
 
-The initial system-wide population is established at approximately 480 infusion pumps distributed across hospitals and selected community facilities.
+The assessment population is established at approximately 480 infusion pumps distributed across hospitals and selected community facilities.
 
 The inventory will distinguish between:
 
@@ -61,8 +61,8 @@ Each device record will capture the following information:
 | Operational Dependency | Relevant clinical, workflow, system, or infrastructure dependency |
 | Notes | Relevant dependencies, exceptions, or observations |
 
-
 ---
+
 # 5. Device Inventory
 
 The current-state inventory contains 480 fictional infusion pumps distributed across the selected Heartland facilities.
@@ -72,7 +72,6 @@ The detailed device-level inventory is maintained in the accompanying [`heartlan
 The inventory includes device identity, facility, clinical area, manufacturer, model, age, network connectivity, integration status, vendor support, lifecycle status, maintenance status, and preliminary risk tier.
 
 The inventory will serve as the baseline for subsequent risk assessment, workflow analysis, interface analysis, geographic visualization, and current-state findings.
-
 
 ## Model Summary
 
