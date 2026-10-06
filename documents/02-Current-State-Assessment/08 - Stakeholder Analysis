@@ -2,206 +2,309 @@
 
 ## 1. Purpose
 
-The purpose of this stakeholder analysis is to identify the individuals, teams, leadership groups, and external parties whose knowledge, responsibilities, information needs, or decisions may affect the current-state assessment of the legacy connected infusion-pump environment at Heartland Integrated Health System (HIHS).
+The purpose of this stakeholder analysis is to identify the individuals, teams, leadership groups, and external parties whose knowledge, responsibilities, information needs, or decisions may affect the Heartland Integrated Health System (HIHS) legacy infusion-pump assessment.
 
-The analysis establishes stakeholder roles, areas of interest, information needs, expected contributions, and assessment dependencies.
+The stakeholder analysis establishes:
 
-The stakeholder analysis supports effective assessment coordination, evidence gathering, validation, communication, risk identification, and decision readiness.
+- Stakeholder roles and areas of responsibility
+- Primary interests and concerns
+- Information required from and contributed by each stakeholder group
+- Sources of subject-matter expertise and validation
+- Stakeholder influence and decision roles
+- Dependencies that may affect assessment activities
+- Risks associated with incomplete, conflicting, or unavailable stakeholder information
 
-Stakeholder input is treated as assessment evidence or stakeholder-reported information and is distinguished from independently validated technical, clinical, operational, or cybersecurity evidence where applicable.
+Stakeholder input is treated as assessment evidence or stakeholder-reported information and is distinguished from independently validated evidence where applicable.
 
 ---
 
 ## 2. Stakeholder Analysis Approach
 
-The stakeholder analysis considers each stakeholder's relationship to the current-state assessment, including:
+The stakeholder analysis considers each stakeholder group's relationship to the assessed environment rather than organizational hierarchy alone.
 
-- Area of responsibility
-- Primary interests or concerns
-- Information required to support the assessment
-- Information or expertise contributed to the assessment
-- Role in validation and evidence gathering
-- Influence on assessment findings or subsequent decisions
-- Dependencies on other stakeholders, systems, or processes
-- Potential risks or constraints associated with incomplete stakeholder information
+The assessment considers:
 
-Stakeholders are considered based on their relationship to the assessed infusion-pump environment rather than organizational hierarchy alone.
+- Responsibilities within the current environment
+- Areas of interest or concern
+- Information required to support assessment activities
+- Information or evidence contributed by the stakeholder
+- Role in validation or subject-matter review
+- Influence on assessment outcomes or subsequent decisions
+- Dependencies that may affect discovery or validation
+- Risks and constraints associated with stakeholder participation
 
-The analysis recognizes that different stakeholders may provide different perspectives on the same condition. Clinical, technical, operational, cybersecurity, vendor, and leadership perspectives should therefore be considered together when validating current-state information.
+Different stakeholder perspectives may describe the same current-state condition differently. These perspectives are considered together, with conflicting or incomplete information documented as an assessment dependency, assumption, or area requiring further validation.
 
-Stakeholder roles and responsibilities represented in this assessment are role-based and fictional. Specific individuals, reporting relationships, meeting schedules, and organizational assignments are not established unless supported by assessment evidence.
+Stakeholder roles and responsibilities are role-based and fictional for this portfolio assessment. Specific individuals, reporting relationships, meeting structures, or organizational assignments are not assumed unless supported by assessment evidence.
 
 ---
 
 ## 3. Stakeholder Groups
 
-The current-state assessment involves stakeholder groups with different responsibilities, perspectives, information needs, and levels of influence.
+The following stakeholder groups are considered relevant to the current-state assessment:
 
-The following stakeholder groups are relevant to the assessment:
+- **Executive Leadership**
+- **Clinical Leadership**
+- **Clinical Users**
+- **Clinical Engineering / Biomedical Engineering**
+- **IT Infrastructure / Networking**
+- **Integration / Interface Team**
+- **Cybersecurity**
+- **EHR / Clinical Systems Team**
+- **Vendor / Manufacturer Representatives**
+- **Technical Project Manager / Assessment Team**
 
-- **Executive Leadership** — Provides organizational direction, priorities, and decision-making context for modernization considerations.
-- **Clinical Leadership** — Provides clinical priorities, workflow context, and perspective on clinical continuity and operational impact.
-- **Clinical Users** — Provides direct knowledge of infusion-pump workflows, information needs, usability considerations, workarounds, and operational dependencies.
-- **Clinical Engineering / Biomedical Engineering** — Provides expertise regarding device inventory, lifecycle, maintenance, configuration, technical support, and vendor dependencies.
-- **IT Infrastructure / Networking** — Provides information regarding network connectivity, infrastructure dependencies, monitoring, segmentation, and operational support.
-- **Integration / Interface Team** — Provides information regarding interfaces, information flows, integration components, interface monitoring, and system dependencies.
-- **Cybersecurity** — Provides cybersecurity expertise regarding device exposure, access controls, monitoring, security dependencies, vulnerabilities, and risk considerations.
-- **EHR / Clinical Systems Team** — Provides information regarding relevant clinical systems, information exchange, workflow integration, and system dependencies.
-- **Vendor / Manufacturer Representatives** — May provide product documentation, lifecycle information, support status, security-update information, technical capabilities, and clarification of vendor dependencies.
-- **Technical Project Manager / Assessment Team** — Coordinates assessment activities, evidence collection, stakeholder communication, risks, issues, assumptions, dependencies, and decision-readiness activities.
+Participation may vary by assessment activity, subject matter, facility, or information required for validation.
 
-Stakeholder participation may vary by assessment activity. Not every stakeholder group is expected to participate in every aspect of the assessment.
+All stakeholder groups are role-based and fictional for purposes of this portfolio assessment.
 
 ---
 
 ## 4. Stakeholder Analysis Matrix
 
-The following matrix summarizes the primary stakeholder interests, information needs, contributions, and influence associated with the current-state assessment.
-
 | Stakeholder Group | Primary Interest / Concern | Information Needed | Assessment Contribution | Influence |
 |---|---|---|---|---|
-| Executive Leadership | Organizational priorities, clinical continuity, operational impact, and decision readiness | Consolidated findings, risks, gaps, dependencies, and areas requiring further investigation | Organizational priorities and decision context | High |
-| Clinical Leadership | Clinical workflow, patient-care operations, continuity, and operational impact | Workflow dependencies, information needs, device criticality, and potential operational impacts | Clinical priorities, workflow validation, and impact assessment | High |
-| Clinical Users | Usability, workflow fit, information availability, device availability, and workarounds | Current workflow conditions, information requirements, device dependencies, and operational constraints | Direct workflow observations, usability considerations, and reported workarounds | High |
-| Clinical Engineering / Biomedical Engineering | Device lifecycle, maintenance, configuration, technical support, and vendor dependencies | Device inventory, lifecycle status, maintenance information, support status, and technical limitations | Device expertise, lifecycle validation, maintenance information, and technical context | High |
-| IT Infrastructure / Networking | Network connectivity, infrastructure dependencies, monitoring, and operational support | Device connectivity, network dependencies, monitoring coverage, security boundaries, and infrastructure relationships | Network and infrastructure validation | High |
-| Integration / Interface Team | Interfaces, information flows, integration dependencies, monitoring, and operational support | Interface relationships, information exchanged, ownership, criticality, and failure dependencies | Interface and information-flow validation | High |
-| Cybersecurity | Device exposure, access controls, monitoring, vulnerabilities, security support, and risk | Connectivity, lifecycle, security updates, access dependencies, monitoring, and available security evidence | Cybersecurity assessment and risk context | High |
-| EHR / Clinical Systems Team | Clinical system integration, information exchange, workflow support, and system dependencies | Relevant system relationships, information flows, interface dependencies, and workflow requirements | Clinical-system and information-flow validation | Moderate–High |
-| Vendor / Manufacturer Representatives | Product support, lifecycle, technical capabilities, security support, and product dependencies | Device documentation, support status, security-update availability, technical capabilities, and known limitations | Vendor documentation and technical clarification | Moderate |
-| Technical Project Manager / Assessment Team | Assessment coordination, evidence quality, stakeholder communication, risks, dependencies, and decision readiness | Assessment status, evidence, assumptions, risks, issues, dependencies, stakeholder input, and unresolved questions | Coordination, evidence tracking, facilitation, documentation, and decision-readiness support | High |
+| Executive Leadership | Organizational risk, clinical continuity, investment considerations, decision readiness | Consolidated findings, risks, gaps, dependencies, decision considerations | Leadership perspective and decision context | High |
+| Clinical Leadership | Clinical workflow, patient safety, continuity, operational impact | Workflow dependencies, clinical criticality, information needs, identified constraints | Clinical priorities, workflow validation, criticality perspective | High |
+| Clinical Users | Usability, workflow efficiency, information availability, workarounds | Device workflow, information flow, usability considerations, operational constraints | Practitioner workflow knowledge and current-state observations | High |
+| Clinical Engineering / Biomedical Engineering | Device inventory, lifecycle, maintenance, supportability | Device characteristics, lifecycle status, maintenance dependencies, vendor information | Device expertise, lifecycle validation, technical context | High |
+| IT Infrastructure / Networking | Connectivity, infrastructure, monitoring, operational support | Network relationships, connectivity, monitoring, security boundaries | Infrastructure and network validation | High |
+| Integration / Interface Team | Interfaces, information flows, integration dependencies | Interface relationships, data flows, ownership, monitoring, dependencies | Integration and interface validation | High |
+| Cybersecurity | Device exposure, lifecycle risk, access, monitoring, security dependencies | Connectivity, lifecycle, security support, access, monitoring, vulnerabilities or concerns | Cybersecurity assessment and risk perspective | High |
+| EHR / Clinical Systems Team | Clinical system relationships and information exchange | System relationships, information exchange, workflow dependencies | EHR and clinical-system context | Moderate–High |
+| Vendor / Manufacturer Representatives | Product capabilities, lifecycle, support, documentation | Device capabilities, support status, lifecycle information, technical documentation | Vendor-specific information and clarification | Moderate |
+| Technical Project Manager / Assessment Team | Assessment coordination, evidence, risks, dependencies, decision readiness | Assessment status, stakeholder input, evidence, assumptions, risks, issues, dependencies, unresolved questions | Coordination, documentation, evidence tracking, synthesis, decision-readiness support | High |
 
 ---
-
 
 ## 5. Stakeholder Information Needs
 
-Different stakeholder groups require different information to understand, validate, or act on the current-state assessment.
-
-The assessment should provide information appropriate to each stakeholder's role while maintaining a consistent evidence-based view of the environment.
+Different stakeholder groups require different types of information from the assessment. The assessment should provide information appropriate to each stakeholder's role while maintaining a consistent current-state evidence base.
 
 | Stakeholder Group | Primary Information Needs |
 |---|---|
-| Executive Leadership | Consolidated findings, significant risks and gaps, clinical and operational implications, dependencies, unresolved questions, and decision-readiness considerations |
-| Clinical Leadership | Clinical workflow dependencies, device criticality, information needs, operational impacts, continuity considerations, and areas requiring further validation |
-| Clinical Users | Workflow impacts, information availability, device dependencies, usability considerations, connectivity-related effects, and reported workarounds |
-| Clinical Engineering / Biomedical Engineering | Device inventory, lifecycle status, maintenance conditions, vendor support, technical limitations, device dependencies, and security-update considerations |
-| IT Infrastructure / Networking | Network connectivity, infrastructure dependencies, security boundaries, monitoring coverage, connectivity risks, and operational support dependencies |
-| Integration / Interface Team | Interface relationships, information flows, integration components, ownership, criticality, monitoring, failure dependencies, and unresolved technical questions |
-| Cybersecurity | Device exposure, lifecycle and support status, security-update availability, access dependencies, monitoring, existing security evidence, and potential clinical or operational impact |
-| EHR / Clinical Systems Team | Relevant system relationships, information exchanged, workflow dependencies, interface relationships, and system-level constraints |
-| Vendor / Manufacturer Representatives | Device capabilities, lifecycle and support status, security updates, technical documentation, known limitations, and vendor dependencies |
-| Technical Project Manager / Assessment Team | Assessment status, evidence, stakeholder input, assumptions, risks, issues, dependencies, unresolved questions, and decision-readiness information |
+| Executive Leadership | Consolidated findings, significant risks and gaps, dependencies, unresolved questions, decision-readiness considerations |
+| Clinical Leadership | Clinical workflow dependencies, device criticality, continuity considerations, information needs, operational impacts |
+| Clinical Users | Workflow relationships, usability considerations, information availability, connectivity dependencies, known workarounds or constraints |
+| Clinical Engineering / Biomedical Engineering | Device inventory, lifecycle position, maintenance dependencies, vendor support, device characteristics |
+| IT Infrastructure / Networking | Connectivity relationships, network dependencies, monitoring, infrastructure boundaries, security dependencies |
+| Integration / Interface Team | Interfaces, information flows, system relationships, ownership, monitoring, integration dependencies |
+| Cybersecurity | Connectivity and exposure, lifecycle and support conditions, access, monitoring, security update considerations, cybersecurity dependencies |
+| EHR / Clinical Systems Team | System relationships, information exchange, clinical workflow dependencies, integration considerations |
+| Vendor / Manufacturer Representatives | Device capabilities, lifecycle information, support status, technical documentation, vendor-specific dependencies |
+| Technical Project Manager / Assessment Team | Assessment status, evidence, stakeholder input, assumptions, risks, issues, dependencies, unresolved questions, decision-readiness information |
 
-Stakeholder information needs may overlap across groups. Where multiple stakeholders require the same information, the assessment should maintain a consistent source of evidence while recognizing that the information may be interpreted differently based on stakeholder responsibilities.
+Stakeholder information needs are considered part of the assessment coordination and validation process. Stakeholder perspectives may represent reported information, professional judgment, or subject-matter expertise and should be distinguished from independently validated evidence where appropriate.
 
 ---
-
 
 ## 6. Stakeholder Engagement Considerations
 
-Stakeholder engagement should be appropriate to the information being validated and the responsibilities of each stakeholder group.
+Stakeholder engagement may include:
 
-Engagement during the current-state assessment may include interviews, working sessions, document review, technical validation, workflow review, or other appropriate discovery activities.
+- Interviews
+- Working sessions
+- Document review
+- Technical validation
+- Workflow review
+- Device or inventory validation
+- Interface and information-flow review
+- Cybersecurity review
+- Vendor information requests
+- Findings review and clarification
 
-Engagement considerations include:
+Engagement should focus on validating the current state and identifying information gaps rather than developing or approving future-state solutions.
 
-- **Clinical perspective:** Clinical leadership and clinical users should be engaged when validating workflow dependencies, information needs, usability considerations, device criticality, and clinical continuity.
-- **Device and lifecycle perspective:** Clinical Engineering / Biomedical Engineering should be engaged when validating device inventory, lifecycle status, maintenance conditions, technical limitations, and vendor dependencies.
-- **Infrastructure perspective:** IT Infrastructure / Networking should be engaged when validating network connectivity, infrastructure dependencies, monitoring, segmentation, and operational support.
-- **Integration perspective:** The Integration / Interface Team should be engaged when validating interface relationships, information flows, ownership, criticality, monitoring, and integration dependencies.
-- **Cybersecurity perspective:** Cybersecurity should be engaged when validating device exposure, access dependencies, security updates, monitoring, existing controls, and cybersecurity risk considerations.
-- **Clinical systems perspective:** The EHR / Clinical Systems Team should be engaged when validating information exchange, system relationships, workflow dependencies, and clinical-system constraints.
-- **Vendor perspective:** Vendor or manufacturer representatives may be engaged when internal documentation is insufficient to confirm product capabilities, lifecycle status, support arrangements, security updates, or technical limitations.
-- **Leadership perspective:** Executive and clinical leadership should receive appropriately summarized findings, risks, dependencies, evidence gaps, and decision-readiness considerations.
+### Clinical Engagement
 
-Stakeholder engagement should be focused on validating the current state rather than developing or approving future-state solutions.
+Clinical leadership and clinical users may provide information regarding:
 
-Where stakeholder perspectives conflict, the assessment should document the differing perspectives and identify the information or evidence required to resolve the discrepancy.
+- Clinical workflows
+- Device criticality
+- Workflow dependencies
+- Information needs
+- Usability considerations
+- Operational constraints
+- Workarounds
+- Clinical continuity concerns
 
-Stakeholder engagement activities, conclusions, and unresolved questions should be documented in a manner that supports traceability to the assessment findings where appropriate.
+### Device and Lifecycle Engagement
+
+Clinical Engineering / Biomedical Engineering may provide information regarding:
+
+- Device inventory
+- Device models and characteristics
+- Lifecycle position
+- Maintenance
+- Support status
+- Vendor relationships
+- Device dependencies
+- Operational constraints
+
+### Infrastructure and Integration Engagement
+
+IT Infrastructure / Networking and Integration / Interface teams may provide information regarding:
+
+- Network connectivity
+- System relationships
+- Interfaces
+- Information flows
+- Monitoring
+- Infrastructure dependencies
+- Integration dependencies
+- Operational support
+
+### Cybersecurity Engagement
+
+Cybersecurity stakeholders may provide information regarding:
+
+- Device connectivity and exposure
+- Security dependencies
+- Access controls
+- Monitoring
+- Lifecycle-related security concerns
+- Security update considerations
+- Areas requiring additional investigation
+
+### Vendor Engagement
+
+Vendor or manufacturer representatives may provide information regarding:
+
+- Device capabilities
+- Product lifecycle
+- Support status
+- Technical documentation
+- Vendor-specific dependencies
+- Security-related information
+- Interface or connectivity information
+
+Vendor-provided information should be documented as stakeholder- or vendor-reported information unless independently validated.
+
+### Leadership Engagement
+
+Leadership engagement may be used to:
+
+- Review consolidated findings
+- Understand significant risks and dependencies
+- Clarify organizational priorities
+- Identify unresolved decision questions
+- Assess whether sufficient information exists to support subsequent decision-making
+
+Leadership engagement within this assessment does not constitute approval of a future-state solution, procurement decision, implementation plan, or remediation strategy.
+
+### Conflicting or Incomplete Information
+
+Conflicting stakeholder perspectives should be documented rather than silently reconciled.
+
+Where information cannot be independently confirmed, the assessment should identify:
+
+- The reported information
+- The source or stakeholder perspective
+- The evidence currently available
+- The information that remains uncertain
+- The validation required
+
+Assessment activities, conclusions, and unresolved questions should remain traceable to the appropriate findings or supporting artifacts where practical.
 
 ---
-
 
 ## 7. Assessment Ownership and Decision Roles
 
-The current-state assessment requires coordination across clinical, technical, operational, cybersecurity, vendor, and leadership stakeholders.
-
-Stakeholder responsibilities should be distinguished from assessment coordination and decision-making responsibilities.
+Stakeholder responsibilities are defined according to the role each group plays in current-state discovery, validation, and decision-readiness.
 
 | Role / Stakeholder Group | Assessment Responsibility | Decision Role |
 |---|---|---|
-| Executive Leadership | Provide organizational priorities, strategic context, and leadership perspective on significant findings and dependencies | Provides organizational direction and decision-making authority for subsequent phases |
-| Clinical Leadership | Validate clinical priorities, workflow considerations, clinical criticality, and continuity concerns | Provides clinical leadership perspective and priorities |
-| Clinical Users | Describe current workflows, information needs, usability considerations, workarounds, and operational dependencies | Provides practitioner perspective and workflow validation |
-| Clinical Engineering / Biomedical Engineering | Validate device inventory, lifecycle, maintenance, technical conditions, and vendor dependencies | Provides technical subject matter expertise regarding devices |
-| IT Infrastructure / Networking | Validate network connectivity, infrastructure dependencies, monitoring, and operational support | Provides infrastructure subject matter expertise |
-| Integration / Interface Team | Validate interfaces, information flows, integration dependencies, ownership, and monitoring | Provides integration subject matter expertise |
-| Cybersecurity | Validate cybersecurity considerations, exposure, access dependencies, monitoring, and available security evidence | Provides cybersecurity subject matter expertise |
-| EHR / Clinical Systems Team | Validate relevant clinical-system relationships, information exchange, and workflow dependencies | Provides clinical-system subject matter expertise |
-| Vendor / Manufacturer Representatives | Provide product, lifecycle, support, security-update, and technical information when requested | Provides vendor-specific information and clarification |
-| Technical Project Manager / Assessment Team | Coordinate assessment activities, evidence collection, stakeholder engagement, risks, assumptions, dependencies, documentation, and decision-readiness activities | Facilitates assessment coordination; does not serve as the technical, clinical, or cybersecurity authority |
+| Executive Leadership | Provide organizational direction and review consolidated findings | Decision authority for subsequent phases |
+| Clinical Leadership | Validate clinical priorities, workflow considerations, criticality, and continuity concerns | Clinical leadership perspective on subsequent decisions |
+| Clinical Users | Provide practitioner workflow knowledge and current-state observations | Workflow and usability validation |
+| Clinical Engineering / Biomedical Engineering | Validate device information, lifecycle, maintenance, and support conditions | Technical device subject-matter expertise |
+| IT Infrastructure / Networking | Validate network and infrastructure relationships and dependencies | Infrastructure subject-matter expertise |
+| Integration / Interface Team | Validate interfaces, information flows, system relationships, and integration dependencies | Integration subject-matter expertise |
+| Cybersecurity | Validate cybersecurity considerations, exposure, access, monitoring, and security dependencies | Cybersecurity subject-matter expertise |
+| EHR / Clinical Systems Team | Validate EHR and clinical-system relationships and information exchange | Clinical-system subject-matter expertise |
+| Vendor / Manufacturer Representatives | Provide vendor-specific product, lifecycle, support, and technical information | Vendor subject-matter information; not organizational decision authority |
+| Technical Project Manager / Assessment Team | Coordinate assessment activities, evidence, stakeholders, risks, assumptions, dependencies, documentation, and decision-readiness | Assessment coordination; does not serve as technical, clinical, or cybersecurity authority |
 
-The Technical Project Manager / Assessment Team coordinates the assessment process and maintains visibility across stakeholder inputs, evidence, risks, assumptions, issues, and dependencies.
+Technical, clinical, operational, cybersecurity, and clinical-system conclusions should be validated with the appropriate subject-matter experts where required.
 
-Technical, clinical, operational, and cybersecurity conclusions should be validated by the appropriate subject matter experts rather than assigned solely by the Technical Project Manager / Assessment Team.
-
-Subsequent modernization, procurement, remediation, or implementation decisions are outside the authority of this current-state assessment and would require appropriate leadership and subject matter expert involvement.
+Modernization, procurement, remediation, implementation, and future-state architecture decisions are outside the scope of the current assessment.
 
 ---
 
-
 ## 8. Stakeholder Risks and Dependencies
 
-Stakeholder participation and information availability can affect the completeness, accuracy, and decision-readiness of the current-state assessment.
+Stakeholder participation and information availability may affect the completeness and reliability of the assessment.
 
 Potential stakeholder-related risks and dependencies include:
 
-- **Incomplete stakeholder participation:** Relevant clinical, technical, operational, cybersecurity, or vendor perspectives may not be available for all assessment activities.
-- **Conflicting information:** Different stakeholder groups may provide differing information about devices, workflows, interfaces, ownership, lifecycle status, or operational conditions.
-- **Unclear ownership:** Responsibility for devices, interfaces, monitoring, support, or information flows may not be clearly established.
-- **Limited documentation:** Existing documentation may be incomplete, outdated, unavailable, or insufficient to validate current-state conditions.
-- **Vendor information dependencies:** Confirmation of lifecycle, support, security updates, or technical capabilities may depend on vendor documentation or response.
-- **Facility-specific variation:** Differences among facilities may require additional stakeholder input to determine whether a consolidated finding applies consistently across the assessed environment.
-- **Competing priorities:** Stakeholder availability and operational responsibilities may limit participation in discovery or validation activities.
-- **Unresolved assumptions:** Information provided during stakeholder engagement may require additional validation before being treated as confirmed assessment evidence.
+- Incomplete stakeholder participation
+- Conflicting stakeholder information
+- Unclear ownership of devices, systems, interfaces, or processes
+- Limited or outdated documentation
+- Dependence on vendor-provided information
+- Facility-specific differences
+- Competing stakeholder priorities
+- Limited availability of subject-matter experts
+- Unresolved assumptions
+- Incomplete validation of reported information
 
-Stakeholder-related risks and dependencies should be documented and tracked as part of the assessment when they may affect findings, evidence quality, timelines, decision readiness, or subsequent analysis.
+Stakeholder risks and dependencies should be tracked when they may affect:
 
-Where a stakeholder dependency cannot be resolved during current-state discovery, the dependency should be documented as an open item or area requiring further investigation rather than assumed to be resolved.
+- Assessment findings
+- Evidence quality
+- Validation activities
+- Assessment timelines
+- Risk or gap identification
+- Decision readiness
+
+Unresolved stakeholder dependencies should remain visible as open questions, assumptions, risks, or areas requiring further investigation rather than being treated as confirmed findings.
 
 ---
 
 ## 9. Assessment Outcome
 
-The Stakeholder Analysis provides HIHS with a structured understanding of the stakeholder groups involved in the current-state assessment and the roles they play in providing information, validating evidence, identifying dependencies, and supporting decision readiness.
+The stakeholder analysis provides a structured understanding of the stakeholder groups involved in the Heartland current-state assessment and the roles they may play in information gathering, validation, coordination, and decision readiness.
 
 The analysis establishes:
 
 - Stakeholder responsibilities and areas of interest
-- Information needs associated with different stakeholder groups
-- Sources of clinical, technical, operational, cybersecurity, and vendor expertise
-- Stakeholder roles in evidence gathering and current-state validation
-- Assessment coordination and decision responsibilities
-- Stakeholder-related risks and dependencies
-- Areas where additional stakeholder engagement or clarification may be required
+- Information needs
+- Sources of subject-matter expertise
+- Evidence-gathering and validation roles
+- Coordination and decision roles
+- Stakeholder risks and dependencies
+- Areas requiring additional stakeholder engagement
+- Unresolved questions that may affect assessment findings or decision readiness
 
-The analysis supports coordinated discovery and helps ensure that current-state findings reflect appropriate clinical, technical, operational, cybersecurity, and leadership perspectives.
+The stakeholder analysis supports coordinated discovery by ensuring that appropriate clinical, technical, operational, cybersecurity, clinical-system, vendor, and leadership perspectives are considered.
 
-The stakeholder analysis also provides a basis for identifying ownership, communication needs, unresolved questions, and dependencies that may affect subsequent risk, gap, and decision-readiness activities.
+It also provides a basis for identifying ownership, communication needs, unresolved questions, and dependencies that may affect risk assessment, gap analysis, and subsequent decision-readiness activities.
 
 ---
 
 ## 10. Scope and Limitations
 
-This stakeholder analysis reflects a fictional, discovery-only assessment of the selected legacy connected infusion-pump environment at Heartland Integrated Health System (HIHS).
+This stakeholder analysis is part of a fictional, discovery-only current-state assessment for Heartland Integrated Health System.
 
-Stakeholder groups and responsibilities are represented at the role level for portfolio and assessment purposes. Specific individuals, organizational reporting relationships, meeting schedules, and formal governance assignments are not established unless supported by assessment evidence.
+Stakeholder groups and responsibilities are role-based and fictional. The assessment does not assume specific individuals, reporting relationships, meeting structures, governance structures, or organizational assignments unless supported by assessment evidence.
 
-Stakeholder perspectives may represent reported information, professional judgment, or subject matter expertise and should be distinguished from independently validated technical, clinical, operational, or cybersecurity evidence where applicable.
+Stakeholder perspectives may represent:
 
-The analysis does not establish future-state governance, organizational restructuring, implementation responsibilities, procurement authority, or formal change-management responsibilities.
+- Reported information
+- Professional judgment
+- Subject-matter expertise
+- Preliminary observations
+- Information requiring additional validation
 
-The stakeholder analysis should be used as a current-state assessment and coordination artifact and updated if additional discovery identifies relevant stakeholder groups, responsibilities, dependencies, or information needs.
+These perspectives should be distinguished from independently validated evidence where appropriate.
 
+This artifact does not define:
+
+- Future-state governance
+- Organizational restructuring
+- Implementation responsibilities
+- Procurement responsibilities
+- Change-management plans
+- Future-state technical ownership
+
+The stakeholder analysis should be updated if subsequent discovery identifies additional stakeholder groups, responsibilities, dependencies, information needs, or validation requirements.
