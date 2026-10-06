@@ -2,7 +2,7 @@
 
 This section contains the project documentation supporting the Heartland Integrated Health System (HIHS) Legacy Infusion Pump Modernization Assessment.
 
-The documents establish the project scope, discovery approach, current-state evidence, stakeholder considerations, findings, risks, gaps, decision-readiness considerations, and assessment closeout.
+The documents establish the project scope, discovery approach, current-state evidence, stakeholder considerations, findings, risks, gaps, dependencies, decision-readiness considerations, and assessment closeout.
 
 ## Document Structure
 
@@ -12,7 +12,7 @@ Defines the project purpose, objectives, scope, stakeholders, deliverables, gove
 
 ### 02 — Current-State Assessment
 
-Documents the Heartland environment, device inventory, interfaces, architecture, clinical workflows, cybersecurity considerations, current-state findings, stakeholder considerations, and risks and gaps.
+Documents the Heartland environment, device inventory, interfaces, architecture, clinical workflows, cybersecurity considerations, integration dependencies, stakeholder considerations, current-state findings, and risks and gaps.
 
 ### 03 — Stakeholder Analysis
 
