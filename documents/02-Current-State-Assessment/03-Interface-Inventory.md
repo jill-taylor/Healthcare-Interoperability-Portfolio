@@ -1,16 +1,16 @@
 # 1. Purpose
 
-The purpose of this document is to establish a current-state baseline of the interfaces and integration dependencies associated with the Heartland Integrated Health System (HIHS) infusion-pump environment.
+The purpose of this document is to establish a current-state baseline of the interfaces, information flows, and integration dependencies associated with the Heartland Integrated Health System (HIHS) infusion-pump environment.
 
 The inventory identifies the systems, devices, applications, and infrastructure components involved in exchanging information or supporting connectivity within the modernization scope.
 
-The interface inventory provides a foundation for understanding current-state information flows and supports subsequent architecture, cybersecurity, clinical workflow, risk assessment, and current-state findings.
+The interface inventory provides a foundation for understanding current-state information flows, system relationships, integration dependencies, and operational support requirements. It supports subsequent architecture, cybersecurity, clinical workflow, risk assessment, and current-state findings.
 
 ---
 
 # 2. Interface Scope
 
-The inventory focuses on interfaces and integration dependencies that may affect the selected infusion-pump environment.
+The inventory focuses on interfaces, information flows, and integration dependencies that may affect the selected infusion-pump environment.
 
 The assessment includes:
 
@@ -25,8 +25,7 @@ The assessment includes:
 - Interface monitoring and operational support
 - Information-flow dependencies that may affect clinical or operational workflows
 
-The inventory does not attempt to document every interface within HIHS. Interfaces are included when they may affect device connectivity, clinical information exchange, operational support, cybersecurity, workflow, or modernization decisions.
-
+The inventory does not attempt to document every interface within HIHS. Interfaces and dependencies are included when they may affect device connectivity, information exchange, operational support, cybersecurity, workflow, or modernization decisions.
 
 ---
 
@@ -51,7 +50,6 @@ Each interface record will capture the following information:
 | Workflow Dependency | Clinical or operational workflow affected by the interface |
 | Notes | Relevant assumptions, unknowns, or validation requirements |
 
-
 ---
 
 # 4. Interface Inventory
@@ -63,7 +61,7 @@ dataset.
 The current-state baseline contains 12 representative interfaces and integration dependencies selected to illustrate the types of connections and dependencies requiring assessment.
 
 | Category | Count |
-|---|---|
+|---|---:|
 | Active | 8 |
 | Partial | 3 |
 | Non-integrated | 1 |
@@ -86,6 +84,8 @@ The preliminary interface inventory identifies several dependencies that require
 - Identity and access management
 - Interface monitoring and alerting
 
+These dependencies should be evaluated in relation to the devices, workflows, information flows, and operational processes identified elsewhere in the assessment.
+
 ---
 
 # 6. Validation Requirements
@@ -95,7 +95,7 @@ The interface inventory is a working current-state baseline and requires validat
 Validation should confirm:
 
 - Actual source and target systems
-- Data exchanged
+- Information exchanged
 - Interface protocols and message types
 - Devices using each interface
 - Interface ownership
@@ -107,4 +107,3 @@ Validation should confirm:
 - Workflow impact and affected users
 
 Unknown or conflicting information should be documented rather than assumed.
-
