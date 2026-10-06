@@ -10,6 +10,8 @@ The purpose of this document is to provide HIHS with a consolidated view of the 
 
 This document reflects a discovery-only assessment. It does not establish future-state requirements, select modernization solutions, or define implementation or remediation activities.
 
+---
+
 ## 2. Assessment Components
 
 The findings are based on the following assessment artifacts:
@@ -34,19 +36,23 @@ Documents current clinical workflow dependencies, information needs, connectivit
 
 Documents cybersecurity considerations, including device lifecycle and support, connectivity and exposure, vulnerability and risk considerations, security dependencies, clinical and operational impact, and areas requiring further investigation.
 
+---
+
 ## 3. Consolidated Current-State Findings
 
 The following findings summarize the conditions and potential impacts identified during the current-state assessment. Findings requiring additional evidence or validation are identified accordingly.
 
-| ID   | Finding                                                                                                                                                                  | Potential Impact                                                                                                                                                                       | Evidence                | Status                   |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------------------ |
-| F-01 | Vendor-dependent device integration may increase integration complexity and interface dependencies.                                                                      | Potential for increased maintenance effort, more complex testing or upgrade activities, and vendor-specific troubleshooting dependencies.                                              | C-03 / A-01–A-03        | Needs further assessment |
-| F-02 | The current-state baseline contains information and validation gaps requiring additional discovery.                                                                      | Potential difficulty confirming interface ownership, data flows, monitoring coverage, security dependencies, vendor dependencies, facility-specific differences, and workflow impacts. | C-03 / A-01–A-03 / W-01 | Needs further assessment |
-| F-03 | The infusion-pump environment includes devices with varying lifecycle and vendor-support conditions that may affect integration, security, and operational dependencies. | Potential for differing support, maintenance, upgrade, security-update, and integration considerations across the device population.                                                   | D-01 / W-01 / C-03      | Needs further assessment |
-| F-04 | The connected infusion-pump environment has clinical workflow and information-flow dependencies that require continued validation.                                       | Unconfirmed dependencies or variations in information exchange may affect workflow continuity, operational coordination, and the assessment of clinical impact.                        | W-01 / C-03 / A-01–A-03 | Needs further assessment |
-| F-05 | Monitoring and visibility dependencies exist across the device, network, and interface environment.                                                                      | Incomplete information about monitoring coverage, alerting, ownership, or operational visibility may limit the ability to assess connectivity and interface dependencies.              | A-01–A-03 / C-03        | Needs further assessment |
-| F-06 | Cybersecurity considerations are closely connected to device lifecycle, connectivity, access, and clinical operations.                                                   | Unresolved security-support or visibility questions may affect the assessment of device exposure, operational dependencies, and clinical continuity.                                   | D-01 / C-03 / W-01      | Needs further assessment |
-| F-07 | Facility-specific differences may affect the consistency of the current-state baseline.                                                                                  | Differences in device populations, connectivity, integration dependencies, or workflows may complicate consolidated assessment and comparison across facilities.                       | D-01 / C-03 / W-01      | Needs further assessment |
+| ID | Finding | Potential Impact | Evidence | Status |
+|---|---|---|---|---|
+| F-01 | Vendor-dependent device integration may increase integration complexity and interface dependencies. | Potential for increased maintenance effort, more complex testing or upgrade activities, and vendor-specific troubleshooting dependencies. | C-03 / A-01–A-03 | Needs further assessment |
+| F-02 | The current-state baseline contains information and validation gaps requiring additional discovery. | Potential difficulty confirming interface ownership, data flows, monitoring coverage, security dependencies, vendor dependencies, facility-specific differences, and workflow impacts. | C-03 / A-01–A-03 / W-01 | Needs further assessment |
+| F-03 | The infusion-pump environment includes devices with varying lifecycle and vendor-support conditions that may affect integration, security, and operational dependencies. | Potential for differing support, maintenance, upgrade, security-update, and integration considerations across the device population. | D-01 / W-01 / C-03 | Needs further assessment |
+| F-04 | The connected infusion-pump environment has clinical workflow and information-flow dependencies that require continued validation. | Unconfirmed dependencies or variations in information exchange may affect workflow continuity, operational coordination, and the assessment of clinical impact. | W-01 / C-03 / A-01–A-03 | Needs further assessment |
+| F-05 | Monitoring and visibility dependencies exist across the device, network, and interface environment. | Incomplete information about monitoring coverage, alerting, ownership, or operational visibility may limit the ability to assess connectivity and interface dependencies. | A-01–A-03 / C-03 | Needs further assessment |
+| F-06 | Cybersecurity considerations are closely connected to device lifecycle, connectivity, access, and clinical operations. | Unresolved security-support or visibility questions may affect the assessment of device exposure, operational dependencies, and clinical continuity. | D-01 / C-03 / W-01 | Needs further assessment |
+| F-07 | Facility-specific differences may affect the consistency of the current-state baseline. | Differences in device populations, connectivity, integration dependencies, or workflows may complicate consolidated assessment and comparison across facilities. | D-01 / C-03 / W-01 | Needs further assessment |
+
+---
 
 ## 4. Finding Details
 
@@ -106,6 +112,8 @@ Facility-specific differences may affect device distribution, network connectivi
 
 Additional validation may be required to determine whether the current-state environment is consistent across facilities or whether differences need to be considered in subsequent analysis.
 
+---
+
 ## 5. Cross-Cutting Assessment Observations
 
 The consolidated findings identify several related areas that influence the understanding of the current-state environment.
@@ -117,6 +125,8 @@ The consolidated findings identify several related areas that influence the unde
 * **Evidence and validation:** Additional discovery may be required to confirm assumptions, resolve information gaps, and establish a sufficiently complete current-state baseline.
 
 These observations provide context for interpreting the individual findings and identifying areas that may require further investigation.
+
+---
 
 ## 6. Risk and Gap Prioritization
 
@@ -136,6 +146,8 @@ Relevant considerations include:
 
 Prioritization should account for both the potential impact of an issue and the confidence in the available information. Findings that require additional validation should remain clearly distinguished from confirmed conditions.
 
+---
+
 ## 7. Areas Requiring Further Investigation
 
 The following areas may require additional discovery or validation before HIHS makes subsequent decisions:
@@ -151,6 +163,8 @@ The following areas may require additional discovery or validation before HIHS m
 * Resolution of outstanding evidence gaps and assumptions
 
 These activities are intended to clarify the current-state environment. They do not constitute an implementation or remediation plan.
+
+---
 
 ## 8. Assessment Outcome
 
@@ -170,6 +184,8 @@ The findings provide HIHS with a structured view of:
 The assessment establishes a foundation for understanding the existing environment and supporting subsequent decision-making.
 
 The findings are intended to inform future analysis and planning. They do not prescribe specific modernization solutions, security controls, procurement decisions, or implementation activities.
+
+---
 
 ## 9. Scope and Limitations
 
