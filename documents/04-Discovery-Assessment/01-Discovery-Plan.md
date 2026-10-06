@@ -45,12 +45,14 @@ Identify the requirements, constraints, dependencies, evidence gaps, and unresol
 ### 2.8 Identify Areas for Further Investigation
 
 Identify information, technical conditions, stakeholder questions, dependencies, or risks that require additional assessment beyond the current discovery activities.
+
 ---
 
 # 3. Key Discovery Questions
+
 ## Objective 1: Establish a Reliable Device Baseline
 
-Discovery questions: 
+Discovery questions:
 
 - How many infusion pumps are currently in service?
 - Which manufacturers and models are represented?
@@ -59,7 +61,6 @@ Discovery questions:
 - Who owns and maintains the inventory?
 - How can Clinical Engineering records be reconciled with network records?
 - Which devices are vendor-supported?
-
 
 ## Objective 2: Understand Clinical Workflows
 
@@ -79,7 +80,7 @@ Discovery questions:
 - Where do communication handoffs occur between clinical, technical, and operational teams?
 - Are there workflow steps that depend on information being transmitted between the pump and another system?
 - What workflow issues, gaps, or uncertainties require further investigation?
-  
+
 ## Objective 3: Understand Connectivity and Integration
 
 Discovery questions:
@@ -99,7 +100,7 @@ Discovery questions:
 - Does the information exchanged between systems arrive in a form that is useful to the people who need it?
 - What information is lost, delayed, duplicated, or difficult to interpret across current interfaces?
 - What connectivity, interface, or integration issues require further investigation?
-  
+
 ## Objective 4: Assess Cybersecurity Considerations
 
 Discovery questions:
@@ -257,6 +258,7 @@ Evidence will be collected from multiple sources where practical and reconciled 
 Potential evidence and data sources include:
 
 ### 6.1 Device & Inventory Data
+
 - Clinical Engineering device inventories
 - Asset management records
 - Device manufacturer and model information
@@ -265,6 +267,7 @@ Potential evidence and data sources include:
 - Device location records
 
 ### 6.2 Network & Integration Data
+
 - Network diagrams
 - Network inventory records
 - Device connectivity records
@@ -274,6 +277,7 @@ Potential evidence and data sources include:
 - System dependency information
 
 ### 6.3 Clinical & Operational Evidence
+
 - Workflow documentation
 - Clinical procedures
 - Standard operating procedures
@@ -282,6 +286,7 @@ Potential evidence and data sources include:
 - Stakeholder and SME interview findings
 
 ### 6.4 Cybersecurity Evidence
+
 - Applicable security policies
 - Network segmentation documentation
 - Access-control information
@@ -291,6 +296,7 @@ Potential evidence and data sources include:
 - Existing compensating controls
 
 ### 6.5 Vendor & Lifecycle Evidence
+
 - Vendor documentation
 - Product specifications
 - Support status
@@ -300,6 +306,7 @@ Potential evidence and data sources include:
 - Vendor responses to discovery questions
 
 ### 6.6 Organizational & Project Evidence
+
 - Existing architecture documentation
 - Previous assessment reports
 - Project or modernization plans
@@ -308,6 +315,7 @@ Potential evidence and data sources include:
 - Existing risk or issue records
 
 ### 6.7 Communication & Organizational Evidence
+
 - Stakeholder communication records
 - Escalation procedures
 - Incident communication procedures
@@ -317,13 +325,32 @@ Potential evidence and data sources include:
 - Meeting notes documenting operational or workflow concerns
 
 ### 6.8 Validation Evidence
-Findings will be reviewed with appropriate subject matter experts to confirm accuracy, resolve discrepancies, identify information gaps, and establish confidence in the current-state assessment.
 
+Findings will be reviewed with appropriate subject matter experts to confirm accuracy, resolve discrepancies, identify information gaps, and establish confidence in the current-state assessment.
 
 ---
 
+# 7. Discovery Outputs
 
+Discovery activities and evidence will support the development and validation of the project's current-state assessment artifacts.
 
+Expected outputs include:
 
+- Validated or updated device inventory information
+- Interface and information-flow findings
+- Current-state architecture inputs
+- Clinical workflow findings
+- Cybersecurity assessment inputs
+- Stakeholder input and validation
+- Current-state findings
+- Risk and gap assessment inputs
+- Decision-readiness considerations
+- Areas requiring further investigation
 
+Discovery outputs will be traceable to available evidence, stakeholder input, or clearly identified portfolio assumptions. Unresolved questions, evidence gaps, and conflicting information will remain visible rather than being treated as confirmed findings.
 
+---
+
+**Portfolio Artifact — Heartland Integrated Health System (HIHS)**  
+**Project:** Legacy Infusion Pump Modernization Assessment  
+**Assessment Phase:** Current-State Discovery and Decision Readiness
