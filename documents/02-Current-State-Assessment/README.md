@@ -24,4 +24,4 @@ It does not constitute future-state solution design, implementation planning, pr
 
 **Environment → Device Inventory → Interface Inventory → Architecture → Clinical Workflow → Cybersecurity → Current-State Findings**
 
-The resulting findings provide a consolidated basis for decision-readiness and subsequent phases of analysis.
+The consolidated findings provide a basis for decision-readiness and subsequent phases of analysis.
